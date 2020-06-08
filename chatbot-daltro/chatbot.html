@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="assets/js/main_chatbot.js"></script>
+        <title>Chat Bot UI Design</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="main" class="container">
+            <div id="chat-activo" class="msg-header" style="display: none;">
+                <div class="msg-header-img">
+                    <img src="assets/img/pipe.png">
+                </div>
+                <div class="active">
+                    <h4>Felipe Hernández</h4>
+                    <h6>En Línea</h6>
+                </div>
+                <div class="header-icons">
+                <i class="fa fa-times-circle" onclick="{toggle_chat(0)}"></i>
+                    
+                </div>
+                
+            </div>
+            <div id="chat-inactivo" class="msg-header" onclick="{toggle_chat(1)}" style="cursor: pointer;">
+                <div class="msg-header-img">
+                    <img src="assets/img/pipe.png">
+                </div>
+                <div class="active">
+                    <h4>Hola!</h4>
+                    <h6>Necesitas ayuda?</h6>
+                </div>
+            </div>
+            <div id="ventana-chat" class="chat-page">
+                <div class="msg-inbox">
+                    <div class="chats">
+                        <div id="chatLog" class="msg-page"></div>
+                    </div>
+                </div>
+                <div class="msg-bottom">
+                    <div class="bottom-icons">
+                        <i class="fa fa-plus-circle"></i>
+                        <i class="fa fa-camera"></i>
+                        <i class="fa fa-microphone"></i>
+                        <i class="fa fa-smile-o"></i>
+                    </div>
+                    <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Escribe un mensaje" id="userBox" onkeydown="if (event.keyCode == 13) {talk()}">
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                            <i class="fa fa-paper-plane" onclick="{talk()}"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </body>
+</html>
