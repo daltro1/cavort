@@ -1045,15 +1045,17 @@
 			<i class='bx bx-chevrons-up'></i>
 			<i class='bx bx-chevrons-up'></i>
 		</div>
+		<!-- End Go Top Area -->
 		
-		<div class="chatbot">
+		<!-- Start Chatbot Area -->
+		<div id="chatbot" class="chatbot">
 			<div id="chat-inactivo" class="button" onclick="{chatbot_toggle_chat(1)}" style="cursor: pointer;">
 				<div class="msg-header-img">
 					<img src="chatbot-daltro/assets/img/pipe.png">
 				</div>
 				<div class="active">
 					<h4>Enfermero Virtual</h4>
-					<h6>Listo pa' ayudarte</h6>
+					<h6>En Línea 24/7</h6>
 				</div>
 			</div>
 			<div class="container">
@@ -1081,10 +1083,10 @@
 					</div>
 					<div class="msg-bottom">
 						<div class="input-group">
-						<input type="text" class="form-control" placeholder="Escribe un mensaje" id="userBox" onkeydown="if (event.keyCode == 13) {chatbot_talk()}">
+						<input type="text" class="form-control" placeholder="Escribe un mensaje" id="userBox" onkeydown="if (event.keyCode == 13) {chatbot_input()}">
 							<div class="input-group-append">
 								<span class="input-group-text">
-								<i class="fa fa-paper-plane" onclick="{chatbot_talk()}"></i>
+								<i class="fa fa-paper-plane" onclick="{chatbot_input()}"></i>
 								</span>
 							</div>
 						</div>
@@ -1092,7 +1094,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- End Go Top Area -->
+		<!-- End Chatbot Area -->
 		
 
         <!-- Jquery Slim JS -->
