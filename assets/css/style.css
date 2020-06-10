@@ -64,6 +64,7 @@ Default Style
 ============================*/
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -71,6 +72,7 @@ body {
   line-height: 1.8;
   font-family: "Lato", sans-serif;
   color: #525252;
+
 }
 
 a {
@@ -113,10 +115,13 @@ h3 {
 }
 
 .d-table {
-  width: 100%;
+  width: 25%;
   height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-
 .d-table-cell {
   vertical-align: middle;
 }
@@ -411,14 +416,15 @@ HOME PAGE ONE STYLE
 Header Area Style
 ======================================================*/
 .header-area .top-header-area {
-  padding: 15px 0;
-  background-color: #ffffff;
+  padding: 6px 0;
+  background-color: #F7F7F7;
 }
 
 .header-area .top-header-area .header-content-left li {
   display: inline-block;
   padding-right: 20px;
   color: #001430;
+  
 }
 
 .header-area .top-header-area .header-content-left li:last-child {
@@ -451,6 +457,7 @@ Header Area Style
 .header-area .top-header-area .header-content-right {
   line-height: 1;
   float: right;
+  margin-bottom: 0px;
 }
 
 .header-area .top-header-area .header-content-right li {
@@ -459,13 +466,13 @@ Header Area Style
 
 .header-area .top-header-area .header-content-right li a {
   color: #ffffff;
-  margin-right: 5px;
-  font-size: 15px;
-  background-color: #05e8c2;
+  margin-right: 10px;
+  font-size: 35px;
+  background-color: #0081A4;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   line-height: 29px;
   text-align: center;
   border-radius: 50%;
@@ -474,11 +481,11 @@ Header Area Style
 }
 
 .header-area .top-header-area .header-content-right li a i {
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .header-area .top-header-area .header-content-right li a:hover {
-  background-color: #001430;
+  background-color: rgb(0, 101, 129);
 }
 
 .header-area .top-header-area .header-content-right li .option-item {
@@ -593,7 +600,7 @@ Header Area Style
 Nav Area Style
 ======================================================*/
 .nav-area .navbar-area .main-nav {
-  background-color: transparent;
+  background-color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-top: 0;
@@ -601,9 +608,10 @@ Nav Area Style
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 15px;
-  color: #ffffff;
+  color: #5B5C70;
   text-transform: capitalize;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -633,11 +641,11 @@ Nav Area Style
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #05e8c2;
+  color: #F97425;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #05e8c2;
+  color: #F97425;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -673,12 +681,12 @@ Nav Area Style
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #05e8c2;
+  color: #F97425;
   background-color: #f3f3f3;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #05e8c2;
+  color: #F97425;
   background-color: #f3f3f3;
 }
 
@@ -724,15 +732,15 @@ Nav Area Style
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: #5B5C70;
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #05e8c2;
+  color: #F97425;
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #05e8c2;
+  color: #F97425;
 }
 
 .nav-area .dropdown-toggle::after {
@@ -858,18 +866,81 @@ Nav Area Style
 }
 
 /*
+COVID Banner Area Style
+======================================================*/
+.main-covid {
+  background-color: #F97425;
+  animation-name: banner_change;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+
+.covid-banner-area {
+  height: 251px;
+  width: 100%;
+}
+
+@keyframes banner_change {
+  0%   {background-color:#F97425;}
+  50%  {background-color:#ffffff;}
+  100% {background-color:#F97425;}
+}
+
+.covid-banner-area .text-container {
+  padding: 170px 300px 20px 300px;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins";
+  color: #fff;
+  display: inline-block;
+  animation-name: text_change;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+@keyframes text_change {
+  0%   {color:#ffffff;}
+  50%  {color:#F97425;}
+  100% {color:#ffffff;}
+}
+
+.covid-banner-area .text-container .left-text {
+  font-weight: 600;
+  font-size: 41px;
+  height: 100%;
+  width: 35%;
+  float: left;
+}
+
+.covid-banner-area .text-container .right-text {
+  font-weight: 200;
+  font-size: 24px;
+  height: 100%;
+  width: 65%;
+  text-align: right;
+  float: right;
+  margin-top: 10px;
+}
+
+/*
 Banner Area Style
 ======================================================*/
 .main-banner-area {
-  background-image: url(../../assets/img/home-one/banner-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 840px;
+  height: 640px;
+  width: 400%;
   position: relative;
   z-index: 1;
   overflow: hidden;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+
+@keyframes slideshow {
+  0% {transform: translateX(0);}
+  50% {transform: translateX(-25%);}
+  100% {transform: translateX(0);}
 }
 
 .main-banner-area::before {
@@ -880,15 +951,18 @@ Banner Area Style
   width: 100%;
   height: 100%;
   background-color: #000000;
-  opacity: 0.5;
+  opacity: 0;
   z-index: -1;
 }
 
 .main-banner-area .banner-text {
   position: relative;
-  max-width: 540px;
-  margin-left: auto;
+  max-width: 600px;
+  margin-left: 130px;
   margin-top: -70px;
+  text-align: center;
+  font-family: "Poppins";
+  width: 600px;
 }
 
 .main-banner-area .banner-text span {
@@ -902,17 +976,57 @@ Banner Area Style
 }
 
 .main-banner-area .banner-text h1 {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 25px;
-  color: #ffffff;
+  color: #3BC1CD;
+  font-weight: 600;
+  
 }
 
 .main-banner-area .banner-text p {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 35px;
-  color: #ffffff;
-  font-weight: 500;
+  color: #0081A4;
+  font-weight: 300;
+  
 }
+
+.main-banner-area .banner-text .banner-button-text {
+  background-color: #0081A4;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text:hover {
+  background-color: #ffffff;
+}
+
+.main-banner-area .banner-text .banner-button-text a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 5px; 
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text a:hover {
+  color: #0081A4;
+}
+
+
+
+
+
+
+
 
 .main-banner-area .banner-img-wrap {
   position: relative;
@@ -958,6 +1072,206 @@ Banner Area Style
   }
 }
 
+/*
+Banner Banco Estado Area Style
+======================================================*/
+.banner-banco-estado {
+  background-color: #ED801A;
+  width: 100%;
+  height: 400px;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #ffffff;
+  display: table !important;
+}
+
+.banner-banco-estado .celda {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.banner-banco-estado .celda .contenido .texto {
+  width: 436px;
+  height: 100%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.banner-banco-estado .celda .contenido .texto p {
+  margin-right: 30px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.banner-banco-estado .celda .contenido a {
+  width: 436px;
+  height: 100px;
+  display: inline-block;
+}
+
+.banner-banco-estado .celda .contenido a img {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+Título y Video Style
+======================================================*/
+.banner-titulo {
+  background-color: #ffffff;
+  width: 100%;
+  height: 800px;
+  font-family: "Poppins";
+  display: table !important;
+}
+
+.banner-titulo .celda {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.banner-titulo .celda .titulo {
+  font-weight: 600;
+  color: #0081A4;
+  font-size: 44px;
+}
+
+.banner-titulo .celda .subtitulo {
+  font-weight: 200;
+  color: #3BC1CD;
+  font-size: 23px;
+}
+
+.banner-titulo .celda video {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*
+Nuestras Características Area Style
+======================================================*/
+
+.area-caracteristicas {
+  background-image: url(../../assets/img/home-one/fondo-caracteristicas.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.area-caracteristicas .container {
+  height: 740px;
+  font-family: "Poppins";
+  color: #ffffff;
+  padding-top: 70px;
+}
+
+.area-caracteristicas .container .titulo {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.area-caracteristicas .container .subtitulo {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.area-caracteristicas .container .linea-blanca {
+  width: 50%;
+  height: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+  
+}
+
+.area-caracteristicas .container .caracteristicas-1 {
+  text-align: left;
+}
+
+.area-caracteristicas .container .caracteristicas-2 .linea-blanca {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.area-caracteristicas .container .caracteristicas-2 {
+  text-align: right;
+}
+
+/*
+Contador Area Style
+======================================================*/
+.area-contador {
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins";
+  background-color: #F97425;
+  color: #ffffff
+}
+
+.contador {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 30px;
+  position: relative;
+}
+
+.contador .linea-blanca {
+  width: 100%;
+  height: 5px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  
+}
+
+.contador h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.contador p {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+/*
+Especialidades Area Style
+======================================================*/
+.area-especialidades {
+  background-color: #F7F7F7;
+  font-family: "Poppins";
+}
+
+.area-especialidades .especialidad {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.area-especialidades .especialidad .circulo {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.area-especialidades .especialidad p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.area-especialidades .especialidad:hover {
+  opacity: 0;
+}
 /*
 First Facility Area Style
 ======================================================*/
@@ -7402,6 +7716,7 @@ Chatbot Style
   line-height: 42px;
   font-family: sans-serif;
   letter-spacing: 0.5px;
+  display:none;
 }
 
 
