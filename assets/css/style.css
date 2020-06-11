@@ -70,8 +70,9 @@ body {
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #525252;
+  overflow-x: hidden;
 
 }
 
@@ -246,6 +247,20 @@ textarea.form-control {
   background-color: #eefbfc;
 }
 
+.titulo {
+  font-weight: 600;
+  color: #0081A4;
+  font-size: 44px;
+  text-align: center;
+}
+
+.subtitulo {
+  font-weight: 200;
+  color: #3BC1CD;
+  font-size: 23px;
+  text-align: center;
+}
+
 /*
 Default Btn Area Style*/
 .default-btn {
@@ -253,65 +268,50 @@ Default Btn Area Style*/
   color: #ffffff;
   padding: 15px 30px;
   line-height: 1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.6s;
   text-transform: capitalize;
   position: relative;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 20px;
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  background: -webkit-gradient(linear, left top, right top, from(#07e2bd), to(#1de9f5));
-  background: linear-gradient(to right, #07e2bd 0%, #1de9f5 100%);
+  background-color: #F97425;
+
 }
 
-.default-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100%;
-  height: 50%;
-  background: -webkit-gradient(linear, left top, right top, from(#1de9f5), to(#07e2bd));
-  background: linear-gradient(to right, #1de9f5 0%, #07e2bd 100%);
-  z-index: -1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.default-btn::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 100%;
-  width: 100%;
-  height: 50%;
-  background: -webkit-gradient(linear, left top, right top, from(#1de9f5), to(#07e2bd));
-  background: linear-gradient(to right, #1de9f5 0%, #07e2bd 100%);
-  z-index: -1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.default-btn.active {
-  margin-left: 30px;
-  color: #ffffff;
-  background: -webkit-gradient(linear, left top, right top, from(#1de9f5), to(#07e2bd));
-  background: linear-gradient(to right, #1de9f5 0%, #07e2bd 100%);
-}
 
 .default-btn:hover {
+  color: #F97425;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.circle-btn {
+  margin-bottom: 2.5px;
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
   color: #ffffff;
+  padding: 5px 5px;
+  line-height: 1;
+  transition: all 0.6s;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #0081A4;
 }
 
-.default-btn:hover::before {
-  left: 0;
+.circle-btn:hover {
+  color: #0081A4;
+  background-color: #ffffff;
+  text-decoration: none;
 }
 
-.default-btn:hover::after {
-  right: 0;
-}
+
 
 /*
 Default Btn 2 Area Style*/
@@ -325,12 +325,12 @@ Default Btn 2 Area Style*/
   text-transform: capitalize;
   position: relative;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 20px;
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  background: -webkit-gradient(linear, left top, right top, from(#e29d07), to(#f5cd1d));
-  background: linear-gradient(to right, #e29d07 0%, #f5cd1d 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#3BC1CD), to(#0081A4));
+  background: linear-gradient(to right, #3BC1CD 0%, #0081A4 100%);
 }
 
 .default-btn-2::before {
@@ -340,8 +340,8 @@ Default Btn 2 Area Style*/
   left: 100%;
   width: 100%;
   height: 50%;
-  background: -webkit-gradient(linear, left top, right top, from(#f5cd1d), to(#e29d07));
-  background: linear-gradient(to right, #f5cd1d 0%, #e29d07 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#0081A4), to(#3BC1CD));
+  background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -354,8 +354,8 @@ Default Btn 2 Area Style*/
   right: 100%;
   width: 100%;
   height: 50%;
-  background: -webkit-gradient(linear, left top, right top, from(#f5cd1d), to(#e29d07));
-  background: linear-gradient(to right, #f5cd1d 0%, #e29d07 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#0081A4), to(#3BC1CD));
+  background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -363,13 +363,15 @@ Default Btn 2 Area Style*/
 
 .default-btn-2.active {
   margin-left: 30px;
+  margin-right: 10px;
   color: #ffffff;
-  background: -webkit-gradient(linear, left top, right top, from(#f5cd1d), to(#e29d07));
-  background: linear-gradient(to right, #f5cd1d 0%, #e29d07 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#0081A4), to(#3BC1CD));
+  background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
 }
 
 .default-btn-2:hover {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .default-btn-2:hover::before {
@@ -599,12 +601,27 @@ Header Area Style
 /*
 Nav Area Style
 ======================================================*/
+.main-nav {
+  height: 100px;
+}
+
+.navbar {
+  height: 100%;
+}
 .nav-area .navbar-area .main-nav {
   background-color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.nav-area .navbar-area .main-nav .container{
+  max-width: 1300px;
+}
+
+.nav-area .navbar-area .main-nav .navbar-brand {
+  margin-right: 0px;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
@@ -877,7 +894,7 @@ COVID Banner Area Style
 }
 
 .covid-banner-area {
-  height: 251px;
+  height: 155px;
   width: 100%;
 }
 
@@ -888,7 +905,7 @@ COVID Banner Area Style
 }
 
 .covid-banner-area .text-container {
-  padding: 170px 300px 20px 300px;
+  padding: 100px 300px 20px 300px;
   height: 100%;
   width: 100%;
   font-family: "Poppins";
@@ -926,21 +943,43 @@ COVID Banner Area Style
 /*
 Banner Area Style
 ======================================================*/
-.main-banner-area {
+.area-banner-principal {
+  position: relative;
   height: 640px;
-  width: 400%;
+  width: 100%;
+}
+
+.main-banner-area {
+  height: 100%;
+  width: 500%;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  -webkit-animation: slideshow 20s 5s infinite;
+          animation: slideshow 20s 5s infinite;
   display: flex;
 }
 
+@-webkit-keyframes slideshow {
+  20% {transform: translateX(0);}
+  25% {transform: translateX(-20%);}
+  45% {transform: translateX(-20%);}
+  50% {transform: translateX(-40%);}
+  70% {transform: translateX(-40%);}
+  75% {transform: translateX(-60%);}
+  95% {transform: translateX(-60%);}
+  100% {transform: translateX(-80%);}
+}
+
 @keyframes slideshow {
-  0% {transform: translateX(0);}
-  50% {transform: translateX(-25%);}
-  100% {transform: translateX(0);}
+  20% {transform: translateX(0);}
+  25% {transform: translateX(-20%);}
+  45% {transform: translateX(-20%);}
+  50% {transform: translateX(-40%);}
+  70% {transform: translateX(-40%);}
+  75% {transform: translateX(-60%);}
+  95% {transform: translateX(-60%);}
+  100% {transform: translateX(-80%);}
 }
 
 .main-banner-area::before {
@@ -1021,29 +1060,32 @@ Banner Area Style
   color: #0081A4;
 }
 
-
-
-
-
-
-
-
-.main-banner-area .banner-img-wrap {
-  position: relative;
+.area-banner-principal .banner-img-wrap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  height: 100%;
+  z-index: 3;
 }
 
-.main-banner-area .banner-img-wrap .banner-img {
+.area-banner-principal .banner-img-wrap .banner-img {
   max-width: 490px;
   position: absolute;
-  top: -70px;
+  bottom: 0;
   margin-left: auto;
   right: 0;
 }
 
-.main-banner-area .banner-img-wrap .banner-shape {
+.area-banner-principal .banner-img-wrap .banner-img img {
+  max-width: 100%;
+  max-height: 100% ;
+}
+
+.area-banner-principal .banner-img-wrap .banner-shape {
   position: absolute;
-  top: -80px;
-  right: -75px;
+  bottom: 100px;
+  left: 0px;
   max-width: 650px;
   z-index: -1;
   -webkit-animation: rotation 30s linear infinite;
@@ -1078,7 +1120,7 @@ Banner Banco Estado Area Style
 .banner-banco-estado {
   background-color: #ED801A;
   width: 100%;
-  height: 400px;
+  height: 250px;
   font-family: "Poppins";
   font-weight: 600;
   color: #ffffff;
@@ -1122,7 +1164,7 @@ Título y Video Style
 .banner-titulo {
   background-color: #ffffff;
   width: 100%;
-  height: 800px;
+  height: 300px;
   font-family: "Poppins";
   display: table !important;
 }
@@ -1165,7 +1207,6 @@ Nuestras Características Area Style
 .area-caracteristicas .container {
   height: 740px;
   font-family: "Poppins";
-  color: #ffffff;
   padding-top: 70px;
 }
 
@@ -1174,6 +1215,7 @@ Nuestras Características Area Style
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .area-caracteristicas .container .subtitulo {
@@ -1181,6 +1223,7 @@ Nuestras Características Area Style
   font-weight: 200;
   margin-top: 4px;
   margin-bottom: 4px;
+  color: #ffffff
 }
 
 .area-caracteristicas .container .linea-blanca {
@@ -1191,7 +1234,11 @@ Nuestras Características Area Style
   
 }
 
-.area-caracteristicas .container .caracteristicas-1 {
+.area-caracteristicas .container .caracteristicas-1 .titulo {
+  text-align: left;
+}
+
+.area-caracteristicas .container .caracteristicas-1 .subtitulo {
   text-align: left;
 }
 
@@ -1200,7 +1247,11 @@ Nuestras Características Area Style
   margin-left: 20%;
 }
 
-.area-caracteristicas .container .caracteristicas-2 {
+.area-caracteristicas .container .caracteristicas-2 .titulo {
+  text-align: right;
+}
+
+.area-caracteristicas .container .caracteristicas-2 .subtitulo {
   text-align: right;
 }
 
@@ -1218,7 +1269,7 @@ Contador Area Style
 .contador {
   text-align: center;
   margin-bottom: 30px;
-  padding: 30px;
+  padding: 30px 15px;
   position: relative;
 }
 
@@ -1246,16 +1297,49 @@ Especialidades Area Style
 .area-especialidades {
   background-color: #F7F7F7;
   font-family: "Poppins";
+  padding: 20px 0;
+  height: 500px;
 }
 
 .area-especialidades .especialidad {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
-  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
 }
 
-.area-especialidades .especialidad .circulo {
+.area-especialidades .especialidad .grafica {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+.area-especialidades .especialidad .texto {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.area-especialidades .especialidad .texto  ul{
+  list-style-type: disc;
+  font-size: 25px;
+}
+
+.area-especialidades .especialidad .texto  ul li{
+  margin: 3px 0;
+}
+
+.area-especialidades .especialidad .grafica .circulo {
   height: 180px;
   width: 180px;
   border-radius: 50%;
@@ -1263,15 +1347,67 @@ Especialidades Area Style
 
 }
 
-.area-especialidades .especialidad p {
+.area-especialidades .especialidad .grafica p {
   font-size: 18px;
   font-weight: 400;
   margin-top: 35px;
 }
 
-.area-especialidades .especialidad:hover {
+.area-especialidades .especialidad .texto ul {
+  color: darkslategrey;
+  font-size: 15px;
+}
+
+.area-especialidades .especialidad .grafica:hover{
   opacity: 0;
 }
+
+.area-especialidades .especialidad .grafica:hover + .texto{
+  opacity: 1;
+}
+
+/*
+Nuestro Equipo Area Style
+======================================================*/
+.area-equipo .container {
+  height: 681px;
+  color: #0081A4;
+  text-align: center;
+}
+
+.area-equipo .container p{
+  padding-top: 25%;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+/*
+Pacientes Area Style
+======================================================*/
+.area-pacientes .pacientes-1 {
+  height: 739px;
+  color: #0081A4;
+  background-color: #F7F7F7;
+}
+
+.area-pacientes .pacientes-2 {
+  height: 1119px;
+  color: #ffffff;
+  background-color: #3BC1CD;
+}
+
+.area-pacientes .container {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.area-pacientes .container p{
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 465px;
+}
+
 /*
 First Facility Area Style
 ======================================================*/
@@ -1492,7 +1628,7 @@ About Area Style
 Services Area Style
 ======================================================*/
 .services-area.bg {
-  background-image: url(../../assets/img/services-bg.jpg);
+  background-color: #f7f7f7;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1512,6 +1648,7 @@ Services Area Style
   margin-bottom: 30px;
   border-radius: 10px 10px 100px 10px;
   overflow: hidden;
+  
 }
 
 .single-services::before {
@@ -1550,7 +1687,7 @@ Services Area Style
   border-radius: 10px 10px 100px 10px;
 }
 
-.single-services span {
+.single-services a {
   font-size: 35px;
   color: #05e8c2;
   display: inline-block;
@@ -1565,7 +1702,7 @@ Services Area Style
   margin-bottom: 15px;
 }
 
-.single-services span::after {
+.single-services a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -2871,10 +3008,12 @@ Second Facility Area Style
 
 .second-facility-area.two .second-facility-item p {
   margin-bottom: 0;
+  text-decoration: none;
 }
 
 .second-facility-area.two .second-facility-item h3 {
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 @-webkit-keyframes border-transform {
@@ -7716,7 +7855,7 @@ Chatbot Style
   line-height: 42px;
   font-family: sans-serif;
   letter-spacing: 0.5px;
-  display:none;
+  display: none;
 }
 
 
