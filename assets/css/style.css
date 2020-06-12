@@ -617,7 +617,7 @@ Nav Area Style
 }
 
 .nav-area .navbar-area .main-nav .container{
-  max-width: 1300px;
+  max-width: 1350px;
 }
 
 .nav-area .navbar-area .main-nav .navbar-brand {
@@ -766,12 +766,13 @@ Nav Area Style
 
 .nav-area .others-option {
   position: relative;
-  top: 4px;
 }
 
 .nav-area .others-option .subscribe {
   display: inline-block;
   position: relative;
+  font-family: "Poppins";
+  font-weight: 200;
 }
 
 .nav-area .others-option .subscribe .default-btn {
@@ -1058,6 +1059,66 @@ Banner Area Style
 
 .main-banner-area .banner-text .banner-button-text a:hover {
   color: #0081A4;
+}
+
+.main-banner-area .banner-text .banner-button-text-2 {
+  background-color: #3BC1CD;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text-2:hover {
+  background-color: #ffffff;
+}
+
+.main-banner-area .banner-text .banner-button-text-2 a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 5px; 
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text-2 a:hover {
+  color: #3BC1CD;
+}
+
+.main-banner-area .banner-text .banner-button-text-3 {
+  background-color: #ED801A;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text-3:hover {
+  background-color: #ffffff;
+}
+
+.main-banner-area .banner-text .banner-button-text-3 a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 5px; 
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text-3 a:hover {
+  color: #ED801A;
 }
 
 .area-banner-principal .banner-img-wrap {
@@ -1375,6 +1436,161 @@ Nuestro Equipo Area Style
   text-align: center;
 }
 
+.area-equipo .container .frame-imagenes {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.area-equipo .container .frame-imagenes img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  animation: rotation 30s linear infinite;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-1 {
+  position: absolute;
+  overflow: visible;
+  right: 100px;
+  top: -70px;
+  height: 140px;
+  width: 140px;
+  animation: rotation 30s linear infinite reverse;
+}
+.area-equipo .container .frame-imagenes .frame-doctores .static-1 .doc-1 {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  right: 0;
+  overflow: hidden;
+  transition: 1s width;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-1 .doc-1:hover {
+  width: 329px;
+  border-radius: 0%;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-1 .doc-1 img {
+  height: 140px;
+  width: 329px;
+  max-width: 400px;
+  position: absolute;
+  right: 0;
+  left: unset;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-2 {
+  position: absolute;
+  overflow: visible;
+  top: 132px;
+  right: -59px;
+  height: 140px;
+  width: 140px;
+  animation: rotation 30s linear infinite reverse;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2 {
+  position: absolute;
+  height: 140px;
+  width: 126px;
+  overflow: hidden;
+  right: 0;
+  transition: 1s width;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2:hover {
+  width: 329px;
+  border-radius: 0%;
+}
+
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2 img {
+  height: 140px;
+  width: 329px;
+  max-width: 400px;
+  position: absolute;
+  right: 0;
+  left: unset;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-3 {
+  position: absolute;
+  overflow: visible;
+  left: 137px;
+  bottom: -80px;
+  height: 140px;
+  width: 140px;
+  animation: rotation 30s linear infinite reverse;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3 {
+  position: absolute;
+  height: 140px;
+  width: 125px;
+  overflow: hidden;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transition: 1s width;
+
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3 img {
+  height: 140px;
+  width: 329px;
+  max-width: 400px;
+  position: absolute;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3:hover {
+  width: 329px;
+  border-radius: 0%;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-4 {
+  position: absolute;
+  overflow: visible;
+  left: -62px;
+  bottom: 139px;
+  height: 140px;
+  width: 140px;
+  animation: rotation 30s linear infinite reverse;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4 {
+  position: absolute;
+  height: 140px;
+  width: 115px;
+  overflow: hidden;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transition: 1s width;
+
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4:hover {
+  width: 329px;
+  border-radius: 0%;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4 img {
+  height: 140px;
+  width: 329px;
+  max-width: 400px;
+  position: absolute;
+}
+
 .area-equipo .container p{
   padding-top: 25%;
   font-size: 44px;
@@ -1416,10 +1632,10 @@ First Facility Area Style
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: 1;
-  border-radius: 4px 4px 0 0;
-  width: 1140px;
-  padding: 50px;
+  z-index: 2;
+  border-radius: 0 10px 0 0;
+  width: 1000px;
+  padding: 10px;
 }
 
 .first-facility-area .shape {
@@ -1458,8 +1674,11 @@ First Facility Area Style
 /*
 Second Facility Area Style
 ======================================================*/
+
+
 .second-facility-item {
-  border: 1px dashed #05e8c2;
+  border: 1px dashed #3BC1CD;
+  border-radius: 30px;
   text-align: center;
   padding: 30px;
   position: relative;
@@ -1468,6 +1687,8 @@ Second Facility Area Style
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #ffffff;
+  overflow: hidden;
+  font-family: "Poppins";
 }
 
 .second-facility-item::before {
@@ -1494,15 +1715,28 @@ Second Facility Area Style
 
 .second-facility-item p {
   margin-bottom: 20px;
+  color: #3BC1CD;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.second-facility-item h3 {
+  font-size: 23px;
+  color: #0081A4;
 }
 
 .second-facility-item:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+  text-decoration: none;
 }
 
 .second-facility-item:hover::before {
   opacity: 1;
+}
+
+.second-facility-item img {
+  filter: invert(30%);
 }
 
 /*
@@ -1633,6 +1867,26 @@ Services Area Style
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+}
+
+.services-area {
+  font-family: "Poppins";
+}
+
+.services-area h2 {
+  font-size: 44px;
+  color: #0081A4;
+  font-weight: 600;
+}
+
+.services-area h5 {
+  color: #3BC1CD;
+}
+
+.services-area h6 {
+  color: #3BC1CD;
+  font-size: 22px;
+  font-weight: 200;
 }
 
 .single-services {
@@ -1936,17 +2190,22 @@ Doctors Area Style
 Work Area Style
 ======================================================*/
 .our-work-area {
-  background-image: url(../../assets/img/work/work-bg.jpg);
+  background-color: #ffffff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   position: relative;
   z-index: 1;
+  font-family: "Poppins";
 }
 
-.our-work-area .section-title .top-title {
-  color: #001430;
+.our-work-area .section-title h2{
+  color: #0081A4;
+}
+
+.our-work-area .section-title p {
+  color: #3BC1CD;
 }
 
 .our-work-area .owl-theme .owl-dots {
@@ -1956,19 +2215,19 @@ Work Area Style
 .our-work-area .owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 6px;
-  background-color: #e9f8fe;
+  background-color: #3BC1CD;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin: 0 5px;
 }
 
 .our-work-area .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #05e8c2;
+  background-color: #0081A4;
   width: 25px;
 }
 
 .our-work-area .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #05e8c2;
+  background-color: #0081A4;
   width: 25px;
 }
 
@@ -1985,7 +2244,21 @@ Work Area Style
   margin-bottom: 30px;
   text-align: center;
   position: relative;
+  height: 245px;
+  width: 350px;
   overflow: hidden;
+}
+
+.single-work img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .single-work .work-title {
@@ -2425,13 +2698,14 @@ Client Area Style
   padding: 30px;
   margin: 30px;
   position: relative;
+  font-family: "Poppins";
 }
 
 .single-client img {
   position: absolute;
   top: -30px;
   left: 30px;
-  border: 1px solid #05e8c2;
+  border: 1px solid #3BC1CD;
   border-radius: 4px;
 }
 
@@ -2449,11 +2723,16 @@ Client Area Style
 }
 
 .single-client ul li i {
-  color: #05e8c2;
+  color: #ED801A;
 }
 
 .single-client h3 {
   margin-bottom: 0;
+  color: #0081A4;
+}
+
+.single-client span {
+  color: #3BC1CD;
 }
 
 .client-area.c-bg {
@@ -2467,8 +2746,18 @@ Client Area Style
   z-index: 1;
 }
 
-.client-area .top-title {
-  color: #001430;
+.client-area .section-title h2{
+  font-family: "Poppins";
+  font-size: 44px;
+  font-weight: 600;
+  color: #0081A4;
+}
+
+.client-area .section-title p{
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: 200;
+  color: #3BC1CD;
 }
 
 .client-area::before {
@@ -2674,10 +2963,11 @@ Footer Top Area Style
 ======================================================*/
 .footer-top-area {
   background-color: #001430;
+  font-family: "Poppins";
 }
 
 .footer-top-area.f-bg {
-  background-image: url(../../assets/img/footer-bg.jpg);
+  background-image: url(../../assets/img/footer-bg-3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2744,7 +3034,7 @@ Footer Top Area Style
   margin-bottom: 30px;
   display: inline-block;
   color: #001430;
-  color: #05e8c2;
+  color: #0081A4;
 }
 
 .single-widget p {
@@ -2800,7 +3090,7 @@ Footer Top Area Style
   width: 30px;
   height: 30px;
   line-height: 34px;
-  background-color: #05e8c2;
+  background-color: #3BC1CD;
   border-radius: 4px;
   text-align: center;
 }
@@ -2814,7 +3104,8 @@ Footer Top Area Style
 }
 
 .single-widget .social-area ul li a:hover {
-  border-color: #05e8c2;
+  border-color: #3BC1CD;
+  background-color: #0081A4;
   -webkit-transform: translateX(-2px);
           transform: translateX(-2px);
 }
@@ -2837,7 +3128,7 @@ Footer Top Area Style
   position: absolute;
   top: 4px;
   left: 0;
-  color: #05e8c2;
+  color: #3BC1CD;
   font-size: 20px;
 }
 
@@ -2850,7 +3141,7 @@ Footer Top Area Style
   position: absolute;
   left: 0;
   top: 4px;
-  color: #05e8c2;
+  color: #3BC1CD;
   font-size: 20px;
 }
 
@@ -7181,6 +7472,10 @@ About Area Seven Style
 /*
 Services Area Seven Style
 ======================================================*/
+.services-area {
+  background-color: #f7f7f7;
+}
+
 .services-area-seven .single-services {
   padding: 0;
   border-radius: 0;
@@ -7742,7 +8037,7 @@ Go Top Style*/
   cursor: pointer;
   top: 93%;
   right: -10%;
-  background-color: #05e8c2;
+  background-color: #0081A4;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -7791,7 +8086,7 @@ Go Top Style*/
 
 .go-top:hover {
   color: #ffffff;
-  background-color: #001430;
+  background-color: #3BC1CD;
 }
 
 .go-top:hover::before {
