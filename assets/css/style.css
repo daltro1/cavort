@@ -268,7 +268,8 @@ Default Btn Area Style*/
   color: #ffffff;
   padding: 15px 30px;
   line-height: 1;
-  transition: all 0.6s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   text-transform: capitalize;
   position: relative;
   cursor: pointer;
@@ -276,15 +277,57 @@ Default Btn Area Style*/
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  background-color: #F97425;
-
+  background: -webkit-gradient(linear, left top, right top, from(#ED801A), to(rgb(204, 110, 23)));
+  background: linear-gradient(to right, #ED801A 0%, rgb(204, 110, 23) 100%);
 }
 
+.default-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(204, 110, 23)), to(#ED801A));
+  background: linear-gradient(to right, rgb(204, 110, 23) 0%, #ED801A 100%);
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.default-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  height: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(204, 110, 23)), to(#ED801A));
+  background: linear-gradient(to right, rgb(204, 110, 23) 0%, #ED801A 100%);
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.default-btn.active {
+  margin-left: 30px;
+  margin-right: 10px;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(204, 110, 23)), to(#ED801A));
+  background: linear-gradient(to right, rgb(204, 110, 23) 0%, #ED801A 100%);
+}
 
 .default-btn:hover {
-  color: #F97425;
-  background-color: #ffffff;
+  color: #ffffff;
   text-decoration: none;
+}
+
+.default-btn:hover::before {
+  left: 0;
+}
+
+.default-btn:hover::after {
+  right: 0;
 }
 
 .circle-btn {
@@ -602,7 +645,7 @@ Header Area Style
 Nav Area Style
 ======================================================*/
 .main-nav {
-  height: 100px;
+  height: 80px;
 }
 
 .navbar {
@@ -622,6 +665,10 @@ Nav Area Style
 
 .nav-area .navbar-area .main-nav .navbar-brand {
   margin-right: 0px;
+}
+
+nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
+  text-align: left;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
@@ -766,21 +813,27 @@ Nav Area Style
 
 .nav-area .others-option {
   position: relative;
+  margin-top: 7px;
+  display: inline-block;
 }
 
 .nav-area .others-option .subscribe {
   display: inline-block;
   position: relative;
   font-family: "Poppins";
-  font-weight: 200;
+  font-weight: 400;
+  height: fit-content;
+  vertical-align: middle;
 }
 
 .nav-area .others-option .subscribe .default-btn {
   padding: 12px 20px;
+  font-size: 12px;
 }
 
 .nav-area .others-option .subscribe .default-btn-2 {
   padding: 12px 20px;
+  font-size: 12px;
 }
 
 .nav-area .others-option .sidebar-menu {
@@ -1400,6 +1453,30 @@ Especialidades Area Style
   margin: 3px 0;
 }
 
+.area-especialidades .second-facility-item {
+  height: 100%;
+}
+
+.area-especialidades .second-facility-item img {
+  filter: unset;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.area-especialidades .second-facility-item:hover img {
+  opacity: 1;
+}
+
+.area-especialidades .second-facility-item ul{
+  list-style-type: disc;
+  text-align: left;
+  display: inline-block;
+}
+
+.area-especialidades .second-facility-item ul li{
+  margin: 3px 0;
+}
+
 .area-especialidades .especialidad .grafica .circulo {
   height: 180px;
   width: 180px;
@@ -1433,6 +1510,9 @@ Nuestro Equipo Area Style
 .area-equipo .container {
   height: 681px;
   color: #0081A4;
+}
+
+.area-equipo .container .col-6 {
   text-align: center;
 }
 
@@ -1440,6 +1520,7 @@ Nuestro Equipo Area Style
   height: 400px;
   width: 400px;
   position: relative;
+  display: inline-block;
 }
 
 .area-equipo .container .frame-imagenes img {
@@ -1458,7 +1539,7 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static-1 {
   position: absolute;
   overflow: visible;
-  right: 100px;
+  right: 130px;
   top: -70px;
   height: 140px;
   width: 140px;
@@ -1492,8 +1573,8 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static-2 {
   position: absolute;
   overflow: visible;
-  top: 132px;
-  right: -59px;
+  top: 130px;
+  right: -70px;
   height: 140px;
   width: 140px;
   animation: rotation 30s linear infinite reverse;
@@ -1502,7 +1583,7 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2 {
   position: absolute;
   height: 140px;
-  width: 126px;
+  width: 140px;
   overflow: hidden;
   right: 0;
   transition: 1s width;
@@ -1511,14 +1592,14 @@ Nuestro Equipo Area Style
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2:hover {
-  width: 329px;
+  width: 365px;
   border-radius: 0%;
 }
 
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2 img {
   height: 140px;
-  width: 329px;
+  width: 365px;
   max-width: 400px;
   position: absolute;
   right: 0;
@@ -1528,8 +1609,8 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static-3 {
   position: absolute;
   overflow: visible;
-  left: 137px;
-  bottom: -80px;
+  left: 130px;
+  bottom: -70px;
   height: 140px;
   width: 140px;
   animation: rotation 30s linear infinite reverse;
@@ -1538,7 +1619,7 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3 {
   position: absolute;
   height: 140px;
-  width: 125px;
+  width: 140px;
   overflow: hidden;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -1548,21 +1629,21 @@ Nuestro Equipo Area Style
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3 img {
   height: 140px;
-  width: 329px;
+  width: 365px;
   max-width: 400px;
   position: absolute;
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3:hover {
-  width: 329px;
+  width: 365px;
   border-radius: 0%;
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-4 {
   position: absolute;
   overflow: visible;
-  left: -62px;
-  bottom: 139px;
+  left: -70px;
+  bottom: 130px;
   height: 140px;
   width: 140px;
   animation: rotation 30s linear infinite reverse;
@@ -1571,7 +1652,7 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4 {
   position: absolute;
   height: 140px;
-  width: 115px;
+  width: 140px;
   overflow: hidden;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -1580,13 +1661,13 @@ Nuestro Equipo Area Style
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4:hover {
-  width: 329px;
+  width: 400px;
   border-radius: 0%;
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4 img {
   height: 140px;
-  width: 329px;
+  width: 400px;
   max-width: 400px;
   position: absolute;
 }
@@ -1695,7 +1776,7 @@ Second Facility Area Style
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  left: -50px;
   background-image: url(../../assets/img/facility-img/shape-img.png);
   background-position: top;
   background-size: contain;
@@ -1732,7 +1813,7 @@ Second Facility Area Style
 }
 
 .second-facility-item:hover::before {
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .second-facility-item img {
@@ -2244,8 +2325,8 @@ Work Area Style
   margin-bottom: 30px;
   text-align: center;
   position: relative;
-  height: 245px;
-  width: 350px;
+  height: 200px;
+  width: 300px;
   overflow: hidden;
 }
 
@@ -2475,7 +2556,13 @@ Appointment Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 795px;
+}
+
+.appointment-area .container {
   height: 100%;
+  max-width: 100%;
+  padding-left: 0;
 }
 
 .appointment-here-form {
@@ -2486,6 +2573,7 @@ Appointment Area Style
   max-width: 750px;
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 
 .appointment-here-form h2 {
@@ -2525,6 +2613,8 @@ Appointment Area Style
 .appointment-here-form .default-btn {
   display: block;
   margin: 15px auto 0;
+  width: 200px;
+  border-radius: 23px;
 }
 
 .appointment-here-form .nice-select {
@@ -2603,6 +2693,13 @@ Appointment Area Style
   background-color: #05e8c2;
 }
 
+.appointment-area .single-contact-map {
+  height: 100%;
+}
+
+.appointment-area .single-contact-map iframe {
+  height: 100%;
+}
 /*
 Emergency Area Style
 ======================================================*/
@@ -2707,6 +2804,9 @@ Client Area Style
   left: 30px;
   border: 1px solid #3BC1CD;
   border-radius: 4px;
+  background-color: #ffffff;
+  height: 60px;
+  width: 60px;
 }
 
 .single-client p {
@@ -2777,6 +2877,16 @@ Client Area Style
   width: auto;
 }
 
+.client-area .sector-boton {
+  text-align: center;
+}
+
+.client-area .default-btn {
+  display: inline-block;
+  border-radius: 23px;
+  margin-top: 10px;
+  width: 225px;
+}
 /*
 Blog Area Style
 ======================================================*/
@@ -3034,7 +3144,7 @@ Footer Top Area Style
   margin-bottom: 30px;
   display: inline-block;
   color: #001430;
-  color: #0081A4;
+  color: #3BC1CD;
 }
 
 .single-widget p {
@@ -3153,7 +3263,8 @@ Footer Top Area Style
 .single-widget.open-time li {
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #05e8c2;
+  border-bottom: 1px solid #3BC1CD;
+  width: 55%;
 }
 
 .single-widget.open-time li .right {
@@ -7902,7 +8013,7 @@ Preloader Area Style*/
   top: 0;
   width: 51%;
   height: 100%;
-  background: #05e8c2;
+  background: #9de6ec;
   z-index: 10;
 }
 
@@ -7924,10 +8035,28 @@ Preloader Area Style*/
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #16a085;
+  border-top-color: #0081A4;
   -webkit-animation: spin 1.7s linear infinite;
           animation: spin 1.7s linear infinite;
   z-index: 11;
+}
+
+.loader .container-logo {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-animation: spin 1.7s linear infinite reverse;
+          animation: spin 1.7s linear infinite reverse;
+}
+
+.loader .container-logo img {
+  height: 80px;
+  width: 88px;
+  position: absolute;
+  top: 35px;
+  bottom: 35px;
+  right: 31px;
+  left: 31px;
 }
 
 .loader:before {
@@ -7939,7 +8068,7 @@ Preloader Area Style*/
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: #ED801A;
   -webkit-animation: spin-reverse .6s linear infinite;
           animation: spin-reverse .6s linear infinite;
 }
@@ -7953,7 +8082,7 @@ Preloader Area Style*/
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922;
+  border-top-color: #ffffff;
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }
@@ -8077,7 +8206,7 @@ Go Top Style*/
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #05e8c2;
+  background-color: #3BC1CD;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
