@@ -1004,7 +1004,7 @@ Banner Area Style
 }
 
 .main-banner-area {
-  height: 100%;
+  height: 100% !important;
   width: 500%;
   position: relative;
   z-index: 1;
@@ -1705,14 +1705,16 @@ Pacientes Area Style
 First Facility Area Style
 ======================================================*/
 .first-facility-area {
-  background-color: #d6fbfd;
+  background: rgb(0,129,164);
+  background: linear-gradient(90deg, rgba(0,129,164,1) 0%, rgba(59,193,205,1) 100%);
+  color: #FFFFFF;
   position: absolute;
   left: 0;
   bottom: 0;
   z-index: 2;
-  border-radius: 0 10px 0 0;
+  border-radius: 0 55px 0 0;
   width: 1000px;
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 .first-facility-area .shape {
@@ -1729,8 +1731,7 @@ First Facility Area Style
   font-family: "Poppins";
 }
 
-.first-facility-item i {
-  border: 1px dashed #05e8c2;
+.first-facility-item img {
   background-color: #ffffff;
   width: 70px;
   height: 70px;
@@ -1746,9 +1747,15 @@ First Facility Area Style
 }
 
 .first-facility-item h3 {
-  margin-bottom: 5px;
-  font-size: 20px;
-  font-weight: 500;
+  margin: 10px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.first-facility-item P {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 /*
