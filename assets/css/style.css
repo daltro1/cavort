@@ -1411,7 +1411,7 @@ Especialidades Area Style
 .area-especialidades {
   background-color: #F7F7F7;
   font-family: "Poppins";
-  padding: 20px 0;
+  padding: 40px 0;
   height: 500px;
 }
 
@@ -1453,14 +1453,28 @@ Especialidades Area Style
   margin: 3px 0;
 }
 
-.area-especialidades .second-facility-item img {
-  filter: unset;
-  opacity: 0.5;
-  transition: 0.3s;
+.area-especialidades .second-facility-item {
+  background: #0081A4;
+  background: linear-gradient(180deg, #0081A4 0%, #3BC1CD 100%);
+  transition: 0.3s all;
+  color: #FFFFFF;
 }
 
-.area-especialidades .second-facility-item:hover img {
-  opacity: 1;
+.area-especialidades .second-facility-item:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.area-especialidades .second-facility-item img {
+  height: 90px;
+  width: 90px;
+  max-width: unset;
+  margin-bottom: 30px;
+}
+
+.area-especialidades .second-facility-item h3 {
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
 .area-especialidades .second-facility-item ul{
