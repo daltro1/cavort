@@ -673,7 +673,7 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   font-family: "Poppins";
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   color: #5B5C70;
   text-transform: capitalize;
@@ -943,7 +943,6 @@ COVID Banner Area Style
   background-color: #F97425;
   animation-name: banner_change;
   animation-iteration-count: infinite;
-  animation-delay: 2s;
   animation-duration: 4s;
 }
 
@@ -954,7 +953,9 @@ COVID Banner Area Style
 
 @keyframes banner_change {
   0%   {background-color:#F97425;}
+  25%   {background-color:#ffffff;}
   50%  {background-color:#ffffff;}
+  75% {background-color:#F97425;}
   100% {background-color:#F97425;}
 }
 
@@ -967,12 +968,13 @@ COVID Banner Area Style
   display: inline-block;
   animation-name: text_change;
   animation-iteration-count: infinite;
-  animation-delay: 2s;
   animation-duration: 4s;
 }
 @keyframes text_change {
   0%   {color:#ffffff;}
+  25%  {color:#F97425;}
   50%  {color:#F97425;}
+  75%  {color:#ffffff;}
   100% {color:#ffffff;}
 }
 
@@ -982,16 +984,18 @@ COVID Banner Area Style
   height: 100%;
   width: 35%;
   float: left;
+  text-align: right;
 }
 
 .covid-banner-area .text-container .right-text {
   font-weight: 200;
   font-size: 24px;
+  width: 60%;
   height: 100%;
-  width: 65%;
-  text-align: right;
+  text-align: left;
   float: right;
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 /*
@@ -1012,6 +1016,8 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
+  transform: translateX(0);
+  animation-play-state: running;
 }
 
 @-webkit-keyframes slideshow {
@@ -1239,6 +1245,9 @@ Banner Banco Estado Area Style
   font-weight: 600;
   color: #ffffff;
   display: table !important;
+  -webkit-box-shadow:  0 0 10px 3px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.35);
+  position: relative;
 }
 
 .banner-banco-estado .celda {
@@ -1293,6 +1302,8 @@ Título y Video Style
   font-weight: 600;
   color: #0081A4;
   font-size: 44px;
+  max-width: 1200px;
+  display: inline-block
 }
 
 .banner-titulo .celda .subtitulo {
@@ -1412,7 +1423,26 @@ Especialidades Area Style
   background-color: #F7F7F7;
   font-family: "Poppins";
   padding: 40px 0;
-  height: 500px;
+  height: auto;
+}
+
+.area-especialidades .section-title {
+  max-width: unset;
+  margin-top: 20px;
+}
+
+.area-especialidades .section-title h2{
+  font-family: "Poppins";
+  font-size: 44px;
+  font-weight: 600;
+  color: #0081A4;
+}
+
+.area-especialidades .section-title p{
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: 200;
+  color: #3BC1CD;
 }
 
 .area-especialidades .especialidad {
@@ -1555,17 +1585,17 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-imagenes .frame-doctores .static {
   position: absolute;
   overflow: visible;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   animation: rotation 30s linear infinite reverse;
 }
 .area-equipo .container .frame-imagenes .frame-doctores .static .doc {
   position: absolute;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   left: 0;
   transition: 1s width;
-  border-radius: 70px;
+  border-radius: 50px;
   overflow: hidden;
 }
 
@@ -1575,7 +1605,7 @@ Nuestro Equipo Area Style
 
 .area-equipo .container .frame-imagenes .frame-doctores .static .doc img {
   height: 100%;
-  width: 120px;
+  width: 100px;
   max-width: 400px;
   position: absolute;
   left: 0;
@@ -1584,11 +1614,11 @@ Nuestro Equipo Area Style
 
 .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc {
   position: absolute;
-  height: 60px;
-  width: 180px;
-  left: 100px;
-  top: 30px;
-  bottom: 30px;
+  height: 50px;
+  width: 150px;
+  left: 85px;
+  top: 25px;
+  bottom: 25px;
   z-index: 1;
 }
 
@@ -1603,25 +1633,24 @@ Nuestro Equipo Area Style
   color: #FFFFFF;
   text-align: center;
   position: absolute;
-  right: 0;
   height: 100%;
   width: 160px;
   z-index: 2;
-  padding: 6px 6px 6px 0;
+  padding: 3px 3px 3px 0;
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span p {
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: unset;
 }
 
-.area-equipo .container .frame-texto h3{
+.area-equipo .container .frame-texto h3 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 25px;
 }
 
-.area-equipo .container .frame-texto p{
+.area-equipo .container .frame-texto p {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 25px;
@@ -1639,7 +1668,35 @@ Nuestro Equipo Area Style
 .area-equipo .container .frame-texto .cifras p {
   font-size: 24px;
   font-weight: 300;
+  line-height: 1;
   display: inline-block
+}
+
+.area-equipo .container .frame-texto .cifras ul {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.area-equipo .container .frame-texto .cifras ul li {
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+}
+
+.area-equipo .container .frame-texto .cifras ul li i {
+  color: #ED801A;
+  height: 100%;
+  width: 100%;
+}
+
+.area-equipo .container .frame-texto .cifras ul li i::before {
+  font-size: 23px;
+}
+
+.area-equipo .container .frame-texto .cifras .default-btn {
+  font-weight: 600;
+  border-radius: 23px;
+  color: #ffffff;
 }
 
 /*
@@ -1732,7 +1789,7 @@ Second Facility Area Style
 
 
 .second-facility-item {
-  border-radius: 25px;
+  border-radius: 27px;
   text-align: center;
   padding: 30px;
   position: relative;
@@ -1743,6 +1800,7 @@ Second Facility Area Style
   overflow: hidden;
   font-family: "Poppins";
   height: 100%;
+  width: 99.9%;
 }
 
 .second-facility-item img {
@@ -1924,7 +1982,7 @@ Services Area Style
 .services-area .bordeish {
   background: #0081A4;
   background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
-  padding: 5px;
+  padding: 3px;
   height: 85%;
   margin-bottom: 30px;
   border-radius: 30px;
@@ -2248,12 +2306,20 @@ Work Area Style
   font-family: "Poppins";
 }
 
+.our-work-area .container {
+  max-width: 1350px;  
+}
+
 .our-work-area .section-title h2{
   color: #0081A4;
 }
 
 .our-work-area .section-title p {
   color: #3BC1CD;
+}
+
+.our-work-area .owl-theme .owl-item {
+ margin-left: 5px;
 }
 
 .our-work-area .owl-theme .owl-dots {
@@ -2806,7 +2872,7 @@ Client Area Style
 }
 
 .client-area.c-bg {
-  background-image: url(../../assets/img/client/client-bg.jpg);
+  background-image: url(../../assets/img/home-one/fondo_clientes.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2820,26 +2886,14 @@ Client Area Style
   font-family: "Poppins";
   font-size: 44px;
   font-weight: 600;
-  color: #0081A4;
+  color: #FFFFFF;
 }
 
 .client-area .section-title p{
   font-family: "Poppins";
   font-size: 23px;
   font-weight: 200;
-  color: #3BC1CD;
-}
-
-.client-area::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  z-index: -1;
-  opacity: 0.8;
+  color: #FFFFFF;
 }
 
 .client-area .owl-carousel .owl-item img {
@@ -3168,7 +3222,7 @@ Footer Top Area Style
   height: 30px;
   line-height: 34px;
   background-color: #3BC1CD;
-  border-radius: 4px;
+  border-radius: 15px;
   text-align: center;
 }
 
