@@ -1508,8 +1508,14 @@ Nuestro Equipo Area Style
   color: #0081A4;
 }
 
-.area-equipo .container .col-6 {
-  text-align: center;
+.area-equipo .container .section-title {
+  font-size: 43px;
+  font-weight: 600;
+  margin-bottom: 90px;
+}
+
+.area-equipo .container .col-7 {
+  text-align: left;
 }
 
 .area-equipo .container .frame-imagenes {
@@ -1532,146 +1538,94 @@ Nuestro Equipo Area Style
   animation: rotation 30s linear infinite;
 }
 
-.area-equipo .container .frame-imagenes .frame-doctores .static-1 {
+.area-equipo .container .frame-imagenes .frame-doctores .static {
   position: absolute;
   overflow: visible;
-  right: 130px;
-  top: -70px;
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
   animation: rotation 30s linear infinite reverse;
 }
-.area-equipo .container .frame-imagenes .frame-doctores .static-1 .doc-1 {
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc {
   position: absolute;
-  height: 140px;
-  width: 140px;
-  right: 0;
-  overflow: hidden;
+  height: 120px;
+  width: 120px;
+  left: 0;
   transition: 1s width;
-  border-bottom-left-radius: 50%;
-  border-top-left-radius: 50%;
+  border-radius: 70px;
+  overflow: hidden;
 }
 
-.area-equipo .container .frame-imagenes .frame-doctores .static-1 .doc-1:hover {
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc:hover {
   width: 329px;
-  border-radius: 0%;
 }
 
-.area-equipo .container .frame-imagenes .frame-doctores .static-1 .doc-1 img {
-  height: 140px;
-  width: 329px;
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc img {
+  height: 100%;
+  width: 120px;
   max-width: 400px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc {
+  position: absolute;
+  height: 60px;
+  width: 180px;
+  left: 100px;
+  top: 30px;
+  bottom: 30px;
+  z-index: 1;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span {
+  color: #FFFFFF;
+  text-align: center;
   position: absolute;
   right: 0;
-  left: unset;
+  height: 100%;
+  width: 160px;
+  z-index: 2;
+  padding: 6px 6px 6px 0;
 }
 
-.area-equipo .container .frame-imagenes .frame-doctores .static-2 {
-  position: absolute;
-  overflow: visible;
-  top: 130px;
-  right: -70px;
-  height: 140px;
-  width: 140px;
-  animation: rotation 30s linear infinite reverse;
+.area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span p {
+  font-size: 15px;
+  margin-bottom: unset;
 }
 
-.area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2 {
-  position: absolute;
-  height: 140px;
-  width: 140px;
-  overflow: hidden;
-  right: 0;
-  transition: 1s width;
-  border-bottom-left-radius: 50%;
-  border-top-left-radius: 50%;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2:hover {
-  width: 365px;
-  border-radius: 0%;
-}
-
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-2 .doc-2 img {
-  height: 140px;
-  width: 365px;
-  max-width: 400px;
-  position: absolute;
-  right: 0;
-  left: unset;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-3 {
-  position: absolute;
-  overflow: visible;
-  left: 130px;
-  bottom: -70px;
-  height: 140px;
-  width: 140px;
-  animation: rotation 30s linear infinite reverse;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3 {
-  position: absolute;
-  height: 140px;
-  width: 140px;
-  overflow: hidden;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  transition: 1s width;
-
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3 img {
-  height: 140px;
-  width: 365px;
-  max-width: 400px;
-  position: absolute;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-3 .doc-3:hover {
-  width: 365px;
-  border-radius: 0%;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-4 {
-  position: absolute;
-  overflow: visible;
-  left: -70px;
-  bottom: 130px;
-  height: 140px;
-  width: 140px;
-  animation: rotation 30s linear infinite reverse;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4 {
-  position: absolute;
-  height: 140px;
-  width: 140px;
-  overflow: hidden;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  transition: 1s width;
-
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4:hover {
-  width: 400px;
-  border-radius: 0%;
-}
-
-.area-equipo .container .frame-imagenes .frame-doctores .static-4 .doc-4 img {
-  height: 140px;
-  width: 400px;
-  max-width: 400px;
-  position: absolute;
-}
-
-.area-equipo .container p{
-  padding-top: 25%;
-  font-size: 44px;
+.area-equipo .container .frame-texto h3{
+  font-size: 22px;
   font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.area-equipo .container .frame-texto p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.area-equipo .container .frame-texto .cifras{
+  display: inline-block;
+}
+
+.area-equipo .container .frame-texto .cifras b {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.area-equipo .container .frame-texto .cifras p {
+  font-size: 24px;
+  font-weight: 300;
+  display: inline-block
 }
 
 /*
