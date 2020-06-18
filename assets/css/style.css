@@ -1496,8 +1496,6 @@ Especialidades Area Style
 }
 
 .area-especialidades .second-facility-item {
-  background: #0081A4;
-  background: linear-gradient(180deg, #0081A4 0%, #3BC1CD 100%);
   transition: 0.3s all;
   color: #FFFFFF;
 }
@@ -1705,7 +1703,7 @@ Nuestro Equipo Area Style
   font-size: 23px;
 }
 
-.area-equipo .container .frame-texto .cifras .default-btn {
+.area-equipo .container .frame-texto .cifras .default-btn-2 {
   font-weight: 600;
   border-radius: 23px;
   color: #ffffff;
@@ -1986,7 +1984,7 @@ Services Area Style
 }
 
 .services-area h6 {
-  color: #3BC1CD;
+  color: #0081A4;
   font-size: 22px;
   font-weight: 200;
 }
@@ -2841,6 +2839,7 @@ Client Area Style
   position: relative;
   font-family: "Poppins";
   height: auto;
+  border-radius: 40px;
 }
 
 .single-client img {
