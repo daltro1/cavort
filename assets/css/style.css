@@ -1331,12 +1331,14 @@ Nuestras Características Area Style
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  position: relative;
 }
 
 .area-caracteristicas .container {
   height: 740px;
   font-family: "Poppins";
   padding-top: 70px;
+  max-width: 1250px;
 }
 
 .area-caracteristicas .container .titulo {
@@ -1355,12 +1357,12 @@ Nuestras Características Area Style
   color: #ffffff
 }
 
-.area-caracteristicas .container .linea-blanca {
-  width: 50%;
-  height: 20px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid white;
-  
+.area-caracteristicas .container .caracteristicas-1 {
+  position: absolute;
+}
+
+.area-caracteristicas .container .caracteristicas-2 {
+  position: absolute;
 }
 
 .area-caracteristicas .container .caracteristicas-1 .titulo {
@@ -1369,11 +1371,6 @@ Nuestras Características Area Style
 
 .area-caracteristicas .container .caracteristicas-1 .subtitulo {
   text-align: left;
-}
-
-.area-caracteristicas .container .caracteristicas-2 .linea-blanca {
-  width: 80%;
-  margin-left: 20%;
 }
 
 .area-caracteristicas .container .caracteristicas-2 .titulo {
@@ -1391,15 +1388,24 @@ Contador Area Style
   position: relative;
   overflow: hidden;
   font-family: "Poppins";
-  background-color: #F97425;
-  color: #ffffff
+  background-color: #F7F7F7;
+  color: #000000;
+}
+
+.area-contador .col-lg-3 {
+  text-align: center;
 }
 
 .contador {
   text-align: center;
   margin-bottom: 30px;
-  padding: 30px 15px;
+  padding: 60px 15px;
   position: relative;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid;
 }
 
 .contador .linea-blanca {
@@ -1411,13 +1417,15 @@ Contador Area Style
 }
 
 .contador h2 {
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 600;
+  color: inherit;
 }
 
 .contador p {
   font-size: 17px;
-  font-weight: 200;
+  font-weight: 300;
+  color: inherit;
 }
 
 /*
