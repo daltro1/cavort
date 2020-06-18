@@ -280,6 +280,8 @@
         font-weight: bold;
         text-transform: uppercase;
         font-size: 20px;
+        width: 50%;
+        max-width: 190px;
     }
     .mean-container .mean-bar {
         background-color: #000;
