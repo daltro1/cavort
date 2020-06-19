@@ -2761,6 +2761,44 @@ Appointment Area Style
 .appointment-area .single-contact-map iframe {
   height: 100%;
 }
+
+/*
+Medios Area Style
+======================================================*/
+.area-medios {
+  background-color: #f7f7f7;
+  height: 200px;
+}
+
+.area-medios .container .wrap-medios {
+  display: flex;
+  flex-direction: row;
+}
+
+.area-medios .container .wrap-medios .medio {
+  width: fit-content;
+  height: 140px;
+  margin: 30px;
+  position: relative;
+  transition: 0.5s all;
+}
+
+.area-medios .container .wrap-medios .medio img {
+  position: absolute;
+  max-height: 140px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-filter: drop-shadow(0 0 4px #222);
+          filter: drop-shadow(0 0 4px #222);
+}
+
+.area-medios .container .wrap-medios .medio:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  cursor: pointer;
+}
+
 /*
 Emergency Area Style
 ======================================================*/
