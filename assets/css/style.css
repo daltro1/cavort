@@ -239,12 +239,10 @@ textarea.form-control {
 
 .top-title {
   font-size: 15px;
-  color: #05e8c2;
+  color: #0081A4;
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  color: #05e8c2;
 }
 
 .bg-color {
@@ -1252,6 +1250,7 @@ Banner Banco Estado Area Style
   -webkit-box-shadow:  0 0 10px 3px rgba(0, 0, 0, 0.35);
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.35);
   position: relative;
+  z-index: 2;
 }
 
 .banner-banco-estado .celda {
@@ -1679,30 +1678,15 @@ Nuestro Equipo Area Style
   font-size: 24px;
   font-weight: 300;
   line-height: 1;
-  display: inline-block
+  display: inline-block;
 }
 
-.area-equipo .container .frame-texto .cifras ul {
-  display: inline-block;
+.area-equipo .container .frame-texto .cifras img {
+  height: 20px;
+  width: 131px;
   margin-left: 20px;
+  margin-bottom: 5px;
 }
-
-.area-equipo .container .frame-texto .cifras ul li {
-  display: inline-block;
-  height: 23px;
-  width: 23px;
-}
-
-.area-equipo .container .frame-texto .cifras ul li i {
-  color: #ED801A;
-  height: 100%;
-  width: 100%;
-}
-
-.area-equipo .container .frame-texto .cifras ul li i::before {
-  font-size: 23px;
-}
-
 .area-equipo .container .frame-texto .cifras .default-btn-2 {
   font-weight: 600;
   border-radius: 23px;
@@ -1811,31 +1795,45 @@ Second Facility Area Style
   font-family: "Poppins";
   height: 100%;
   width: 99.9%;
+  color: #ffffff;
 }
 
 .second-facility-item img {
-  max-width: 70px;
-  margin-bottom: 22px;
+  height: 90px;
+  width: 90px;
+  margin-bottom: 30px;
 }
 
 .second-facility-item p {
   margin-bottom: 20px;
-  color: #3BC1CD;
   font-size: 15px;
   font-weight: 300;
 }
 
 .second-facility-item h3 {
-  font-size: 17px;
-  color: #0081A4;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.second-facility-item ul {
+  list-style-type: disc;
+  text-align: left;
+  display: inline-block;
 }
 
 .second-facility-item:hover {
   text-decoration: none;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .second-facility-item:hover::before {
   opacity: 0.7;
+}
+
+.second-facility-item ul li{
+  margin: 3px 0;
 }
 
 /*
@@ -1986,7 +1984,7 @@ Services Area Style
 .services-area h6 {
   color: #0081A4;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .services-area .bordeish {
@@ -1997,6 +1995,23 @@ Services Area Style
   margin-bottom: 30px;
   border-radius: 30px;
   transition: 0.5s all;
+}
+
+.services-area .bordeish .second-facility-item {
+  transform: unset;
+}
+
+.services-area .bordeish .second-facility-item h3 {
+  font-size: 17px;
+  color: #0081A4;
+  font-weight: 500;
+}
+
+.services-area .bordeish .second-facility-item p {
+  margin-bottom: 20px;
+  color: #3BC1CD;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .services-area .bordeish:hover {
@@ -2016,7 +2031,7 @@ Services Area Style
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-bottom: 30px;
-  border-radius: 115px 115px 115px 115px;
+  border-radius: 40px;
   overflow: hidden;
   height: 85%;
   
@@ -2056,7 +2071,7 @@ Services Area Style
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
-  border-radius: 115px 115px 115px 115px;
+  border-radius: 40px;
 }
 
 .single-services a {
@@ -2147,6 +2162,8 @@ Doctors Area Style
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
+  border-radius: 40px;
+  overflow: hidden;
 }
 
 .single-doctor::before {
@@ -2156,7 +2173,7 @@ Doctors Area Style
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #66f0f9;
+  background-color: #0081A4;
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -2169,18 +2186,20 @@ Doctors Area Style
   right: 0;
   width: 0;
   height: 100%;
-  background-color: #66f0f9;
+  background-color: #0081A4;
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .single-doctor img {
-  background-color: #05e8c2;
-  border-radius: 100% 0 100% 100%;
+  border-radius: 50%;
   margin-bottom: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  width: 140px;
+  height: 140px;
+  background-color: #e9f8fe;
 }
 
 .single-doctor h3 {
@@ -2204,7 +2223,7 @@ Doctors Area Style
 
 .single-doctor ul li i {
   color: #ffffff;
-  background-color: #05e8c2;
+  background-color: #3BC1CD;
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -3417,6 +3436,7 @@ Second Facility Area Style
   border: none;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  color: #FFFFFF;
 }
 
 .second-facility-area.two .second-facility-item::before {
@@ -4014,56 +4034,45 @@ Appointment Area CSS
 }
 
 /*
-Contact Area CSS
+Convenios Area CSS
 ======================================================*/
-.main-contact-area.contact .contact-form {
-  padding: 50px;
-}
-
-.main-contact-area .contact-form {
-  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
-  padding: 30px;
-}
-
-.main-contact-area .contact-form .form-group {
-  margin-bottom: 20px;
-}
-
-.main-contact-area .contact-form label {
+.convenios-area .section-title {
+  font-size: 43px;
   font-weight: 600;
-  font-size: 15px;
+  color: #0081A4;
 }
 
-.main-contact-area .contact-form .contact-num span {
-  font-weight: 600;
-  font-size: 16px;
+.convenios-area .wrap-convenios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.main-contact-area .contact-form .default-btn {
-  float: right;
-  margin-top: 15px;
+.convenios-area .wrap-convenios .convenio {
+  width: 265px;
+  height: 265px;
+  border: 1px rgb(0, 0, 0, 0.3) solid;
+  margin: 30px;
+  position: relative;
+  transition: 0.5s all;
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.3);
 }
 
-.main-contact-area #msgSubmit {
+.convenios-area .wrap-convenios .convenio img {
   position: absolute;
-  bottom: 54px;
-  font-size: 15px;
-  right: 15px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;  
+  margin: auto;
+  max-width: 240px;
+  max-height: 165px;;
 }
 
-.main-contact-area .text-danger {
-  color: #dc3545 !important;
-}
-
-.main-contact-area .text-success {
-  color: #28a745 !important;
-}
-
-.main-contact-area .list-unstyled {
-  margin-top: 10px;
-  color: #dc3545 !important;
+.convenios-area .wrap-convenios .convenio:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  cursor: pointer;
 }
 
 /*====================================================
