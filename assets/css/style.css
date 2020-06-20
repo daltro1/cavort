@@ -2326,99 +2326,34 @@ Doctors Area Style
   color: #001430;
 }
 
-.doctors-area .owl-item.active.center .single-doctor img {
-  background-color: #ffffff;
-}
-
-.doctors-area .owl-item.active.center .single-doctor::before {
-  width: 50%;
-}
-
-.doctors-area .owl-item.active.center .single-doctor::after {
-  width: 50%;
-}
-
-.doctors-area .owl-item.active.center .single-doctor .top-title {
-  color: #001430;
-}
-
-.doctors-area .owl-prev {
-  position: absolute;
-  left: -50px;
-  top: 50%;
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
-  background-color: transparent;
-  margin: 0 !important;
-}
-
-.doctors-area .owl-prev i {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  color: #ffffff;
-  background-color: #05e8c2;
-  border-radius: 50%;
-  font-size: 20px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.doctors-area .owl-prev i:hover {
-  background-color: #66f0f9;
-}
-
-.doctors-area .owl-next {
-  position: absolute;
-  right: -50px;
-  top: 50%;
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
-  background-color: transparent;
-  margin: 0 !important;
-}
-
-.doctors-area .owl-next i {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  color: #ffffff;
-  background-color: #05e8c2;
-  border-radius: 50%;
-  font-size: 20px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.doctors-area .owl-next i:hover {
-  background-color: #66f0f9;
-}
-
-.doctors-area .owl-theme .owl-nav [class*=owl-]:hover {
-  background: transparent;
-}
-
-.doctors-area .owl-theme .owl-nav {
-  margin-top: 0 !important;
-}
-
 .wrap-medicos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 70px;
 }
 
+.doctors-area-two .section-title h4 {
+  color: #3BC1CD;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 30px;
+}
 .doc {
   position: relative;
-  color: #093668;
   height: auto;
   width: 208px;
-  background: linear-gradient(to right, #021125 0%, #093668 100%);
   border-radius: 35px;
   margin-bottom: 50px;
   padding: 3px;
-  margin: 30px;
+  margin: 20px;
   font-family: "Poppins";
+  transition: 0.5s all;
+}
+
+.doc:hover {
+  transform: translateY(-5px);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25)
 }
 
 .doc .cuadro-blanco {
@@ -2436,7 +2371,7 @@ Doctors Area Style
   position: relative;
   height: calc(100% - 6px);
   width: calc(100% - 6px);
-  padding: 30px;
+  padding: 30px 20px;
   text-align: center;
 }
 
@@ -2453,6 +2388,7 @@ Doctors Area Style
 .doc .contenido .frame-img img {
   height: 140px;
   width: 140px;
+  border-radius: 50%;
 }
 
 .doc .contenido b {
