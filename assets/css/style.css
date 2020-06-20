@@ -875,11 +875,11 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #F97425;
+  color: #0081A4;
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #F97425;
+  color: #0081A4;
 }
 
 .nav-area .dropdown-toggle::after {
@@ -2402,6 +2402,71 @@ Doctors Area Style
   margin-top: 0 !important;
 }
 
+.wrap-medicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.doc {
+  position: relative;
+  color: #093668;
+  height: auto;
+  width: 208px;
+  background: linear-gradient(to right, #021125 0%, #093668 100%);
+  border-radius: 35px;
+  margin-bottom: 50px;
+  padding: 3px;
+  margin: 30px;
+  font-family: "Poppins";
+}
+
+.doc .cuadro-blanco {
+  position: absolute;
+  height: calc(100% - 104px);
+  width: calc(100% - 6px);
+  background-color: #FFFFFF;
+  bottom: 3px;
+  left: 3px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.doc .contenido {
+  position: relative;
+  height: calc(100% - 6px);
+  width: calc(100% - 6px);
+  padding: 30px;
+  text-align: center;
+}
+
+.doc .contenido .frame-img {
+  display: inline-block;
+  height: 142px;
+  width: 142px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+
+.doc .contenido .frame-img img {
+  height: 140px;
+  width: 140px;
+}
+
+.doc .contenido b {
+  color: inherit;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.doc .contenido ul {
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+
+}
 /*
 Work Area Style
 ======================================================*/
@@ -4227,7 +4292,6 @@ Page Title Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   z-index: 1;
 }
 
