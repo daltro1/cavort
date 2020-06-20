@@ -1233,7 +1233,7 @@ Banner Area Style
 }
 
 .main-banner-area .banner-text .banner-button-text-3 {
-  background-color: #ED801A;
+  background-color: #FFBC00;
   border-radius: 20px;
   height: 40px;
   width: 300px;
@@ -1259,7 +1259,7 @@ Banner Area Style
 }
 
 .main-banner-area .banner-text .banner-button-text-3 a:hover {
-  color: #ED801A;
+  color: #FFBC00;
 }
 
 .area-banner-principal .banner-img-wrap {
@@ -1465,7 +1465,7 @@ Contador Area Style
   position: relative;
   overflow: hidden;
   font-family: "Poppins";
-  background-color: #F7F7F7;
+  background-color: #999999;
   color: #000000;
 }
 
@@ -2410,7 +2410,6 @@ Work Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   position: relative;
   z-index: 1;
   font-family: "Poppins";
@@ -2434,6 +2433,10 @@ Work Area Style
 
 .our-work-area .owl-theme .owl-dots {
   line-height: 1;
+}
+
+.our-work-area .owl-theme .owl-stage-outer {
+  height: 250px;
 }
 
 .our-work-area .owl-theme .owl-dots .owl-dot span {
@@ -2748,7 +2751,7 @@ Appointment Area Style
   padding: 10px 50px;
 }
 
-.appointment-here-form .default-btn {
+.appointment-here-form .default-btn-3 {
   display: block;
   margin: 15px auto 0;
   width: 200px;
@@ -2846,7 +2849,17 @@ Medios Area Style
 ======================================================*/
 .area-medios {
   background-color: #f7f7f7;
-  height: 200px;
+
+}
+
+.area-medios .container {
+  max-width: 1300px;
+}
+
+.area-medios .section-title {
+  font-size: 43px;
+  color: #0081A4;
+  font-weight: 600;
 }
 
 .area-medios .container .wrap-medios {
@@ -2857,7 +2870,7 @@ Medios Area Style
 .area-medios .container .wrap-medios .medio {
   width: fit-content;
   height: 140px;
-  margin: 30px;
+  margin: 0 auto;
   position: relative;
   transition: 0.5s all;
 }
@@ -2975,7 +2988,7 @@ Client Area Style
   position: relative;
   font-family: "Poppins";
   height: auto;
-  border-radius: 40px;
+  border-radius: 25px;
 }
 
 .single-client img {
@@ -3003,7 +3016,7 @@ Client Area Style
 }
 
 .single-client ul li i {
-  color: #ED801A;
+  color: #FFBC00;
 }
 
 .single-client h3 {
@@ -3054,7 +3067,7 @@ Client Area Style
   text-align: center;
 }
 
-.client-area .default-btn {
+.client-area .default-btn-3 {
   display: inline-block;
   border-radius: 23px;
   margin-top: 10px;
@@ -3306,10 +3319,12 @@ Footer Top Area Style
 
 .single-widget img {
   margin-bottom: 20px;
+  margin-left: -10px;
 }
 
 .single-widget h3 {
-  font-size: 22px;
+  font-size: 15px;
+  font-weight: 800;
   margin-bottom: 30px;
   display: inline-block;
   color: #001430;
@@ -3414,7 +3429,7 @@ Footer Top Area Style
 
 .single-widget.contact ul li a span {
   display: block;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .single-widget.contact ul li i {
@@ -3427,7 +3442,7 @@ Footer Top Area Style
 
 .single-widget.contact ul li span {
   display: block;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .single-widget.open-time {
@@ -3436,6 +3451,10 @@ Footer Top Area Style
 
 .single-widget.open-time ul {
   padding: 0 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  display: inline-block;
+  width: 77%;
 }
 
 .single-widget.open-time li {
@@ -8181,7 +8200,7 @@ Preloader Area Style*/
   top: 0;
   width: 51%;
   height: 100%;
-  background: #9de6ec;
+  background: #3BC1CD;
   z-index: 10;
 }
 
@@ -8236,7 +8255,7 @@ Preloader Area Style*/
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #ED801A;
+  border-top-color: #FFBC00;
   -webkit-animation: spin-reverse .6s linear infinite;
           animation: spin-reverse .6s linear infinite;
 }
@@ -8250,7 +8269,7 @@ Preloader Area Style*/
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #ffffff;
+  border-top-color: #E2E2E2;
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }
