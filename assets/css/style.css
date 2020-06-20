@@ -77,7 +77,10 @@ body {
   font-family: "Poppins", sans-serif;
   color: #525252;
   overflow-x: hidden;
+}
 
+html, body {
+  height: 100%;
 }
 
 a {
@@ -428,6 +431,75 @@ Default Btn 2 Area Style*/
 }
 
 /*
+Default Btn 3 Area Style*/
+.default-btn-3 {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 15px 30px;
+  line-height: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-transform: capitalize;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, right top, from(#FFBC00), to(#DD8D00));
+  background: linear-gradient(to right, #FFBC00 0%, #DD8D00 100%);
+}
+
+.default-btn-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(#DD8D00), to(#FFBC00));
+  background: linear-gradient(to right, #DD8D00 0%, #FFBC00 100%);
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.default-btn-3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  height: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(#DD8D00), to(#FFBC00));
+  background: linear-gradient(to right, #DD8D00 0%, #FFBC00 100%);
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.default-btn-3.active {
+  margin-left: 30px;
+  margin-right: 10px;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, right top, from(#DD8D00), to(#FFBC00));
+  background: linear-gradient(to right, #DD8D00 0%, #FFBC00 100%);
+}
+
+.default-btn-3:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.default-btn-3:hover::before {
+  left: 0;
+}
+
+.default-btn-3:hover::after {
+  right: 0;
+}
+
+/*
 Read More Area Style*/
 .read-more {
   line-height: 1;
@@ -652,6 +724,7 @@ Nav Area Style
 
 .navbar {
   height: 100%;
+
 }
 .nav-area .navbar-area .main-nav {
   background-color: #ffffff;
@@ -707,11 +780,11 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #F97425;
+  color: #0081A4;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #F97425;
+  color: #0081A4;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -747,12 +820,12 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #F97425;
+  color: #0081A4;
   background-color: #f3f3f3;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #F97425;
+  color: #0081A4;
   background-color: #f3f3f3;
 }
 
@@ -833,7 +906,7 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   font-size: 12px;
 }
 
-.nav-area .others-option .subscribe .default-btn-2 {
+.nav-area .others-option .subscribe .default-btn-3 {
   padding: 12px 20px;
   font-size: 12px;
 }
@@ -942,63 +1015,65 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 COVID Banner Area Style
 ======================================================*/
 .main-covid {
-  background-color: #F97425;
+  background-color: #FFBC00;
   animation-name: banner_change;
   animation-iteration-count: infinite;
   animation-duration: 4s;
   z-index: 3;
+  height: 50px;
+  margin-top: 80px;
 }
 
 .covid-banner-area {
-  height: 155px;
+  height: 100%;
   width: 100%;
+}
+
+.covid-banner-area:hover {
+  text-decoration: none;
 }
 
 @keyframes banner_change {
-  0%   {background-color:#F97425;}
+  0%   {background-color:#FFBC00;}
   25%   {background-color:#ffffff;}
   50%  {background-color:#ffffff;}
-  75% {background-color:#F97425;}
-  100% {background-color:#F97425;}
+  75% {background-color:#FFBC00;}
+  100% {background-color:#FFBC00;}
 }
 
 .covid-banner-area .text-container {
-  padding: 90px 300px 30px 300px;
   height: 100%;
   width: 100%;
+  position: relative;
   font-family: "Poppins";
   color: #fff;
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
   animation-name: text_change;
   animation-iteration-count: infinite;
   animation-duration: 4s;
+  justify-content: center;
 }
 @keyframes text_change {
   0%   {color:#ffffff;}
-  25%  {color:#F97425;}
-  50%  {color:#F97425;}
+  25%  {color:#FFBC00;}
+  50%  {color:#FFBC00;}
   75%  {color:#ffffff;}
   100% {color:#ffffff;}
 }
 
-.covid-banner-area .text-container .left-text {
+.covid-banner-area .text-container b {
   font-weight: 600;
-  font-size: 41px;
-  height: 100%;
-  width: 35%;
-  float: left;
-  text-align: right;
+  font-size: 30px;
+  line-height: 50px;
+
 }
 
-.covid-banner-area .text-container .right-text {
+.covid-banner-area .text-container p {
   font-weight: 200;
-  font-size: 24px;
-  width: 60%;
-  height: 100%;
-  text-align: left;
-  float: right;
-  margin-top: 10px;
+  font-size: 18px;
   margin-left: 20px;
+  line-height: 50px;
 }
 
 /*
@@ -1006,7 +1081,7 @@ Banner Area Style
 ======================================================*/
 .area-banner-principal {
   position: relative;
-  height: 640px;
+  height: 100%;
   width: 100%;
   -webkit-box-shadow:  0 10px 10px -10px rgba(0, 0, 0, 0.35);
           box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
@@ -1843,24 +1918,24 @@ Second Facility Area Style
 About Area Style
 ======================================================*/
 .about-area .container {
-  max-width: 100%;
   position: relative;
   color: #FFFFFF;
+  max-width: 1300px;
 }
 
 
 
 .about-area .container .about-figura {
   position: absolute;
-  width: 1104px;
-  height: inherit;
+  width: 100%;
+  height: 500px;
   top: -35px;
 }
 
 .about-area .container .about-figura img {
   width: 100%;
   height: 100%;
-  transform: translateX(-1px);
+  transform: translateX(-111px);
 }
 
 .about-area .container .top-title {
@@ -1871,37 +1946,11 @@ About Area Style
   font-size: 17px;
 }
 
-
 .about-area .about-img {
   position: relative;
   z-index: 1;
   max-width: 100%;
-}
-
-.about-area .about-img .shape-1 {
-  position: absolute;
-  top: 0;
-  left: -30px;
-  z-index: -1;
-}
-
-.about-area .about-img .shape-1 img {
-  border-radius: 4px;
-}
-
-.about-area .about-img .shape-2 {
-  position: absolute;
-  left: -250px;
-  top: 0;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
-}
-
-.about-area .about-img .shape-3 {
-  position: absolute;
-  top: -50px;
-  right: -50px;
-  z-index: -1;
+  margin-left: -50px;
 }
 
 .about-area .about-content {
@@ -3205,7 +3254,7 @@ Footer Top Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 70%;
   position: relative;
   background-attachment: fixed;
 }
