@@ -2420,6 +2420,11 @@ Doctors Area Style
   font-size: 15px;
 
 }
+
+.doctors-area-two .doc .contenido .cargo-redes {
+  position: relative;
+  
+}
 /*
 Work Area Style
 ======================================================*/
@@ -2891,7 +2896,6 @@ Medios Area Style
   margin: 0 auto;
   position: relative;
   transition: 0.5s all;
-  vertical-align: middle;
 }
 
 .area-medios .container .wrap-medios .medio img {
