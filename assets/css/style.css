@@ -1081,7 +1081,7 @@ Banner Area Style
 ======================================================*/
 .area-banner-principal {
   position: relative;
-  height: 100%;
+  height: calc(100% - 130px);
   width: 100%;
   -webkit-box-shadow:  0 10px 10px -10px rgba(0, 0, 0, 0.35);
           box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
@@ -1097,8 +1097,8 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
-  transform: translateX(-20%);
-  animation-play-state: paused;
+  transform: translateX(0);
+  animation-play-state: running;
   
 }
 
