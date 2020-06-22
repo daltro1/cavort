@@ -2105,13 +2105,15 @@ Services Area Style
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  -webkit-border: 1px rgb(0, 0, 0, 0.3) solid;
+          border: 1px rgb(0, 0, 0, 0.3) solid;
   padding: 30px;
   position: relative;
   z-index: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-bottom: 30px;
-  border-radius: 40px;
+  border-radius: 27px;
   overflow: hidden;
   height: 85%;
   
@@ -2125,9 +2127,9 @@ Services Area Style
   top: 50%;
   width: 100%;
   height: 10px;
-  background-color: #3BC1CD;
-  -webkit-box-shadow: 0 0 15px #3BC1CD;
-          box-shadow: 0 0 15px #3BC1CD;
+  background-color: #093668;
+  -webkit-box-shadow: 0 0 15px #093668;
+          box-shadow: 0 0 15px #093668;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   z-index: -1;
@@ -2140,9 +2142,9 @@ Services Area Style
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #3BC1CD;
-  -webkit-box-shadow: 0 0 15px #3BC1CD;
-          box-shadow: 0 0 15px #3BC1CD;
+  background-color: #093668;
+  -webkit-box-shadow: 0 0 15px #093668;
+          box-shadow: 0 0 15px #093668;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   z-index: -1;
@@ -2151,7 +2153,7 @@ Services Area Style
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
-  border-radius: 40px;
+  border-radius: 27px;
 }
 
 .single-services a {
@@ -2230,6 +2232,14 @@ Services Area Style
 
 .single-services:hover .read-more i {
   color: #001430;
+}
+
+.single-services h3 {
+  color: #3BC1CD;
+}
+
+.single-services p {
+  color: #0081A4;
 }
 
 /*
@@ -3574,100 +3584,8 @@ Banner Area Style
 /*
 Second Facility Area Style
 ======================================================*/
-.second-facility-area.two .second-facility-item {
-  border: none;
-  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  color: #FFFFFF;
-}
-
-.second-facility-area.two .second-facility-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: url(../../assets/img/facility-shape.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-}
-
-.second-facility-area.two .second-facility-item img {
-  margin-bottom: 20px;
-  background-color: #05e8c2;
-  padding: 15px;
-  -webkit-animation: border-transform 10s linear infinite alternate forwards;
-          animation: border-transform 10s linear infinite alternate forwards;
-}
-
-.second-facility-area.two .second-facility-item p {
-  margin-bottom: 0;
-  text-decoration: none;
-}
-
-.second-facility-area.two .second-facility-item h3 {
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-@-webkit-keyframes border-transform {
-  0%, 100% {
-    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
-  }
-  14% {
-    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
-  }
-  28% {
-    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
-  }
-  42% {
-    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
-  }
-  56% {
-    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
-  }
-  70% {
-    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
-  }
-  84% {
-    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
-  }
-}
-
-@keyframes border-transform {
-  0%, 100% {
-    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
-  }
-  14% {
-    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
-  }
-  28% {
-    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
-  }
-  42% {
-    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
-  }
-  56% {
-    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
-  }
-  70% {
-    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
-  }
-  84% {
-    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
-  }
+.second-facility-area .default-btn-2 {
+  border-radius: 23px;
 }
 
 /*
