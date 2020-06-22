@@ -780,11 +780,11 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #0081A4;
+  color: #3BC1CD;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #0081A4;
+  color: #3BC1CD;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -820,12 +820,12 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #0081A4;
+  color: #3BC1CD;
   background-color: #f3f3f3;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0081A4;
+  color: #3BC1CD;
   background-color: #f3f3f3;
 }
 
@@ -875,11 +875,11 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #0081A4;
+  color: #3BC1CD;
 }
 
 .nav-area .navbar-area.is-sticky .main-nav nav .navbar-nav .nav-item a.active {
-  color: #0081A4;
+  color: #3BC1CD;
 }
 
 .nav-area .dropdown-toggle::after {
