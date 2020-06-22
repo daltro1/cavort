@@ -1097,8 +1097,8 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
-  transform: translateX(0);
-  animation-play-state: running;
+  transform: translateX(-20%);
+  animation-play-state: paused;
   
 }
 
@@ -2759,7 +2759,7 @@ Appointment Area Style
   padding: 10px 50px;
 }
 
-.appointment-here-form .default-btn-3 {
+.appointment-here-form .default-btn-2 {
   display: block;
   margin: 15px auto 0;
   width: 200px;
@@ -2889,8 +2889,6 @@ Medios Area Style
   top: 0;
   bottom: 0;
   margin: auto;
-  -webkit-filter: drop-shadow(0 0 4px #222);
-          filter: drop-shadow(0 0 4px #222);
 }
 
 .area-medios .container .wrap-medios .medio:hover {
