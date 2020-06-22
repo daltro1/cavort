@@ -2875,7 +2875,7 @@ Medios Area Style
 }
 
 .area-medios .section-title {
-  font-size: 43px;
+  font-size: 22px;
   color: #0081A4;
   font-weight: 600;
 }
@@ -2887,10 +2887,11 @@ Medios Area Style
 
 .area-medios .container .wrap-medios .medio {
   width: fit-content;
-  height: 140px;
+  height: 98px;
   margin: 0 auto;
   position: relative;
   transition: 0.5s all;
+  vertical-align: middle;
 }
 
 .area-medios .container .wrap-medios .medio img {
