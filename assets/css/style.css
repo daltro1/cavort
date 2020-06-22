@@ -901,7 +901,7 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   vertical-align: middle;
 }
 
-.nav-area .others-option .subscribe .default-btn {
+.nav-area .others-option .subscribe .default-btn-2 {
   padding: 12px 20px;
   font-size: 12px;
 }
@@ -1483,6 +1483,7 @@ Contador Area Style
   display: inline-block;
   border-radius: 50%;
   border: 3px solid;
+  background-color: #ffffff;
 }
 
 .contador .linea-blanca {
@@ -2339,7 +2340,7 @@ Doctors Area Style
   font-weight: 600;
   font-size: 30px;
 }
-.doc {
+.doctors-area-two .doc {
   position: relative;
   height: auto;
   width: 208px;
@@ -2351,12 +2352,12 @@ Doctors Area Style
   transition: 0.5s all;
 }
 
-.doc:hover {
+.doctors-area-two .doc:hover {
   transform: translateY(-5px);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25)
 }
 
-.doc .cuadro-blanco {
+.doctors-area-two .doc .cuadro-blanco {
   position: absolute;
   height: calc(100% - 104px);
   width: calc(100% - 6px);
@@ -2367,7 +2368,7 @@ Doctors Area Style
   border-bottom-right-radius: 32px;
 }
 
-.doc .contenido {
+.doctors-area-two .doc .contenido {
   position: relative;
   height: calc(100% - 6px);
   width: calc(100% - 6px);
@@ -2375,29 +2376,35 @@ Doctors Area Style
   text-align: center;
 }
 
-.doc .contenido .frame-img {
+.doctors-area-two .doc .contenido .frame-img {
   display: inline-block;
-  height: 142px;
-  width: 142px;
+  height: 144px;
+  width: 144px;
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 1px;
   margin-bottom: 20px;
+  position: relative;
 }
 
-.doc .contenido .frame-img img {
+.doctors-area-two .doc .contenido .frame-img img {
   height: 140px;
   width: 140px;
   border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-.doc .contenido b {
+.doctors-area-two .doc .contenido b {
   color: inherit;
   font-weight: 700;
   font-size: 15px;
 }
 
-.doc .contenido ul {
+.doctors-area-two .doc .contenido ul {
   color: #000000;
   font-weight: 400;
   font-size: 15px;
@@ -3324,7 +3331,7 @@ Footer Top Area Style
 }
 
 .single-widget h3 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
   margin-bottom: 30px;
   display: inline-block;
@@ -4221,14 +4228,15 @@ Page Title Area Style
 .page-title-area {
   position: relative;
   overflow: hidden;
-  padding-top: 240px;
-  padding-bottom: 150px;
+  padding-top: 195px;
+  padding-bottom: 195px;
   text-align: center;
   background-image: url(../../assets/img/page-bg/1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
+  margin-top: 80px;
 }
 
 .page-title-area::before {
@@ -4238,7 +4246,7 @@ Page Title Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0;
   background-color: #000000;
   z-index: -1;
 }
@@ -4272,7 +4280,7 @@ Page Title Area Style
   position: absolute;
   top: 10px;
   right: -7px;
-  background-color: #05e8c2;
+  background-color: #3BC1CD;
   width: 10px;
   height: 10px;
   -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
@@ -4288,11 +4296,11 @@ Page Title Area Style
 }
 
 .page-title-area .page-title-content ul li a:hover {
-  color: #05e8c2;
+  color: #0081A4;
 }
 
 .page-title-area .page-title-content ul .active {
-  color: #05e8c2;
+  color: #0081A4;
 }
 
 .page-title-area .shape-1 {
