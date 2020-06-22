@@ -2812,6 +2812,9 @@ Appointment Area Style
   z-index: -1;
   -webkit-animation: moveBounce 5s linear infinite;
           animation: moveBounce 5s linear infinite;
+
+  max-width: 248px;
+  max-height: 248px;
 }
 
 .table-condensed {
@@ -4228,40 +4231,48 @@ Page Title Area Style
   position: absolute;
   top: 50px;
   right: 50px;
-  opacity: 0.2;
+  opacity: 0.7;
   z-index: -1;
   -webkit-animation: rotation 30s linear infinite;
           animation: rotation 30s linear infinite;
+  max-width: 156px;
+  max-height: 156px;
 }
 
 .page-title-area .shape-2 {
   position: absolute;
   bottom: 50px;
   left: 100px;
-  opacity: 0.2;
+  opacity: 0.7;
   z-index: -1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  -webkit-animation: rotation 30s linear infinite reverse;
+          animation: rotation 30s linear infinite reverse;
+  max-width: 156px;
+  max-height: 156px;
 }
 
 .page-title-area .shape-3 {
   position: absolute;
   bottom: 50px;
   left: 100px;
-  opacity: 0.2;
+  opacity: 0.7;
   z-index: -1;
   -webkit-animation: rotation 30s linear infinite;
           animation: rotation 30s linear infinite;
+  max-width: 156px;
+  max-height: 156px;
 }
 
 .page-title-area .shape-4 {
   position: absolute;
   top: 50px;
   right: 50px;
-  opacity: 0.2;
+  opacity: 0.7;
   z-index: -1;
-  -webkit-animation: moveBounce 5s linear infinite;
-          animation: moveBounce 5s linear infinite;
+  -webkit-animation: rotation 30s linear infinite reverse;
+          animation: rotation 30s linear infinite reverse;
+  max-width: 156px;
+  max-height: 156px;
 }
 
 /* 
