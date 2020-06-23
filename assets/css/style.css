@@ -1850,8 +1850,8 @@ First Facility Area Style
   font-weight: 700;
 }
 
-.first-facility-item P {
-  font-size: 13px;
+.first-facility-item p {
+  font-size: 12px;
   font-weight: 400;
   margin-bottom: 10px;
 }
