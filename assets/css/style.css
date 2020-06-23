@@ -4168,8 +4168,8 @@ Page Title Area Style
 .page-title-area {
   position: relative;
   overflow: hidden;
-  padding-top: 195px;
-  padding-bottom: 195px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
   background-image: url(../../assets/img/page-bg/1.jpg);
   background-position: center center;
