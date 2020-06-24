@@ -2417,12 +2417,22 @@ Doctors Area Style
   color: #000000;
   font-weight: 400;
   font-size: 15px;
-
 }
 
 .doctors-area-two .doc .contenido .cargo-redes {
   position: relative;
-  
+}
+
+.doctors-area-two .doc .contenido .cargo-redes .single-widget .social-area ul li a {
+  margin-right: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.doctors-area-two .doc .contenido .cargo-redes .single-widget .social-area ul li a i {
+  font-size: 23px;
+  vertical-align: middle;
 }
 /*
 Work Area Style
@@ -3400,6 +3410,7 @@ Footer Top Area Style
 
 .single-widget .social-area ul li {
   display: inline-block;
+  text-align: center;
 }
 
 .single-widget .social-area ul li a {
@@ -3410,6 +3421,7 @@ Footer Top Area Style
   background-color: #3BC1CD;
   border-radius: 15px;
   text-align: center;
+  display: inline-block;
 }
 
 .single-widget .social-area ul li a i {
