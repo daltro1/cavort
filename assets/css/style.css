@@ -1097,8 +1097,8 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
-  transform: translateX(0);
-  animation-play-state: running;
+  transform: translateX(-60%);
+  animation-play-state: paused;
   
 }
 
@@ -1406,16 +1406,15 @@ Nuestras Características Area Style
   background-image: url(../../assets/img/home-one/fondo-caracteristicas.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  position: relative;
+  background-size: auto;
+  width: 100%;
+  display: table;
 }
 
 .area-caracteristicas .container {
-  height: 740px;
   font-family: "Poppins";
-  padding-top: 70px;
-  max-width: 1250px;
+  max-width: 85%;
+  height: fit-content;
 }
 
 .area-caracteristicas .container .titulo {
@@ -1424,6 +1423,7 @@ Nuestras Características Area Style
   margin-top: 10px;
   margin-bottom: 10px;
   color: #ffffff;
+  text-align: inherit;
 }
 
 .area-caracteristicas .container .subtitulo {
@@ -1431,31 +1431,18 @@ Nuestras Características Area Style
   font-weight: 200;
   margin-top: 4px;
   margin-bottom: 4px;
-  color: #ffffff
+  color: #ffffff;
+  text-align: inherit;
 }
 
-.area-caracteristicas .container .caracteristicas-1 {
-  position: absolute;
+.area-caracteristicas .text-wrap {
+  display: flex;
+  position: relative;
+  flex-direction: column;
 }
 
-.area-caracteristicas .container .caracteristicas-2 {
-  position: absolute;
-}
-
-.area-caracteristicas .container .caracteristicas-1 .titulo {
-  text-align: left;
-}
-
-.area-caracteristicas .container .caracteristicas-1 .subtitulo {
-  text-align: left;
-}
-
-.area-caracteristicas .container .caracteristicas-2 .titulo {
-  text-align: right;
-}
-
-.area-caracteristicas .container .caracteristicas-2 .subtitulo {
-  text-align: right;
+.area-caracteristicas .container .caracteristicas {
+  margin: 25px 0;
 }
 
 /*
@@ -1465,8 +1452,10 @@ Contador Area Style
   position: relative;
   overflow: hidden;
   font-family: "Poppins";
-  background-color: #999999;
+  background-color: #a6a6a6;
   color: #000000;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .area-contador .col-lg-3 {
