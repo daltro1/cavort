@@ -1097,7 +1097,7 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
-  transform: translateX(-60%);
+  transform: translateX(0);
   animation-play-state: running;
   
 }
