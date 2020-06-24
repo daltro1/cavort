@@ -1644,6 +1644,7 @@ Nuestro Equipo Area Style
   width: 400px;
   position: relative;
   display: inline-block;
+  transform: scale(1.1);
 }
 
 .area-equipo .container .frame-imagenes img {
@@ -2031,7 +2032,6 @@ Services Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
 }
 
 .services-area {
@@ -3052,16 +3052,12 @@ Client Area Style
   color: #3BC1CD;
 }
 
-.client-area {
-  height: 100% !important;
-}
 
 .client-area.c-bg {
   background-image: url(../../assets/img/home-one/fondo_clientes.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -3285,12 +3281,15 @@ Footer Top Area Style
   font-family: "Poppins";
 }
 
+.footer-top-area .container {
+  max-width: 90%;
+}
+
 .footer-top-area.f-bg {
   background-image: url(../../assets/img/footer-bg-3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70%;
   position: relative;
   background-attachment: fixed;
 }
