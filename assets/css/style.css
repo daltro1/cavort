@@ -1097,8 +1097,8 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
-  transform: translateX(0);
-  animation-play-state: running;
+  transform: translateX(-40%);
+  animation-play-state: paused;
   
 }
 
@@ -1233,7 +1233,7 @@ Banner Area Style
 }
 
 .main-banner-area .banner-text .banner-button-text-3 {
-  background-color: #093668;
+  background-color: #FFBC00;
   border-radius: 25px;
   height: 50px;
   width: 350px;
@@ -1259,6 +1259,38 @@ Banner Area Style
 }
 
 .main-banner-area .banner-text .banner-button-text-3 a:hover {
+  color: #FFBC00;
+}
+
+
+
+.main-banner-area .banner-text .banner-button-text-4 {
+  background-color: #093668;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text-4:hover {
+  background-color: #ffffff;
+}
+
+.main-banner-area .banner-text .banner-button-text-4 a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 5px; 
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+}
+
+.main-banner-area .banner-text .banner-button-text-4 a:hover {
   color: #093668;
 }
 
@@ -1452,8 +1484,7 @@ Contador Area Style
   position: relative;
   overflow: hidden;
   font-family: "Poppins";
-  background-color: #a6a6a6;
-  color: #000000;
+  background-color: #fff;
   width: 100%;
   margin-top: 50px;
 }
@@ -1471,8 +1502,8 @@ Contador Area Style
   height: 200px;
   display: inline-block;
   border-radius: 50%;
-  border: 3px solid;
   background-color: #ffffff;
+  color: #fff;
 }
 
 .contador .linea-blanca {
@@ -1627,6 +1658,7 @@ Nuestro Equipo Area Style
 .area-equipo .container {
   height: 681px;
   color: #0081A4;
+  max-width: 1500px;
 }
 
 .area-equipo .container .section-title {
@@ -1714,7 +1746,7 @@ Nuestro Equipo Area Style
   height: 100%;
   width: 130px;
   z-index: 2;
-  padding: 3px 3px 3px 0;
+  padding: 3px 3px 3px 6px;
 }
 
 .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span p {
@@ -1723,15 +1755,15 @@ Nuestro Equipo Area Style
 }
 
 .area-equipo .container .frame-texto h3 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 1.5em;
 }
 
 .area-equipo .container .frame-texto p {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 1.5em;
 }
 
 .area-equipo .container .frame-texto .cifras{
@@ -1760,6 +1792,7 @@ Nuestro Equipo Area Style
   font-weight: 600;
   border-radius: 23px;
   color: #ffffff;
+  width: 400px;
 }
 
 /*
@@ -2816,14 +2849,17 @@ Appointment Area Style
 
 .appointment-here-form .shape {
   position: absolute;
-  top: -35px;
-  right: -45px;
+  top: -19.7%;
+  right: 7.31%;
   z-index: -1;
   -webkit-animation: moveBounce 5s linear infinite;
           animation: moveBounce 5s linear infinite;
+  max-width: 738px;
+  max-height: 738px;
+}
 
-  max-width: 248px;
-  max-height: 248px;
+.appointment-here-form .shape img {
+  transform: rotate(-101deg)
 }
 
 .table-condensed {
@@ -3143,11 +3179,12 @@ Client Area Style
 
 .client-area .wrap-video-area .testimonio .desarrollo {
   display: inline-block;
-  font-size: 19px;
+  font-size: 24px;
+  font-style: italic;
 }
 
 .client-area .wrap-video-area .testimonio .autor {
-  font-size: 23px;
+  font-size: 29px;
   font-weight: 600;
   margin-top: 30px;
 }
