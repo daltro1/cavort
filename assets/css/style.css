@@ -1942,45 +1942,96 @@ Second Facility Area Style
 About Area Style
 ======================================================*/
 .about-area .franja {
-  height: 330px;
+  height: auto;
   width: 100%;
   margin: 40px 0;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .about-area .franja .bloque {
   width: 50%;
   height: 100%;
   color: #fff;
+  text-align: center;
+}
+
+.about-area .franja .bloque .texto {
+  max-width: 390px;
+}
+
+.about-area .franja .bloque .texto h3 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 0.5em;
+}
+
+.about-area .franja .bloque .texto p {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+}
+
+.about-area .franja .bloque .texto ul {
+  font-size: 17px;
+  font-weight: 300;
+  list-style-type: disc;
+  margin-bottom: 1.5em;
+}
+
+.about-area .franja .bloque .texto ul li {
+  margin-bottom: 5px;
+}
+
+.about-area .franja .bloque .texto p:last-child {
+  margin-bottom: 0;
+}
+
+.about-area .franja .bloque .texto ul li:last-child {
+  margin-bottom: 0;
 }
 
 .about-area .franja .bloque.bloque-1 {
   background: linear-gradient(to right, #093668 0%, #0081A4 100%);
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding: 30px;
-  text-align: right;
+  padding: 30px 50px;
 }
 
-.about-area .franja .bloque .bloque-1 .texto {
+.about-area .franja .bloque.bloque-1 .texto {
   display: inline-block;
   text-align: left;
 }
 
-.about-area .franja .bloque.bloque-2 {
-  
-}
-
-.about-area .franja .bloque.bloque-3 {
-  
+.about-area .franja .bloque.bloque-1 img {
+  position: absolute;
+  max-height: 100%;
+  bottom: 0;
+  left: 60%;
+  max-width: 50%;
+  margin: auto;
 }
 
 .about-area .franja .bloque.bloque-4 {
   background: linear-gradient(to left, #093668 0%, #0081A4 100%);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  padding: 30px;
+  padding: 30px 50px;
+}
+
+.about-area .franja .bloque.bloque-4 .texto {
+  display: inline-block;
+  text-align: left;
+}
+
+.about-area .franja .bloque.bloque-4 img {
+  position: absolute;
+  max-height: 100%;
+  bottom: 0;
+  right: 58%;
+  max-width: 35%;
+  margin: auto;
 }
 
 @-webkit-keyframes moveBounce {
