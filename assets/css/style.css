@@ -8199,72 +8199,100 @@ Services Area Eight Style
 /*
 Pricing Area Eight Style
 ======================================================*/
-.single-pricing {
+.pricing-area .container {
+  max-width: 1300px;
+}
+
+.pricing-area table {
+  width: 100%;
+  font-family: "Poppins";
+}
+
+.pricing-area td, th {
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
   text-align: center;
-  border: 1px solid #eeeeee;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
-.single-pricing h3 {
-  background-color: #05e8c2;
-  padding: 10px 10px;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  color: #ffffff;
+.pricing-area td img {
+  height: 30px;
 }
 
-.single-pricing h1 {
-  background-color: #00ffd4;
-  padding: 20px 10px;
-  margin-bottom: 0;
-  font-size: 40px;
+.pricing-area th {
+  text-align: center;
 }
 
-.single-pricing h1 span {
-  font-size: 14px;
-  font-weight: normal;
-  display: block;
-  margin-top: 5px;
+.pricing-area td:nth-child(1) {
+  text-align: left;
 }
 
-.single-pricing ul {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.single-pricing ul li {
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  font-weight: 600;
-  position: relative;
-}
-
-.single-pricing ul li i {
-  position: relative;
-  top: 1px;
-}
-
-.single-pricing ul li .red {
-  color: red;
-}
-
-.single-pricing ul li:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
+.pricing-area tr:last-child td {
   border-bottom: none;
 }
 
-.single-pricing .default-btn {
-  margin-bottom: 20px;
+.pricing-area tr:nth-child(2) {
+  font-weight: 800;
+  color: #0081A4;
+  font-size: 24px;
 }
 
-.single-pricing:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+.pricing-area tr:nth-child(2) td:nth-child(1) {
+  font-weight: 400;
+  color: #212529;
+  font-size: 16px;
 }
+
+.pricing-area th .header {
+  position: relative;
+  height: auto;
+  width: 190px;
+  border-radius: 15px;
+  padding: 3px;
+  font-family: "Poppins";
+  transition: 0.5s all;
+  display: inline-block;
+}
+
+.pricing-area th .header .bloque-1 {
+  color: #fff;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.pricing-area th .header .bloque-2 {
+  width: 100%;
+  background-color: #fff;
+  bottom: 3px;
+  left: 3px;
+  color: #3BC1CD;
+  font-weight: 800;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 15px;
+}
+
+.pricing-area th .header .bloque-2 p {
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+}
+
+.pricing-area th .header .bloque-2 p::after {
+  border-bottom: 0.125em solid #3BC1CD;
+  content: "";
+  left: 0;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.pricing-area .default-btn {
+  width: 300px;
+  font-family: "Poppins";
+  border-radius: 50px;
+}
+
 
 /*====================================================
 OTHER STYLE AREA
