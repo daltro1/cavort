@@ -1094,9 +1094,10 @@ Banner Area Style
   position: relative;
   z-index: 1;
   overflow: hidden;
-  -webkit-animation: slideshow 20s 5s infinite;
-          animation: slideshow 20s 5s infinite;
+  -webkit-animation: slideshow 20s infinite;
+          animation: slideshow 20s infinite;
   display: flex;
+  flex-direction: row;
   transform: translateX(0%);
   animation-play-state: running;
   
@@ -1136,11 +1137,17 @@ Banner Area Style
   z-index: -1;
 }
 
-.main-banner-area .banner-text {
+.main-banner-area .slide {
   position: relative;
+  height: 100%;
+  width: 25%;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-banner-area .banner-text {
+  position: absolute;
   max-width: 600px;
-  margin-left: 130px;
-  margin-top: -70px;
   text-align: center;
   font-family: "Poppins";
   width: 600px;
@@ -1657,6 +1664,7 @@ Nuestro Equipo Area Style
 ======================================================*/
 .area-equipo {
   padding-bottom: 150px;
+  background-color: #f7f7f7
 }
 
 .area-equipo .container {
@@ -1776,31 +1784,32 @@ Nuestro Equipo Area Style
 
 .area-equipo .container .frame-texto .cifras{
   display: inline-block;
+  width: 100%;
 }
 
 .area-equipo .container .frame-texto .cifras b {
-  font-size: 24px;
   font-weight: 700;
 }
 
 .area-equipo .container .frame-texto .cifras p {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 1;
   display: inline-block;
 }
 
 .area-equipo .container .frame-texto .cifras img {
-  height: 20px;
-  width: 131px;
+  height: 30px;
+  width: 196.5px;
   margin-left: 20px;
   margin-bottom: 5px;
 }
-.area-equipo .container .frame-texto .cifras .default-btn-2 {
+.area-equipo .container .frame-texto .default-btn-2 {
   font-weight: 600;
   border-radius: 23px;
   color: #ffffff;
   width: 400px;
+  margin: 0 auto;
 }
 
 /*
@@ -3168,6 +3177,10 @@ Client Area Style
   z-index: 1;
 }
 
+.client-area .container {
+  max-width: 1500px;
+}
+
 .client-area .section-title {
   margin-bottom: 0;
 }
@@ -3242,20 +3255,24 @@ Client Area Style
 
 .client-area .wrap-video-area .testimonio .desarrollo {
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
 }
 
 .client-area .wrap-video-area .testimonio .autor {
   font-size: 24px;
   font-weight: 600;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 
 .client-area .owl-carousel .owl-item img {
   display: block;
   width: auto;
+}
+
+.client-area .owl-theme .owl-dots {
+  margin-top: 25px !important;
 }
 
 .client-area .sector-boton {
@@ -3662,6 +3679,7 @@ Footer Top Area Style
   text-align: left;
   display: inline-block;
   width: 77%;
+  text-align: center;
 }
 
 .single-widget.open-time li {
