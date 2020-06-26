@@ -2465,10 +2465,24 @@ Doctors Area Style
   margin: auto;
 }
 
-.doctors-area-two .doc .contenido b {
+.doctors-area-two .doc .contenido .wrap-texto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.doctors-area-two .doc .contenido .nombre {
   color: inherit;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 20px;
+  margin: 0;
+  display: inline-block;
+}
+
+.doctors-area-two .doc .contenido .desarrollo {
+  color: #000;
+  margin: 30px 0;
+  display: inline-block;
 }
 
 .doctors-area-two .doc .contenido ul {
@@ -2477,20 +2491,38 @@ Doctors Area Style
   font-size: 15px;
 }
 
-.doctors-area-two .doc .contenido .cargo-redes {
-  position: relative;
+.doctors-area-two .doc .contenido .cargo {
+  margin: 30px 0;
+  font-weight: 700;
+  font-size: 14px;
 }
 
-.doctors-area-two .doc .contenido .cargo-redes .single-widget .social-area ul li a {
-  margin-right: 0;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-
-.doctors-area-two .doc .contenido .cargo-redes .single-widget .social-area ul li a i {
+.doctors-area-two .doc .contenido .social {
+  margin: 30px 0;
   font-size: 23px;
-  vertical-align: middle;
+}
+
+.doctors-area-two .doc .contenido .social a {
+  margin-right: 0;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #3BC1CD;
+  color: #fff;
+  line-height: 83px;
+  transition: all 0.5s;
+}
+
+.doctors-area-two .doc .contenido .social a:hover {
+  transform: translateY(-5px);
+  background-color: #0081A4;
+}
+
+.doctors-area-two .doc .contenido .social a i {
+  font-size: 40px;
+  height: 100%;
+  position: relative;
+  display: inline-block;
 }
 /*
 Work Area Style
@@ -2874,13 +2906,14 @@ Appointment Area Style
 
 .appointment-here-form .shape {
   position: absolute;
-  top: 2.3%;
-  right: 7.31%;
+  top: -4.7%;
+  right: -0.69%;
   z-index: -1;
   -webkit-animation: moveBounce 5s linear infinite;
           animation: moveBounce 5s linear infinite;
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 200px;
+  max-height: 200px;
+  opacity: 0.5;
 }
 
 .appointment-here-form .shape img {
