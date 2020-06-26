@@ -2552,7 +2552,8 @@ Work Area Style
 }
 
 .our-work-area .container {
-  max-width: 1350px;  
+  max-width: 100%;
+  padding: 0;
 }
 
 .our-work-area .section-title h2{
@@ -2563,16 +2564,8 @@ Work Area Style
   color: #3BC1CD;
 }
 
-.our-work-area .owl-theme .owl-item {
- margin-left: 5px;
-}
-
 .our-work-area .owl-theme .owl-dots {
-  line-height: 1;
-}
-
-.our-work-area .owl-theme .owl-stage-outer {
-  height: 250px;
+  margin-top: 50px !important;
 }
 
 .our-work-area .owl-theme .owl-dots .owl-dot span {
@@ -2604,7 +2597,6 @@ Work Area Style
 }
 
 .single-work {
-  margin-bottom: 30px;
   text-align: center;
   position: relative;
   height: 200px;
@@ -3534,7 +3526,6 @@ Footer Top Area Style
 
 .single-widget img {
   margin-bottom: 20px;
-  margin-left: -10px;
 }
 
 .single-widget h3 {
@@ -3550,6 +3541,7 @@ Footer Top Area Style
 .single-widget p {
   margin-bottom: 0;
   color: #ffffff;
+  text-align: center;
 }
 
 .single-widget ul li {

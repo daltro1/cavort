@@ -99,6 +99,37 @@
 	$('.work-wrap').owlCarousel({ 
 		loop:true,
 		nav:false,
+		autoWidth:true,
+		autoplay:true,
+		autoplayHoverPause: true,
+		mouseDrag: true,
+		margin: 50,
+		center: true,
+		dots: true,
+		smartSpeed:1500,
+		responsive:{
+			0:{
+				items:1,
+			},
+			576:{
+				items:1,
+			},
+			768:{
+				items:2,
+			},
+			992:{
+				items:3,
+			},
+			1200:{
+				items:3,
+			}
+		}
+	});
+
+	// Client Wrap
+	$('.client-wrap').owlCarousel({ 
+		loop:true,
+		nav:false,
 		autoplay:true,
 		autoplayHoverPause: true,
 		mouseDrag: true,
@@ -121,40 +152,6 @@
 			},
 			1200:{
 				items:5,
-			}
-		}
-	});
-
-	// Client Wrap
-	$('.client-wrap').owlCarousel({
-		loop:true,
-		margin:0,
-		nav:false,
-		mouseDrag: true,
-		items:1,
-		dots: false,
-		autoHeight: true,
-		autoplay: true,
-		smartSpeed:1500,
-		autoplayHoverPause: true,
-		center: false,
-		responsive:{
-			0:{
-				items:1,
-				margin: 10,
-			},
-			576:{
-				items:1,
-			},
-			768:{
-				items:2,
-				margin: 20,
-			},
-			992:{
-				items:2,
-			},
-			1200:{
-				items:2,
 			}
 		}
 	});
