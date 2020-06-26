@@ -2481,24 +2481,29 @@ Doctors Area Style
 
 .doctors-area-two .doc .contenido .desarrollo {
   color: #000;
-  margin: 30px 0;
-  display: inline-block;
+  margin: 15px 0 0;
+  height: 208px;
+  display: table;
 }
 
-.doctors-area-two .doc .contenido ul {
-  color: #000000;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.doctors-area-two .doc .contenido .cargo {
-  margin: 30px 0;
-  font-weight: 700;
+.doctors-area-two .doc .contenido .desarrollo p {
   font-size: 14px;
 }
 
+.doctors-area-two .doc .contenido .cargo {
+  font-weight: 700;
+  font-size: 14px;
+  display: table;
+  height: 134px;
+}
+
+.doctors-area-two .doc .contenido .cargo p {
+  vertical-align: middle;
+  display: table-cell;
+}
+
 .doctors-area-two .doc .contenido .social {
-  margin: 30px 0;
+  margin: 15px 0;
   font-size: 23px;
 }
 
