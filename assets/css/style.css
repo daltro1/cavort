@@ -1889,7 +1889,6 @@ First Facility Area Style
 
 .video-principal {
   width: 100%;
-  height: calc(100% - 130px);
 }
 /*
 Second Facility Area Style
@@ -2085,11 +2084,16 @@ Services Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100% - 80px);
+  height: auto;
 }
 
 .services-area {
   font-family: "Poppins";
+  padding: 40px 0 0px;
+}
+
+.services-area .section-title {
+  margin-top: 0;
 }
 
 .services-area h2 {
@@ -8201,6 +8205,12 @@ Pricing Area Eight Style
 ======================================================*/
 .pricing-area .container {
   max-width: 1300px;
+}
+
+.pricing-area .section-title p {
+  font-size: 23px;
+  font-weight: 200;
+  color: #3BC1CD;
 }
 
 .pricing-area table {
