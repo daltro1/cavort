@@ -1097,8 +1097,8 @@ Banner Area Style
   -webkit-animation: slideshow 20s 5s infinite;
           animation: slideshow 20s 5s infinite;
   display: flex;
-  transform: translateX(-40%);
-  animation-play-state: paused;
+  transform: translateX(0%);
+  animation-play-state: running;
   
 }
 
@@ -8287,10 +8287,11 @@ Pricing Area Eight Style
   top: 50%;
 }
 
-.pricing-area .default-btn {
+.pricing-area .default-btn-2 {
   width: 300px;
   font-family: "Poppins";
   border-radius: 50px;
+  font-weight: 600;
 }
 
 
