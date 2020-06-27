@@ -1327,8 +1327,8 @@ Banner Area Style
 
 .area-banner-principal .banner-img-wrap .banner-shape {
   position: absolute;
-  bottom: 100px;
-  left: 0px;
+  bottom: 273px;
+  left: 23px;
   max-width: 650px;
   z-index: -1;
   -webkit-animation: rotation 30s linear infinite;
