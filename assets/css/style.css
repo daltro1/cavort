@@ -1333,6 +1333,7 @@ Banner Area Style
   z-index: -1;
   -webkit-animation: rotation 30s linear infinite;
           animation: rotation 30s linear infinite;
+
 }
 
 @-webkit-keyframes rotation {
@@ -1965,6 +1966,10 @@ Second Facility Area Style
 /*
 About Area Style
 ======================================================*/
+.about-area {
+height: 160%;
+}
+
 .about-area .franja {
   height: auto;
   width: 100%;
@@ -1972,7 +1977,7 @@ About Area Style
   display: flex;
   flex-direction: row;
   position: relative;
-  height: 518px;
+  height: 48%;
 }
 
 .about-area .franja img {
@@ -2040,7 +2045,7 @@ About Area Style
   position: absolute;
   max-height: 97%;
   bottom: 0;
-  left: 112%;
+  left: 143%;
   margin: auto;
   z-index: 1;
 }
@@ -2063,7 +2068,6 @@ About Area Style
   max-height: 90%;
   bottom: 0;
   right: 58%;
-  max-width: 35%;
   margin: auto;
   z-index: 1;
 }
