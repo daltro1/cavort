@@ -2513,7 +2513,7 @@ Doctors Area Style
 .doctors-area-two .doc .contenido .desarrollo {
   color: #000;
   margin: 15px 0 0;
-  height: 300px;
+  height: 361px;
   display: table;
 }
 
@@ -2536,7 +2536,7 @@ Doctors Area Style
   font-weight: 700;
   font-size: 14px;
   display: table;
-  height: 134px;
+  height: 192px;
 }
 
 .doctors-area-two .doc .contenido .cargo p {
@@ -3271,7 +3271,7 @@ Client Area Style
 }
 
 .client-area .wrap-video-area .testimonio {
-  width: 417px;
+  width: 700px;
   display: inline-block;
   position: relative;
   color: #ffffff;
@@ -3280,8 +3280,9 @@ Client Area Style
 
 .client-area .wrap-video-area .testimonio .desarrollo {
   display: inline-block;
-  font-size: 25px;
+  font-size: 27px;
   font-style: italic;
+  font-weight: 500;
 }
 
 .client-area .wrap-video-area .testimonio .autor {
@@ -3557,6 +3558,10 @@ Footer Top Area Style
           animation: moveBounce 5s linear infinite;
 }
 
+.single-widget {
+  text-align: center;
+}
+
 .single-widget img {
   margin-bottom: 20px;
 }
@@ -3573,8 +3578,10 @@ Footer Top Area Style
 
 .single-widget p {
   margin-bottom: 0;
+  display: inline-block;
   color: #ffffff;
-  text-align: center;
+  text-align: justify;
+  width: 78%;
 }
 
 .single-widget ul li {
@@ -3818,10 +3825,6 @@ Banner Area Style
 /*
 Second Facility Area Style
 ======================================================*/
-.second-facility-area {
-  padding-bottom: 35px;
-}
-
 .second-facility-area .default-btn-2 {
   border-radius: 23px;
   display: inline-block;
