@@ -1968,6 +1968,13 @@ About Area Style
   display: flex;
   flex-direction: row;
   position: relative;
+  height: 518px;
+}
+
+.about-area .franja img {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
 }
 
 .about-area .franja .bloque {
@@ -1975,10 +1982,13 @@ About Area Style
   height: 100%;
   color: #fff;
   text-align: center;
+  display: table;
 }
 
 .about-area .franja .bloque .texto {
-  max-width: 390px;
+  width: fit-content;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .about-area .franja .bloque .texto h3 {
@@ -2013,14 +2023,12 @@ About Area Style
 }
 
 .about-area .franja .bloque.bloque-1 {
-  background: linear-gradient(to right, #093668 0%, #0081A4 100%);
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
   padding: 30px 50px;
+  color: #fff;
+  position: relative;
 }
 
 .about-area .franja .bloque.bloque-1 .texto {
-  display: inline-block;
   text-align: left;
 }
 
@@ -2028,30 +2036,32 @@ About Area Style
   position: absolute;
   max-height: 100%;
   bottom: 0;
-  left: 60%;
-  max-width: 50%;
+  left: 130%;
   margin: auto;
+  z-index: 1;
 }
 
 .about-area .franja .bloque.bloque-4 {
-  background: linear-gradient(to left, #093668 0%, #0081A4 100%);
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
   padding: 30px 50px;
 }
 
 .about-area .franja .bloque.bloque-4 .texto {
-  display: inline-block;
+  text-align: left;
+  width: 84%;
+}
+
+.about-area .franja .bloque.bloque-4 .texto ul {
   text-align: left;
 }
 
 .about-area .franja .bloque.bloque-4 img {
   position: absolute;
-  max-height: 100%;
+  max-height: 90%;
   bottom: 0;
   right: 58%;
   max-width: 35%;
   margin: auto;
+  z-index: 1;
 }
 
 @-webkit-keyframes moveBounce {
