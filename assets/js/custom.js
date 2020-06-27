@@ -104,7 +104,6 @@
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		margin: 50,
-		center: true,
 		dots: true,
 		smartSpeed:1500,
 		responsive:{
@@ -121,7 +120,7 @@
 				items:3,
 			},
 			1200:{
-				items:3,
+				items:4,
 			}
 		}
 	});
