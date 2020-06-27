@@ -2501,12 +2501,23 @@ Doctors Area Style
 .doctors-area-two .doc .contenido .desarrollo {
   color: #000;
   margin: 15px 0 0;
-  height: 208px;
+  height: 150px;
   display: table;
 }
 
 .doctors-area-two .doc .contenido .desarrollo p {
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.doctors-area-two .doc .contenido .experiencia {
+  color: #000;
+  margin: 15px 0 20px;
+  height: 38px;
+  display: table;
+}
+
+.doctors-area-two .doc .contenido .experiencia p {
+  font-size: 13px;
 }
 
 .doctors-area-two .doc .contenido .cargo {
