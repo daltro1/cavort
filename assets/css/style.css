@@ -4340,10 +4340,35 @@ Appointment Area CSS
 /*
 Convenios Area CSS
 ======================================================*/
+.convenios-area .container {
+  max-width: 1300px;
+}
+
 .convenios-area .section-title {
   font-size: 43px;
   font-weight: 600;
   color: #0081A4;
+}
+
+.convenios-area table {
+  font-size: 21px;
+  color: #0081A4;
+  font-weight: 600;
+  width: 100%;
+}
+
+.convenios-area tr {
+  padding: 20px;
+  border-bottom: solid #efefef 1px;
+}
+
+.convenios-area td {
+  text-align: center;
+}
+.convenios-area td:nth-child(1) {
+  margin-left: 30px;
+  max-width: 25%;
+  text-align: left;
 }
 
 .convenios-area .wrap-convenios {
@@ -4353,8 +4378,8 @@ Convenios Area CSS
 }
 
 .convenios-area .wrap-convenios .convenio {
-  width: 265px;
-  height: 265px;
+  width: 140px;
+  height: 140px;
   border: 1px rgb(0, 0, 0, 0.3) solid;
   margin: 30px;
   position: relative;
@@ -4369,8 +4394,8 @@ Convenios Area CSS
   right: 0;
   left: 0;  
   margin: auto;
-  max-width: 240px;
-  max-height: 165px;;
+  max-width: 90.566%;
+  max-height: 62.264%;;
 }
 
 .convenios-area .wrap-convenios .convenio:hover {
