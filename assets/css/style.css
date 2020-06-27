@@ -1308,6 +1308,7 @@ Banner Area Style
   width: 25%;
   height: 100%;
   z-index: 3;
+  text-align: center;
 }
 
 .area-banner-principal .banner-img-wrap .banner-img {
@@ -1319,8 +1320,9 @@ Banner Area Style
 }
 
 .area-banner-principal .banner-img-wrap .banner-img img {
-  max-width: 100%;
+  max-width: 80%;
   max-height: 100% ;
+  display: inline-block;
 }
 
 .area-banner-principal .banner-img-wrap .banner-shape {
@@ -1774,12 +1776,14 @@ Nuestro Equipo Area Style
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 1.5em;
+  text-align: justify;
 }
 
 .area-equipo .container .frame-texto p {
   font-size: 21px;
   font-weight: 400;
   margin-bottom: 1.5em;
+  text-align: justify;
 }
 
 .area-equipo .container .frame-texto .cifras{
@@ -2933,13 +2937,13 @@ Appointment Area Style
 
 .appointment-here-form .shape {
   position: absolute;
-  top: -4.7%;
-  right: -0.69%;
+  top: -11.7%;
+  right: 13.31%;
   z-index: -1;
   -webkit-animation: moveBounce 5s linear infinite;
           animation: moveBounce 5s linear infinite;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 700px;
+  max-height: 700px;
   opacity: 0.5;
 }
 
