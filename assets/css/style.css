@@ -2019,6 +2019,10 @@ height: 160%;
   margin-bottom: 1.5em;
 }
 
+.about-area .franja .bloque .texto ul:last-child {
+  margin-bottom: 0;
+}
+
 .about-area .franja .bloque .texto ul li {
   margin-bottom: 5px;
 }
