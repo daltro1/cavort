@@ -23,12 +23,26 @@ function estado_animaciones (valor) {
 
 
 /* Área Pacientes */
-$('#exampleModal').on('hidden.bs.modal', function (e) {
+$('#testimonio-1').on('hidden.bs.modal', function (e) {
 document.getElementById("video-testimonio").pause();
 document.getElementById("video-testimonio").currentTime = 0;
 })
-$('#exampleModal').on('shown.bs.modal', function (e) {
+$('#testimonio-1').on('shown.bs.modal', function (e) {
 document.getElementById("video-testimonio").play()
+})
+$('#testimonio-2').on('hidden.bs.modal', function (e) {
+document.getElementById("video-testimonio-2").pause();
+document.getElementById("video-testimonio-2").currentTime = 0;
+})
+$('#testimonio-2').on('shown.bs.modal', function (e) {
+document.getElementById("video-testimonio-2").play()
+})
+$('#testimonio-3').on('hidden.bs.modal', function (e) {
+document.getElementById("video-testimonio-3").pause();
+document.getElementById("video-testimonio-3").currentTime = 0;
+})
+$('#testimonio-3').on('shown.bs.modal', function (e) {
+document.getElementById("video-testimonio-3").play()
 })
 
 /* Animaciones */
