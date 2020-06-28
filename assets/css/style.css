@@ -2486,7 +2486,7 @@ Doctors Area Style
 .doctors-area-two .doc .contenido .desarrollo {
   color: #000;
   margin: 15px 0 0;
-  height: 361px;
+  height: 397px;
   display: table;
 }
 
@@ -3749,6 +3749,14 @@ Footer Top Area Style
   color: #ffffff;
 }
 
+.single-widget.contact {
+  text-align: left;
+}
+
+.footer-top-area .single-widget .social-area {
+  text-align: left;
+}
+
 .single-widget.contact ul li {
   position: relative;
   padding-left: 30px;
@@ -4456,7 +4464,7 @@ Convenios Area CSS
 }
 
 .convenios-area td {
-  text-align: center;
+  text-align: right;
 }
 .convenios-area td:nth-child(1) {
   margin-left: 30px;
@@ -4465,9 +4473,8 @@ Convenios Area CSS
 }
 
 .convenios-area .wrap-convenios {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: right;
+  display: inline-block;
 }
 
 .convenios-area .wrap-convenios .convenio {
@@ -4478,6 +4485,7 @@ Convenios Area CSS
   position: relative;
   transition: 0.5s all;
   box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.3);
+  display: inline-block;
 }
 
 .convenios-area .wrap-convenios .convenio img {
