@@ -3308,8 +3308,13 @@ Pacientes Area Style
   padding-top: 200px;
 }
 
+.area-pacientes .container.comentarios {
+  max-width: 1150px;
+  margin-top: 70px;
+}
+
 .area-pacientes .section-title {
-  margin-bottom: 0;
+  margin-bottom: 70px;
 }
 
 .area-pacientes .section-title h2{
@@ -3347,57 +3352,6 @@ Pacientes Area Style
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.area-pacientes .wrap-video-area .contenido-testimonio::after {
-  content: "";
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  -webkit-transition: all 2s;
-          transition: all 2s;
-}
-
-.area-pacientes .wrap-video-area .contenido-testimonio::before {
-  content: "";
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  -webkit-transition: all 2s;
-          transition: all 2s;
-}
-
-.area-pacientes .wrap-video-area .contenido-testimonio.c1::before {
-  background: linear-gradient(to left, #021125 0%, #093668 100%);
-}
-.area-pacientes .wrap-video-area .contenido-testimonio.c1::after {
-  background: linear-gradient(to right, #021125 0%, #093668 100%);
-}
-.area-pacientes .wrap-video-area .contenido-testimonio.c2::before {
-  background: linear-gradient(to left, #0081A4 0%, #3BC1CD 100%);
-}
-.area-pacientes .wrap-video-area .contenido-testimonio.c2::after {
-  background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
-}
-.area-pacientes .wrap-video-area .contenido-testimonio.c3::before {
-  background: linear-gradient(to left, #3BC1CD 0%, #00AF9A 100%);
-}
-.area-pacientes .wrap-video-area .contenido-testimonio.c3::after {
-  background: linear-gradient(to right, #3BC1CD 0%, #00AF9A 100%);
-}
-
-.area-pacientes .wrap-video-area:hover ::after {
-  left: -100%;
-}
-
-.area-pacientes .wrap-video-area:hover ::before {
-  right: -100%;
 }
 
 .area-pacientes .wrap-video-area .boton-video {
@@ -3476,6 +3430,7 @@ Pacientes Area Style
   margin-top: 10px;
   width: 225px;
 }
+
 
 /*
 Blog Area Style
