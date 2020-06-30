@@ -3250,7 +3250,7 @@ Client Area Style
 }
 
 .client-area .wrap-video-area .boton-video:hover {
-  -webkit-box-shadow: 0 0 10px 3px #rgb(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.2);
           box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.2);
 
 }

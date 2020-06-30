@@ -44,10 +44,10 @@ function cubica_Bezier(p0, p1, p2, p3, t) {
 /* Blog */
 $(document).ready(function (){
     $.ajax({
-        url: "json_demo.json",
-        dataType: "json",
+        url: "footer.html",
+        dataType: "html",
         success: function(data){
-            console.log(data);
+            document.getElementById("footer-script").innerHTML = data;
         }
     })
 });
