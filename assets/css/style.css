@@ -3292,6 +3292,11 @@ Pacientes Area Style
   padding-top: 200px;
 }
 
+.area-pacientes .container {
+  max-width: 100%;
+  width: 100%;
+}
+
 .area-pacientes .section-title {
   margin-bottom: 0;
 }
@@ -3317,8 +3322,8 @@ Pacientes Area Style
   flex-direction: row;
   align-items: center;
   margin: 40px 0;
-  border-radius: 40px;
   overflow: hidden;
+  width: 100%;
 }
 
 .area-pacientes .wrap-video-area .contenido-testimonio {
