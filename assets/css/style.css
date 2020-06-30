@@ -5103,7 +5103,9 @@ Blog Details Area Style
 
 .blog-details-area .blog-details-desc .article-image {
   position: relative;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -5197,10 +5199,11 @@ Blog Details Area Style
   margin-top: 25px;
 }
 
-.blog-details-area .blog-details-desc .article-content span .italic {
-  font-style: italic;
+.blog-details-area .blog-details-desc .article-content h2 {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
 .blog-details-area .blog-details-desc .article-content ul li {
   list-style-type: disc;
   margin-left: 20px;
