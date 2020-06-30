@@ -152,6 +152,9 @@
   .area-especialidades .col-sm-6 {
     margin-top: 30px;
   }
+  .second-facility-area .col-sm-6 {
+    margin-top: 30px;
+  }
   .second-facility-item {
     padding: 20px;
   }
@@ -298,12 +301,29 @@
     padding: 0px;
     width: 32%;
     margin: 0 auto;
+    vertical-align: top;
+    line-height: 0.8;
+  }
+  .single-widget.open-time ul.mt-0 {
+    margin-top: 12px !important;
   }
   .single-widget.open-time ul li span {
     font-size: 10px;
   }
   .go-top.active {
     top: 85%;
+  }
+  .area-medios .container .wrap-medios .medio.m1 {
+    width: 71px;
+  }
+  .area-medios .container .wrap-medios .medio.m2 {
+    width: 150px;
+  }
+  .area-medios .container .wrap-medios .medio.m3 {
+    width: 125px;
+  }
+  .area-medios .container .wrap-medios .medio.m4 {
+    width: 102px;
   }
   .client-area.c-bg {
     padding-bottom: 50px;
@@ -430,6 +450,26 @@
   .page-title-area .page-title-content h2 {
     font-size: 30px;
   }
+  .page-title-area .shape-1 {
+    top: 60px;
+    right: 0;
+    max-width: 120px;
+  }
+  .page-title-area .shape-2 {
+    bottom: 0;
+    left: 0;
+    max-width: 120px;
+  }
+  .page-title-area .shape-3 {
+    bottom: 0;
+    left: 0;
+    max-width: 120px;
+  }
+  .page-title-area .shape-4 {
+    top: 60px;
+    right: 0;
+    max-width: 120px;
+  }
   .main-covid {
     margin-top: 71px;
   }
@@ -514,6 +554,20 @@
   }
   .services-details-text h2 {
     font-size: 25px;
+  }
+  .area-pacientes {
+    margin-top: 71px;
+  }
+  .area-pacientes .wrap-video-area .boton-video {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .area-pacientes .wrap-video-area .testimonio {
+    width: unset;
+  }
+  .area-pacientes .wrap-video-area .testimonio .desarrollo {
+    font-size: 23px;
   }
   .doctors-sidebar .availability {
     padding: 20px;
