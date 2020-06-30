@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px) {
   html, body {
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: visible;
     height: unset;
   }
 
@@ -64,7 +64,9 @@
   .main-banner-area {
     height: 100%;
     text-align: center;
-    padding-top: 115px;
+  }
+  .main-banner-area .slide {
+    height: unset;
   }
 
   .banner-img-wrap {
