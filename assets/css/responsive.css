@@ -92,20 +92,67 @@
   .main-banner-area .banner-text {
     position: relative;
     max-width: 100%;
-    margin-left: auto;
-    margin-top: 0;
+    margin: 30px;
+    top: unset !important;
+    bottom: unset !important;
+    left: unset !important;
+    right: unset !important;
+    vertical-align: baseline;
   }
   .main-banner-area .banner-text span {
     font-size: 14px;
   }
   .main-banner-area .banner-text h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
   .main-banner-area .banner-text p {
-    margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: unset;
+  }
+  .main-banner-area .banner-text .banner-button-text {
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .main-banner-area .banner-text .banner-button-text a {
+    font-size: 9px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    vertical-align: middle;
+  }
+  .main-banner-area .banner-text .banner-button-text-2 {
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .main-banner-area .banner-text .banner-button-text-2 a {
+    font-size: 9px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    vertical-align: middle;
+  }
+  .main-banner-area .banner-text .banner-button-text-3 {
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .main-banner-area .banner-text .banner-button-text-3 a {
+    font-size: 9px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    vertical-align: middle;
+  }
+  .main-banner-area .banner-text .banner-button-text-4 {
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .main-banner-area .banner-text .banner-button-text-4 a {
+    font-size: 9px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    vertical-align: middle;
   }
   .main-banner-area .active {
     margin-top: 10px;
