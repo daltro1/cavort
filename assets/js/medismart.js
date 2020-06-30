@@ -42,3 +42,12 @@ function cubica_Bezier(p0, p1, p2, p3, t) {
 }
 
 /* Blog */
+$(document).ready(function (){
+    $.ajax({
+        url: "json_demo.json",
+        dataType: "json",
+        success: function(data){
+            console.log(data);
+        }
+    })
+});
