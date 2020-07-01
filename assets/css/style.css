@@ -1099,8 +1099,8 @@ Banner Area Style
           animation: slideshow 20s infinite;
   display: flex;
   flex-direction: row;
-  transform: translateX(0%);
-  animation-play-state: running;
+  transform: translateX(-60%);
+  animation-play-state: paused;
   
 }
 
@@ -1148,10 +1148,29 @@ Banner Area Style
 
 .main-banner-area .banner-text {
   position: absolute;
-  max-width: 600px;
   text-align: center;
   font-family: "Poppins";
   width: 600px;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.main-banner-area .slide.slide-1 .banner-text {
+  bottom: 59%;
+  left: 56.7%;
+}
+.main-banner-area .slide.slide-2 .banner-text {
+  bottom: 58%;
+  left: 57.7%;
+}
+.main-banner-area .slide.slide-3 .banner-text {
+  bottom: 47%;
+  left: 47%;
+}
+.main-banner-area .slide.slide-4 .banner-text {
+  top: 74%;
+  bottom: unset !important;
+  left: unset !important;
 }
 
 .main-banner-area .banner-text span {
