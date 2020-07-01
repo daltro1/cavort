@@ -101,7 +101,7 @@
   }
   .main-banner-area .slide.slide-2 .banner-text {
     bottom: -3%;
-    left: 64%;
+    left: 62%;
   }
   .main-banner-area .slide.slide-3 .banner-text {
     bottom: -8%;
@@ -212,7 +212,10 @@
     display: none;
   }
   .area-especialidades .col-sm-6 {
-    margin-top: 30px;
+    margin: 30px 22px 0;
+  }
+  .area-especialidades .container .section-title h2 {
+    font-size: 30px;
   }
   .area-equipo .container .section-title {
     margin-bottom: 35px;
@@ -252,8 +255,11 @@
   .area-equipo .container .frame-texto .default-btn-2 {
     width: 300px;
   }
+  .area-equipo .container .frame-texto .cifras p {
+    text-align: left;
+  }
   .area-equipo .container .frame-texto .cifras img {
-    margin: unset;
+    margin: 10px 0 0 0;
   }
   .second-facility-area .col-sm-6 {
     margin-top: 30px;
@@ -434,6 +440,9 @@
   }
   .single-widget.open-time ul li span {
     font-size: 10px;
+  }
+  .only-cel {
+    display: initial;
   }
   .go-top.active {
     top: 85%;
@@ -1148,6 +1157,10 @@
   }
   .doctors-area-two.seven .shape img {
     display: none;
+  }
+  .doctors-area-two .wrap-medicos .doc.grande {
+    max-width: unset;
+    margin: 20px
   }
   .appointment-area-seven .shape {
     display: none;

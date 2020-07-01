@@ -2428,6 +2428,7 @@ Doctors Area Style
   font-weight: 600;
   font-size: 30px;
 }
+
 .doctors-area-two .doc {
   position: relative;
   height: auto;
@@ -2440,9 +2441,25 @@ Doctors Area Style
   transition: 0.5s all;
 }
 
+.doctors-area-two .doc.grande {
+  width: 270px;
+  max-width: 18.367%;
+  color: #0081A4;
+  background: linear-gradient(to right, #0081A4 0%, #3BC1CD);
+  margin: 0.816%;
+}
+
 .doctors-area-two .doc:hover {
   transform: translateY(-5px);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25)
+}
+
+.doctors-area-two .doc.grande .cuadro-blanco {
+  height: calc(100% - 110px)
+}
+
+.doctors-area-two .doc.grande .contenido {
+  padding: 30px 8.712%;
 }
 
 .doctors-area-two .doc .cuadro-blanco {
@@ -2479,11 +2496,8 @@ Doctors Area Style
   width: 140px;
   border-radius: 50%;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  top: 2px;
+  left: 2px;
 }
 
 .doctors-area-two .doc .contenido .wrap-texto {
@@ -2503,7 +2517,7 @@ Doctors Area Style
 .doctors-area-two .doc .contenido .desarrollo {
   color: #000;
   margin: 15px 0 0;
-  height: 397px;
+  height: 339px;
   display: table;
 }
 
@@ -3788,7 +3802,7 @@ Footer Top Area Style
 }
 
 .single-widget .social-area ul li a {
-  margin-right: 10px;
+  margin: 0 5px;
   width: 30px;
   height: 30px;
   line-height: 34px;
@@ -3819,6 +3833,15 @@ Footer Top Area Style
 
 .single-widget.contact {
   text-align: left;
+}
+
+.only-cel {
+  display: none;
+}
+
+.single-widget.contact h3 {
+  text-align: center;
+  width: 100%;
 }
 
 .footer-top-area .single-widget .social-area {
@@ -4520,29 +4543,25 @@ Convenios Area CSS
   color: #0081A4;
 }
 
-.convenios-area table {
+.convenios-area .categoria-convenios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: solid #dbdbdb 1px;
+  padding: 50px 0;
+}
+
+.convenios-area .categoria-convenios h5 {
   font-size: 21px;
   color: #0081A4;
   font-weight: 600;
   width: 100%;
-}
-
-.convenios-area tr {
-  padding: 20px;
-  border-bottom: solid #efefef 1px;
-}
-
-.convenios-area td {
-  text-align: right;
-}
-.convenios-area td:nth-child(1) {
-  margin-left: 30px;
-  max-width: 25%;
-  text-align: left;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .convenios-area .wrap-convenios {
-  text-align: right;
+  text-align: center;
   display: inline-block;
 }
 
@@ -4566,6 +4585,23 @@ Convenios Area CSS
   margin: auto;
   max-width: 90.566%;
   max-height: 62.264%;;
+}
+
+.convenios-area .wrap-convenios .convenio span {
+  position: absolute;
+  width: 105%;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -47px;
+  font-size: 14px;
+  color: #3BC1CD;
+  transition: 0.5s all;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.convenios-area .wrap-convenios .convenio:hover span {
+  color: #0081A4;
 }
 
 .convenios-area .wrap-convenios .convenio:hover {
