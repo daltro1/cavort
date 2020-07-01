@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px) {
   html, body {
     width: 100%;
-    overflow-x: visible;
+    overflow-x: hidden;
     height: unset;
   }
 
@@ -92,12 +92,28 @@
   .main-banner-area .banner-text {
     position: relative;
     max-width: 100%;
-    margin: 30px;
-    top: unset !important;
+    margin: auto 0;
+  }
+  .main-banner-area .slide.slide-1 .banner-text {
+    bottom: unset !important;
+    left: 10% !important;
+    margin: 30px 0;
+  }
+  .main-banner-area .slide.slide-2 .banner-text {
+    top: 18% !important;
+    bottom: unset !important;
+    left: 28% !important;
+    max-width: 76%;
+  }
+  .main-banner-area .slide.slide-3 .banner-text {
+    top: 35% !important;
     bottom: unset !important;
     left: unset !important;
-    right: unset !important;
-    vertical-align: baseline;
+  }
+  .main-banner-area .slide.slide-4 .banner-text {
+    top: 74%;
+    bottom: unset !important;
+    left: unset !important;
   }
   .main-banner-area .banner-text span {
     font-size: 14px;
@@ -109,6 +125,7 @@
   .main-banner-area .banner-text p {
     font-size: 10px;
     font-weight: unset;
+    margin-bottom: 15px;
   }
   .main-banner-area .banner-text .banner-button-text {
     height: auto;
@@ -201,6 +218,47 @@
   .area-especialidades .col-sm-6 {
     margin-top: 30px;
   }
+  .area-equipo .container .section-title {
+    margin-bottom: 35px;
+  }
+  .area-equipo .container .frame-imagenes {
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+  }
+  .area-equipo .container .frame-imagenes .frame-doctores {
+    animation: unset;
+    transform: rotate(30deg);
+  }
+  .area-equipo .container .frame-imagenes .frame-doctores .static {
+    animation: unset;
+    transform: rotate(-30deg);
+  }
+  .area-equipo .container .frame-imagenes .frame-doctores .static .doc {
+    overflow: visible;
+  }
+  .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc {
+    left: -20px;
+    top: 50px;
+    width: 92px;
+  }
+  .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span {
+    width: 90px;
+    padding: 2px 4px 2px 7px;
+  }
+  .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span p {
+    font-size: 7px;
+  }
+  .area-equipo .container .frame-texto {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .area-equipo .container .frame-texto .default-btn-2 {
+    width: 300px;
+  }
+  .area-equipo .container .frame-texto .cifras img {
+    margin: unset;
+  }
   .second-facility-area .col-sm-6 {
     margin-top: 30px;
   }
@@ -209,6 +267,22 @@
   }
   .about-area {
     padding-top: 0;
+  }
+  .about-area .franja img {
+    display: none;
+  }
+  .about-area .franja .bloque {
+    width: 100%;
+  }
+  .about-area .franja .bloque.bloque-1 {
+    background: linear-gradient(to right, #25245e 0%, #0081A4 100%);
+  }
+  .about-area .franja .bloque.bloque-3 {
+    display: none;
+  }
+  .about-area .franja .bloque.bloque-4 {
+    background: linear-gradient(to left, #25245e 0%, #0081A4 100%);
+    width: 100% !important;
   }
   .about-area .about-img .shape-1 {
     display: none;
@@ -258,6 +332,9 @@
     top: 50%;
     -webkit-transform: translateY(-30px);
   }
+  .services-area .container .row {
+    margin-top: 20px !important;
+  }
   .our-work-area .shape {
     display: none;
   }
@@ -269,6 +346,9 @@
   }
   .single-counter p {
     font-size: 15px;
+  }
+  .appointment-area .container {
+    padding-right: unset;
   }
   .appointment-here-form {
     padding: 50px 20px;
@@ -376,6 +456,9 @@
   }
   .client-area.c-bg {
     padding-bottom: 50px;
+  }
+  .client-area .section-title {
+    margin-top: 30px;
   }
   .client-area .wrap-video-area .boton-video {
     height: 190px;

@@ -1672,7 +1672,6 @@ Nuestro Equipo Area Style
 }
 
 .area-equipo .container {
-  height: 681px;
   color: #0081A4;
   max-width: 100%;
 }
@@ -1945,7 +1944,6 @@ height: 160%;
 }
 
 .about-area .franja {
-  height: auto;
   width: 100%;
   margin: 40px 0;
   display: flex;
