@@ -1099,8 +1099,8 @@ Banner Area Style
           animation: slideshow 20s infinite;
   display: flex;
   flex-direction: row;
-  transform: translateX(-60%);
-  animation-play-state: paused;
+  transform: translateX(0%);
+  animation-play-state: running;
   
 }
 
@@ -1168,9 +1168,8 @@ Banner Area Style
   left: 47%;
 }
 .main-banner-area .slide.slide-4 .banner-text {
-  top: 74%;
-  bottom: unset !important;
-  left: unset !important;
+  bottom: 36%;
+  left: 47%;
 }
 
 .main-banner-area .banner-text span {
