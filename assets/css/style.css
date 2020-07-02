@@ -5193,10 +5193,8 @@ Coming Soon Area Style
 /*
 Blog Details Area Style
 =====================================================*/
-.blog-details-area {
-  /*
-	Sidebar Widget Area Style
-	================================*/
+.blog-details-area .container {
+  max-width: 1400px;
 }
 
 .blog-details-area .blog-details-desc .article-image {
