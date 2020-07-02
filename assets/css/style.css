@@ -1198,8 +1198,7 @@ Banner Area Style
   
 }
 
-.main-banner-area .banner-text .banner-button-text {
-  background-color: #0081A4;
+.main-banner-area .banner-text .default-btn-3 {
   border-radius: 20px;
   height: 40px;
   width: 300px;
@@ -1207,25 +1206,21 @@ Banner Area Style
   text-align: center;
   position: relative;
   transition: 0.6s;
+  padding: 10px;
 }
 
-.main-banner-area .banner-text .banner-button-text:hover {
+.main-banner-area .banner-text .default-btn-3:hover {
   background-color: #ffffff;
 }
 
-.main-banner-area .banner-text .banner-button-text a {
+.main-banner-area .banner-text .default-btn-3 a {
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
-  margin-top: 5px; 
   text-decoration: none;
   width: 100%;
   height: 100%;
   transition: 0.6s;
-}
-
-.main-banner-area .banner-text .banner-button-text a:hover {
-  color: #0081A4;
 }
 
 .main-banner-area .banner-text .banner-button-text-2 {
@@ -4029,12 +4024,14 @@ Banner Area Style
 /*
 Second Facility Area Style
 ======================================================*/
-.second-facility-area .default-btn-2 {
+.second-facility-area .default-btn-3 {
   border-radius: 23px;
   display: inline-block;
   vertical-align: middle;
+  font-family: "Poppins";
   width: 300px;
   max-width: 100%;
+  font-weight: 500;
 }
 
 /*
@@ -8661,11 +8658,11 @@ Pricing Area Eight Style
   top: 50%;
 }
 
-.pricing-area .default-btn-2 {
+.pricing-area .default-btn-3 {
   width: 300px;
   font-family: "Poppins";
   border-radius: 50px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 

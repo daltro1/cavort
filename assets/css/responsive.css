@@ -145,16 +145,16 @@
     margin-bottom: 3px;
     vertical-align: middle;
   }
-  .main-banner-area .banner-text .banner-button-text-3 {
+  .main-banner-area .banner-text .default-btn-3 {
     height: auto;
     width: 250px;
     border-radius: 20px;
+    padding: 3px;
   }
-  .main-banner-area .banner-text .banner-button-text-3 a {
+  .main-banner-area .banner-text .default-btn-3 a {
     font-size: 9px;
-    margin-top: 0;
-    margin-bottom: 3px;
     vertical-align: middle;
+    margin-bottom: 2px;
   }
   .main-banner-area .banner-text .banner-button-text-4 {
     height: auto;
