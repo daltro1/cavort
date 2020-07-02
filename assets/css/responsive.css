@@ -156,12 +156,12 @@
     vertical-align: middle;
     margin-bottom: 2px;
   }
-  .main-banner-area .banner-text .banner-button-text-4 {
+  .main-banner-area .banner-text .default-btn {
     height: auto;
     width: 250px;
     border-radius: 20px;
   }
-  .main-banner-area .banner-text .banner-button-text-4 a {
+  .main-banner-area .banner-text .default-btn a {
     font-size: 9px;
     margin-top: 0;
     margin-bottom: 3px;
