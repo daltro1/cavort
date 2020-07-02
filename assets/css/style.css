@@ -3839,6 +3839,10 @@ Footer Top Area Style
   display: none;
 }
 
+.only-pc {
+  display: initial;
+}
+
 .single-widget.contact h3 {
   text-align: center;
   width: 100%;
@@ -4535,6 +4539,7 @@ Convenios Area CSS
 ======================================================*/
 .convenios-area .container {
   max-width: 1300px;
+  display: table;
 }
 
 .convenios-area .section-title {
@@ -4545,24 +4550,23 @@ Convenios Area CSS
 
 .convenios-area .categoria-convenios {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-bottom: solid #dbdbdb 1px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   padding: 50px 0;
+  border-bottom: solid #dbdbdb 1px;
+  position: relative;
 }
 
 .convenios-area .categoria-convenios h5 {
   font-size: 21px;
   color: #0081A4;
   font-weight: 600;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
+  width: 30%;
 }
 
 .convenios-area .wrap-convenios {
-  text-align: center;
-  display: inline-block;
+  text-align: right;
 }
 
 .convenios-area .wrap-convenios .convenio {
@@ -4598,6 +4602,7 @@ Convenios Area CSS
   transition: 0.5s all;
   font-family: "Poppins";
   font-weight: 400;
+  text-align: center;
 }
 
 .convenios-area .wrap-convenios .convenio:hover span {

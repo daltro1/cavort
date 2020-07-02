@@ -444,6 +444,9 @@
   .only-cel {
     display: initial;
   }
+  .only-pc {
+    display: none;
+  }
   .go-top.active {
     top: 85%;
   }
@@ -633,6 +636,10 @@
   .banner-banco-estado .celda .contenido a {
     height: unset;
     width: 300px;
+  }
+  .footer-top-area .col-md-6 {
+    margin: initial !important;
+    max-width: initial !important;
   }
   .footer-top-area .single-widget h3{
     width: 100%;
@@ -1187,6 +1194,29 @@
   .second-facility-area.eight .p-0 {
     padding-left: 15px !important;
     padding-right: 15px !important;
+  }
+  .convenios-area .categoria-convenios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: solid #dbdbdb 1px;
+    padding: 50px 0;
+  }
+  .convenios-area .categoria-convenios h5 {
+    font-size: 21px;
+    color: #0081A4;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .convenios-area .wrap-convenios {
+    text-align: center;
+    display: inline-block;
+    max-width: initial !important;
+  }
+  .convenios-area .wrap-convenios .convenio {
+    margin: 30px 10px;
   }
   .about-img-1 {
     height: 300px;
