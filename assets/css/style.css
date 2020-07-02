@@ -2431,7 +2431,6 @@ Doctors Area Style
 
 .doctors-area-two .doc {
   position: relative;
-  height: auto;
   width: 208px;
   border-radius: 35px;
   margin-bottom: 50px;
@@ -2475,10 +2474,12 @@ Doctors Area Style
 
 .doctors-area-two .doc .contenido {
   position: relative;
-  height: calc(100% - 6px);
-  width: calc(100% - 6px);
+  height: 100%;
   padding: 30px 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .doctors-area-two .doc .contenido .frame-img {
@@ -2498,6 +2499,17 @@ Doctors Area Style
   position: absolute;
   top: 2px;
   left: 2px;
+}
+
+.doctors-area-two .doc .contenido ul {
+  flex-grow: 1;
+  margin-bottom: unset;
+  display: flex;
+  flex-direction: column;
+}
+
+.doctors-area-two .doc .contenido ul li:first-child {
+  flex-grow: 1;
 }
 
 .doctors-area-two .doc .contenido .wrap-texto {
@@ -3468,6 +3480,7 @@ Blog Area Style
 ======================================================*/
 .single-blog {
   margin-bottom: 30px;
+  height: calc(100% - 30px);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
@@ -3487,12 +3500,9 @@ Blog Area Style
 }
 
 .single-blog .blog-image img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .single-blog span {
@@ -3510,6 +3520,9 @@ Blog Area Style
   position: relative;
   z-index: 1;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 234px);
 }
 
 .single-blog .blog-content::before {
@@ -3578,8 +3591,6 @@ Blog Area Style
   color: #0081A4;
 }
 
-
-
 .single-blog .blog-content a {
   text-decoration-color: #fff;
 }
@@ -3589,6 +3600,7 @@ Blog Area Style
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-top: -8px;
+  flex-grow: 1;
 }
 
 .single-blog .blog-content .read-more:hover i {
@@ -4540,12 +4552,6 @@ Convenios Area CSS
 .convenios-area .container {
   max-width: 1300px;
   display: table;
-}
-
-.convenios-area .section-title {
-  font-size: 43px;
-  font-weight: 600;
-  color: #0081A4;
 }
 
 .convenios-area .categoria-convenios {
@@ -9074,6 +9080,12 @@ Section Title Area Style*/
   margin-bottom: 15px;
   position: relative;
   display: block;
+}
+
+.section-title p {
+  font-size: 23px;
+  font-weight: 200;
+  color: #3BC1CD;
 }
 
 .section-title h2:last-child {
