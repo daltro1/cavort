@@ -51,3 +51,39 @@ $(document).ready(function (){
         }
     })
 });
+
+/* Blog */
+function blogPage(id) {
+    window.location.href = "blog-details.html?blog=true&id=" + toString(id);
+}
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+$(document).ready(function (){
+    var isBlog = getUrlVars()["blog"];
+    if (isBlog == "true") {
+        $.ajax({
+            url: "blogs/blog_info.json",
+            dataType: "json",
+            success: function(data){
+                const blogInfo = data[getUrlVars()["id"]];
+                const urlContenido = blogInfo["url"];
+            }
+        })
+    }
+        $.ajax({
+            url: urlContenido,
+            dataType: "html",
+            success: function(data){
+                document.getElementById("footer-script").innerHTML = data;
+            }
+        })
+    }
+});
+    
