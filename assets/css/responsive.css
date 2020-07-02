@@ -441,6 +441,9 @@
   .single-widget.open-time ul li span {
     font-size: 10px;
   }
+  .single-widget.contact h3 {
+    text-align: center;
+  }
   .only-cel {
     display: initial;
   }
