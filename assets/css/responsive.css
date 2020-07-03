@@ -212,10 +212,21 @@
     display: none;
   }
   .area-especialidades .col-sm-6 {
-    margin: 30px 22px 0;
+    margin: 15px 0;
+    max-width: 50%;
   }
   .area-especialidades .container .section-title h2 {
     font-size: 30px;
+  }
+  .area-especialidades .second-facility-item h3 {
+    font-size: 13px;
+  }
+  .area-especialidades .second-facility-item ul {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+  .area-especialidades .second-facility-item ul li {
+    margin: initial !important;
   }
   .area-equipo .container .section-title {
     margin-bottom: 35px;
@@ -626,15 +637,15 @@
     display: none;
   }
   .banner-banco-estado {
-
+    height: 150px;
   }
   .banner-banco-estado .celda .contenido .texto {
     width: unset;
   }
   .banner-banco-estado .celda .contenido .texto p {
     margin-right: unset;
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-bottom: 0;
   }
   .banner-banco-estado .celda .contenido a {
     height: unset;
