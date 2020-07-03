@@ -1250,21 +1250,56 @@
   .doctors-area-two.seven .shape img {
     display: none;
   }
+  .doctors-area-two .wrap-medicos {
+    max-width: unset !important;
+  }
   .doctors-area-two .wrap-medicos .doc.grande {
     max-width: unset;
     margin: 20px;
     width: auto;
   }
+  .doctors-area-two .wrap-medicos .doc.grande .cuadro-blanco {
+    height: calc(100% - 104px);
+  }
+  .doctors-area-two .wrap-medicos .doc.grande .contenido .frame-img {
+    height: 144px;
+    width: 144px;
+  }
+  .doctors-area-two .wrap-medicos .doc.grande .contenido .frame-img img {
+    height: 140px;
+    width: 140px;
+  }
+  .doctors-area-two .wrap-medicos .doc.grande .contenido .desarrollo {
+    height: unset;
+  }
+  .doctors-area-two .wrap-medicos .doc.grande .contenido .cargo {
+    height: unset;
+  }
   .doctors-area-two .wrap-medicos .doc {
     width: 45%;
+    margin: 2.5%;
+    
+  }
+  .doctors-area-two .wrap-medicos .doc .cuadro-blanco {
+    height: calc(100% - 77.5px);
+  }
+  .doctors-area-two .wrap-medicos .doc .contenido {
+    padding: 20px 10px;
   }
   .doctors-area-two .wrap-medicos .doc .contenido .frame-img {
     height: 104px;
     width: 104px;
+    margin-bottom: 9px;
   }
   .doctors-area-two .wrap-medicos .doc .contenido .frame-img img {
     height: 100px;
     width: 100px;
+  }
+  .doctors-area-two .wrap-medicos .doc .contenido b {
+    font-size: 12px;
+  }
+  .doctors-area-two .wrap-medicos .doc .contenido ul {
+    font-size: 12px;
   }
   .appointment-area-seven .shape {
     display: none;
