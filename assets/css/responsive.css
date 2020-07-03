@@ -368,14 +368,45 @@
     top: 50%;
     -webkit-transform: translateY(-30px);
   }
+  .services-area h6 {
+    font-size: 17px;
+  }
   .services-area .container .row {
     margin-top: 20px !important;
+    justify-content: center;
+  }
+  .services-area .container .row .col-sm-4 {
+    width: 50%; 
+  }
+  .services-area .second-facility-item img {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 9px;
+  }
+  .services-area .bordeish .second-facility-item h3 {
+    font-size: 17px;
+  }
+  .services-area .bordeish .second-facility-item p {
+    font-size: 12px;
+    margin-bottom: 8px;
   }
   .our-work-area .shape {
     display: none;
   }
+  .our-work-area .section-title {
+    padding: 0 10px;
+  }
+  .our-work-area .section-title p {
+    font-size: 17px;
+  }
   .single-work .work-title {
     max-width: 265px;
+  }
+  .single-work {
+    max-width: 100% !important;
+  }
+  .single-work img {
+    max-height: 66% !important;
   }
   .single-counter h2 {
     font-size: 30px;
@@ -387,7 +418,7 @@
     padding-right: unset;
   }
   .appointment-here-form {
-    padding: 50px 20px;
+    padding: 50px 60px;
   }
   .appointment-here-form h2 {
     font-size: 25px;

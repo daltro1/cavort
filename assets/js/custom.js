@@ -99,8 +99,8 @@
 	$('.work-wrap').owlCarousel({ 
 		loop:true,
 		nav:false,
-		autoWidth:true,
-		autoplay:true,
+		autoWidth:false,
+		autoplay:false,
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		margin: 50,
@@ -108,10 +108,10 @@
 		smartSpeed:1500,
 		responsive:{
 			0:{
-				items:1,
+				items:2,
 			},
 			576:{
-				items:1,
+				items:2,
 			},
 			768:{
 				items:2,
