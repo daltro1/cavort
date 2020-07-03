@@ -3226,6 +3226,8 @@ Client Area Style
   font-family: "Poppins";
   height: auto;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .single-client img {
@@ -3242,10 +3244,16 @@ Client Area Style
 .single-client ul {
   line-height: 1;
   margin-bottom: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
 }
 
 .single-client ul li {
-  display: inline-block;
+  margin: 0 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 .single-client ul li i {
@@ -3423,7 +3431,7 @@ Pacientes Area Style
   width: 100%;
 }
 
-.area-pacientes .wrap-video-area.reverse {
+.area-pacientes .contenido-testimonio.reverse {
   flex-direction: row-reverse !important;
 }
 

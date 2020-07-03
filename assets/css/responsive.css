@@ -487,11 +487,9 @@
   }
   .single-client p {
     font-size: 13px;
-    flex-grow: 1;
   }
   .single-client h3 {
     font-size: 14px;
-    flex-grow: 1;
   }
   .single-blog .blog-content {
     padding: 20px;
@@ -813,9 +811,20 @@
   }
   .area-pacientes .wrap-video-area .testimonio {
     width: unset;
+    margin-top: 20px;
   }
   .area-pacientes .wrap-video-area .testimonio .desarrollo {
-    font-size: 23px;
+    font-size: 20px;
+  }
+  .area-pacientes .container.comentarios {
+    margin-top: 20px;
+  }
+  .area-pacientes .container.comentarios .col-md-6 {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .area-pacientes .single-client {
+    margin: 0;
   }
   .doctors-sidebar .availability {
     padding: 20px;
