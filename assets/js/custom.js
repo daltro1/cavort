@@ -2,7 +2,7 @@
 	'use strict';
 	// Mean Menu
 	jQuery('.mean-menu').meanmenu({ 
-		meanScreenWidth: "991"
+		meanScreenWidth: "1220"
 	});
 
 	// Preloader
