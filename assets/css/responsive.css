@@ -314,7 +314,6 @@
   .second-facility-item ul li {
     margin: initial !important;
   }
-  }
   .about-area {
     padding-top: 0;
   }
@@ -1359,6 +1358,7 @@
   .pricing-area th .header .bloque-2 {
     padding: 8px;
   }
+  
   .convenios-area .categoria-convenios {
     display: flex;
     flex-wrap: wrap;
