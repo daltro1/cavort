@@ -1091,12 +1091,12 @@ Banner Area Style
 
 .main-banner-area {
   height: 100% !important;
-  width: 700%;
+  width: 500%;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  -webkit-animation: slideshow 30s infinite;
-          animation: slideshow 30s infinite;
+  -webkit-animation: slideshow 20s infinite;
+          animation: slideshow 20s infinite;
   display: flex;
   flex-direction: row;
   transform: translateX(0%);
@@ -1105,33 +1105,25 @@ Banner Area Style
 }
 
 @-webkit-keyframes slideshow {
-  13.3333333% {transform: translateX(0);}
-  16.6666667% {transform: translateX(-14.2857142857%);}
-  30% {transform: translateX(-14.2857142857%);}
-  33.3333333% {transform: translateX(-28.5714285714%);}
-  46.6666667% {transform: translateX(-28.5714285714%);}
-  50% {transform: translateX(-42.8571428571%);}
-  63.3333333% {transform: translateX(-42.8571428571%);}
-  66.6666667% {transform: translateX(-57.1428571428%);}
-  80% {transform: translateX(-57.1428571428%);}
-  83.3333333% {transform: translateX(-71.4285714285%);}
-  96.6666667% {transform: translateX(-71.4285714285%);}
-  100% {transform: translateX(-85.7142857142%);}
+  20% {transform: translateX(0);}
+  25% {transform: translateX(-20%);}
+  45% {transform: translateX(-20%);}
+  50% {transform: translateX(-40%);}
+  70% {transform: translateX(-40%);}
+  75% {transform: translateX(-60%);}
+  95% {transform: translateX(-60%);}
+  100% {transform: translateX(-80%);}
 }
 
 @keyframes slideshow {
-  13.3333333% {transform: translateX(0);}
-  16.6666667% {transform: translateX(-14.2857142857%);}
-  30% {transform: translateX(-14.2857142857%);}
-  33.3333333% {transform: translateX(-28.5714285714%);}
-  46.6666667% {transform: translateX(-28.5714285714%);}
-  50% {transform: translateX(-42.8571428571%);}
-  63.3333333% {transform: translateX(-42.8571428571%);}
-  66.6666667% {transform: translateX(-57.1428571428%);}
-  80% {transform: translateX(-57.1428571428%);}
-  83.3333333% {transform: translateX(-71.4285714285%);}
-  96.6666667% {transform: translateX(-71.4285714285%);}
-  100% {transform: translateX(-85.7142857142%);}
+  20% {transform: translateX(0);}
+  25% {transform: translateX(-20%);}
+  45% {transform: translateX(-20%);}
+  50% {transform: translateX(-40%);}
+  70% {transform: translateX(-40%);}
+  75% {transform: translateX(-60%);}
+  95% {transform: translateX(-60%);}
+  100% {transform: translateX(-80%);}
 }
 
 .main-banner-area::before {
@@ -1149,7 +1141,7 @@ Banner Area Style
 .main-banner-area .slide {
   position: relative;
   height: 100%;
-  width: 14.2857142857%;
+  width: 20%;
   background-size: cover;
   background-position: center;
 }
