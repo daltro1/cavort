@@ -228,8 +228,24 @@
   .area-especialidades .second-facility-item ul li {
     margin: initial !important;
   }
+  .area-contador .col-sm-6 {
+    width: 50%;
+  }
+  .area-contador .contador {
+    width: 150px;
+    height: 150px;
+    padding: 50px 15px;
+  }
+  .area-contador .contador h2 {
+    font-size: 21px;
+    margin-bottom: 0;
+  }
+  .area-contador .contador p {
+    font-size: 13px;
+  }
   .area-equipo .container .section-title {
     margin-bottom: 35px;
+    font-size: 38px;
   }
   .area-equipo .container .frame-imagenes {
     height: 250px;
@@ -263,11 +279,18 @@
     width: 80%;
     margin-top: 50px;
   }
+  .area-equipo .container .frame-texto h3 {
+    font-size: 20px;
+  }
+  .area-equipo .container .frame-texto p {
+    font-size: 17px;
+  }
   .area-equipo .container .frame-texto .default-btn-2 {
     width: 300px;
   }
   .area-equipo .container .frame-texto .cifras p {
     text-align: left;
+    font-size: 25px;
   }
   .area-equipo .container .frame-texto .cifras img {
     margin: 10px 0 0 0;
@@ -408,6 +431,15 @@
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+    height: 100%;
+  }
+  .single-client p {
+    font-size: 13px;
+    flex-grow: 1;
+  }
+  .single-client h3 {
+    font-size: 14px;
+    flex-grow: 1;
   }
   .single-blog .blog-content {
     padding: 20px;
@@ -482,6 +514,9 @@
   .client-area .section-title {
     margin-top: 30px;
   }
+  .client-area .section-title h2 {
+    font-size: 30px;
+  }
   .client-area .wrap-video-area .boton-video {
     height: 190px;
     width: 190px;
@@ -492,6 +527,9 @@
   }
   .client-area .wrap-video-area .testimonio .desarrollo {
     font-size: 17px;
+  }
+  .client-area .wrap-video-area .testimonio .autor {
+    margin-top: 10px;
   }
   .main-banner-area-two {
     text-align: center;

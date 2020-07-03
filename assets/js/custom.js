@@ -129,19 +129,19 @@
 	$('.client-wrap').owlCarousel({ 
 		loop:true,
 		nav:false,
-		autoplay:true,
+		autoplay:false,
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		margin: 30,
-		center: true,
+		center: false,
 		dots: true,
 		smartSpeed:1500,
 		responsive:{
 			0:{
-				items:1,
+				items:2,
 			},
 			576:{
-				items:1,
+				items:2,
 			},
 			768:{
 				items:2,
