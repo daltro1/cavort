@@ -123,12 +123,13 @@
     font-weight: unset;
     margin-bottom: 15px;
   }
-  .main-banner-area .banner-text .banner-button-text {
+  .main-banner-area .banner-text .default-btn-2 {
     height: auto;
-    width: 250px;
+    width: 210px;
     border-radius: 20px;
+    padding: 4px;
   }
-  .main-banner-area .banner-text .banner-button-text a {
+  .main-banner-area .banner-text .default-btn-2 a {
     font-size: 9px;
     margin-top: 0;
     margin-bottom: 3px;
@@ -160,6 +161,7 @@
     height: auto;
     width: 250px;
     border-radius: 20px;
+    padding: 4px;
   }
   .main-banner-area .banner-text .default-btn a {
     font-size: 9px;

@@ -1099,8 +1099,8 @@ Banner Area Style
           animation: slideshow 20s infinite;
   display: flex;
   flex-direction: row;
-  transform: translateX(0%);
-  animation-play-state: running;
+  transform: translateX(-60%);
+  animation-play-state: paused;
   
 }
 

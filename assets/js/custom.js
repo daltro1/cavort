@@ -100,7 +100,7 @@
 		loop:true,
 		nav:false,
 		autoWidth:false,
-		autoplay:false,
+		autoplay:true,
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		margin: 50,
