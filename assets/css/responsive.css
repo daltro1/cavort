@@ -298,10 +298,22 @@
     margin: 10px 0 0 0;
   }
   .second-facility-area .col-sm-6 {
-    margin-top: 30px;
+    margin: 15px 0;
+    width: 50%;
   }
   .second-facility-item {
     padding: 20px;
+  }
+  .second-facility-item h3 {
+    font-size: 13px;
+  }
+  .second-facility-item ul {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+  .second-facility-item ul li {
+    margin: initial !important;
+  }
   }
   .about-area {
     padding-top: 0;
@@ -342,10 +354,18 @@
     margin-top: 30px;
   }
   .single-services {
-    padding: 20px;
+    padding: 10px;
+    width: 45%;
+    margin: 2.5%;
   }
   .single-services::before {
     display: none;
+  }
+  .single-services h3 {
+    font-size: 14px;
+  }
+  .single-services p {
+    font-size: 12px;
   }
   .doctors-area .owl-next {
     right: 5px;
@@ -378,7 +398,7 @@
     justify-content: center;
   }
   .services-area .container .row .col-sm-4 {
-    width: 50%; 
+    width: 50%;
   }
   .services-area .second-facility-item img {
     height: 70px;
