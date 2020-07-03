@@ -1106,8 +1106,8 @@ Banner Area Style
           animation: slideshow 20s infinite;
   display: flex;
   flex-direction: row;
-  transform: translateX(-60%);
-  animation-play-state: paused;
+  transform: translateX(0%);
+  animation-play-state: running;
   
 }
 
@@ -1151,6 +1151,23 @@ Banner Area Style
   width: 20%;
   background-size: cover;
   background-position: center;
+}
+
+.main-banner-area .slide.slide-1 {
+  background-image: url(../img/home-one/fondo1.jpg);
+}
+
+.main-banner-area .slide.slide-2 {
+  background-image: url(../img/home-one/fondo2.jpg);
+  background-position: center top;
+}
+
+.main-banner-area .slide.slide-3 {
+  background-image: url(../img/home-one/fondo3.jpg);
+}
+
+.main-banner-area .slide.slide-4 {
+  background-image: url(../img/home-one/fondo4.jpg);
 }
 
 .main-banner-area .banner-text {
