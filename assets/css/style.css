@@ -8627,6 +8627,15 @@ Pricing Area Eight Style
   text-align: center;
 }
 
+.pricing-area th:first-child {
+  text-align: left;
+}
+
+.pricing-area th:first-child img {
+  width: 348px;
+  max-width: unset;
+}
+
 .pricing-area td:nth-child(1) {
   text-align: left;
 }

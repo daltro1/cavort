@@ -1347,6 +1347,18 @@
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+  .pricing-area th:first-child img {
+    width: 240px;
+  }
+  .pricing-area th .header {
+    width: 155px;
+  }
+  .pricing-area th .header .bloque-1 {
+    padding: 7px;
+  }
+  .pricing-area th .header .bloque-2 {
+    padding: 8px;
+  }
   .convenios-area .categoria-convenios {
     display: flex;
     flex-wrap: wrap;
