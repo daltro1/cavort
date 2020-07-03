@@ -230,6 +230,16 @@
   .area-especialidades .second-facility-item ul li {
     margin: initial !important;
   }
+  .area-caracteristicas .text-wrap {
+    text-align: center !important;
+    float: unset !important;
+  }
+  .area-caracteristicas .text-wrap .caracteristicas {
+    margin: 12px 0;
+  }
+  .area-caracteristicas .text-wrap .caracteristicas .linea-blanca {
+    height: unset !important;
+  }
   .area-contador .col-sm-6 {
     width: 50%;
   }
