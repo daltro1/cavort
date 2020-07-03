@@ -77,11 +77,5 @@ $(document).ready(function (){
             }
         })
     }
-    $.ajax({
-        url: urlContenido,
-        dataType: "html",
-        success: function(data){
-            document.getElementById("footer-script").innerHTML = data;
-        }
-    })
 });
+

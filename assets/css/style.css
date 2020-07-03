@@ -2527,8 +2527,9 @@ Doctors Area Style
   width: 140px;
   border-radius: 50%;
   position: absolute;
-  top: 2px;
-  left: 2px;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
 }
 
 .doctors-area-two .doc .contenido ul {

@@ -524,7 +524,7 @@
     display: initial;
   }
   .only-pc {
-    display: none;
+    display: none !important;
   }
   .go-top.active {
     top: 85%;
@@ -1252,7 +1252,19 @@
   }
   .doctors-area-two .wrap-medicos .doc.grande {
     max-width: unset;
-    margin: 20px
+    margin: 20px;
+    width: auto;
+  }
+  .doctors-area-two .wrap-medicos .doc {
+    width: 45%;
+  }
+  .doctors-area-two .wrap-medicos .doc .contenido .frame-img {
+    height: 104px;
+    width: 104px;
+  }
+  .doctors-area-two .wrap-medicos .doc .contenido .frame-img img {
+    height: 100px;
+    width: 100px;
   }
   .appointment-area-seven .shape {
     display: none;
