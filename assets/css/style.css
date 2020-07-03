@@ -743,6 +743,9 @@ Nav Area Style
   margin-right: 0px;
 }
 
+.nav-area .navbar-area .main-nav .navbar-brand img {
+  max-width: 100%;
+}
 nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   text-align: left;
 }
@@ -912,6 +915,10 @@ nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   font-size: 12px;
 }
 
+.nav-area .others-option .subscribe a.circle-btn {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
 .nav-area .others-option .sidebar-menu {
   display: inline-block;
   margin-left: 15px;

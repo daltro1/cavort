@@ -265,7 +265,7 @@
 }
 
 /* Responsive Style */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1220px) {
     .mobile-nav {
         display: block;
         position: relative;
