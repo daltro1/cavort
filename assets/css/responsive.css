@@ -292,8 +292,11 @@
   .area-equipo .container .frame-texto .cifras img {
     margin: 10px 0 0 0;
   }
+  .second-facility-area .container .row {
+    margin: auto;
+  }
   .second-facility-area .col-sm-6 {
-    margin: 15px 0;
+    margin: 6px 0;
     width: 50%;
   }
   .second-facility-area .default-btn-3 {
@@ -673,8 +676,8 @@
     margin-top: 30px;
   }
   .page-title-area {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 130px;
+    padding-bottom: 60px;
     margin-top: 0;
   }
   .page-title-area .page-title-content h2 {
