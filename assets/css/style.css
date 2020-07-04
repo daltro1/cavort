@@ -1513,6 +1513,7 @@ Nuestras Características Area Style
 
 .area-caracteristicas {
   background-image: url(../../assets/img/home-one/fondo-doctor-logo.png);
+  list-style-image: url(../../assets/img/home-one/fondo-caracteristicas.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
