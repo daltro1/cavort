@@ -45,6 +45,7 @@
   .section-title h2 {
     font-size: 25px;
     margin-bottom: 10px;
+    font-weight: 600;
   }
   .header-area .top-header-area .header-content-left {
     margin-bottom: 20px;
@@ -215,19 +216,22 @@
   .area-especialidades .container .section-title p {
     font-size: 18px;
   }
-  .area-especialidades .second-facility-item img {
+  .second-facility-item {
+    padding: 12px;
+  }
+  .second-facility-item img {
     height: 60px;
     width: 60px;
     margin-bottom: 13px;
   }
-  .area-especialidades .second-facility-item h3 {
+  .second-facility-item h3 {
     font-size: 11px;
   }
-  .area-especialidades .second-facility-item ul {
+  .second-facility-item ul {
     font-size: 9px;
     margin-bottom: 0;
   }
-  .area-especialidades .second-facility-item ul li {
+  .second-facility-item ul li {
     margin: initial !important;
   }
   .area-caracteristicas .container {
@@ -333,18 +337,11 @@
     margin: 15px 0;
     width: 50%;
   }
-  .second-facility-item {
-    padding: 12px;
-  }
-  .second-facility-item h3 {
-    font-size: 11px;
-  }
-  .second-facility-item ul {
-    font-size: 9px;
-    margin-bottom: 0;
-  }
-  .second-facility-item ul li {
-    margin: initial !important;
+  .second-facility-area .default-btn-3 {
+    font-size: 12px;
+    padding: 10px;
+    width: 175px;
+    margin: 5px 0 20px;
   }
   .about-area {
     padding-top: 0;
@@ -391,6 +388,11 @@
   }
   .single-services::before {
     display: none;
+  }
+  .single-services img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
   }
   .single-services h3 {
     font-size: 14px;
@@ -1473,19 +1475,84 @@
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+  .pricing-area {
+    padding-bottom: 30px;
+  }
+  .pricing-area .section-title img {
+    width: 65%;
+  }
   .pricing-area th:first-child img {
     width: 240px;
   }
-  .pricing-area th .header {
+  .pricing-area .plan {
+    font-family: "Poppins";
+  }
+  .pricing-area .plan p.descripcion {
+    text-align: center;
+    width: 135px;
+    color: #0081A4;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .pricing-area .wrap-planes {
+    padding: 20px 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pricing-area .plan {
+    margin: 10px;
+  }
+  .pricing-area .plan .header {
+    width: 135px;
+  }
+  .pricing-area .plan p.descripcion b {
+    font-size: 20px;
+  }
+  .pricing-area .header {
     width: 155px;
   }
-  .pricing-area th .header .bloque-1 {
+  .pricing-area .header .bloque-1 {
     padding: 7px;
   }
-  .pricing-area th .header .bloque-2 {
+  .pricing-area .header .bloque-2 {
     padding: 8px;
   }
-  
+  .pricing-area .contenido-planes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Poppins";
+  }
+  .pricing-area .contenido-planes p {
+    font-size: 20px;
+    color: #0081A4;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+  .pricing-area .contenido-planes ul {
+    text-align: left;
+    color: #3BC1CD;
+    
+  }
+  .pricing-area .contenido-planes ul li::before {
+    content: "\2022";
+    color: #0081A4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .pricing-area .col-lg-6 {
+    margin-top: 20px !important;
+  }
+  .pricing-area .default-btn-3 {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 600;
+    width: 250px;
+  }
   .convenios-area .categoria-convenios {
     display: flex;
     flex-wrap: wrap;

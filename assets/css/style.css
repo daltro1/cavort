@@ -8682,10 +8682,6 @@ Pricing Area Eight Style
   height: 30px;
 }
 
-.pricing-area th {
-  text-align: center;
-}
-
 .pricing-area th:first-child {
   text-align: left;
 }
@@ -8715,7 +8711,7 @@ Pricing Area Eight Style
   font-size: 16px;
 }
 
-.pricing-area th .header {
+.pricing-area .header {
   position: relative;
   height: auto;
   width: 190px;
@@ -8724,15 +8720,16 @@ Pricing Area Eight Style
   font-family: "Poppins";
   transition: 0.5s all;
   display: inline-block;
+  text-align: center;
 }
 
-.pricing-area th .header .bloque-1 {
+.pricing-area .header .bloque-1 {
   color: #fff;
   font-weight: 500;
   padding: 15px;
 }
 
-.pricing-area th .header .bloque-2 {
+.pricing-area .header .bloque-2 {
   width: 100%;
   background-color: #fff;
   bottom: 3px;
@@ -8744,13 +8741,13 @@ Pricing Area Eight Style
   padding: 15px;
 }
 
-.pricing-area th .header .bloque-2 p {
+.pricing-area .header .bloque-2 p {
   margin: 0 auto;
   width: 50%;
   position: relative;
 }
 
-.pricing-area th .header .bloque-2 p::after {
+.pricing-area .header .bloque-2 p::after {
   border-bottom: 0.125em solid #3BC1CD;
   content: "";
   left: 0;
