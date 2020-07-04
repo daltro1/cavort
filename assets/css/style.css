@@ -2675,7 +2675,7 @@ Work Area Style
 }
 
 .our-work-area .owl-theme .owl-dots {
-  margin-top: 50px !important;
+  margin-top: 50px;
 }
 
 .our-work-area .owl-theme .owl-dots .owl-dot span {

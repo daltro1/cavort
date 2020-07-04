@@ -308,16 +308,19 @@
   }
   .area-equipo .container .frame-texto {
     width: 80%;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .area-equipo .container .frame-texto h3 {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 1em;
   }
   .area-equipo .container .frame-texto p {
-    font-size: 17px;
+    font-size: 15px;
   }
   .area-equipo .container .frame-texto .default-btn-2 {
-    width: 300px;
+    width: 240px;
+    font-size: 12px;
+    padding: 10px;
   }
   .area-equipo .container .frame-texto .cifras p {
     text-align: left;
@@ -447,13 +450,23 @@
     padding: 0 10px;
   }
   .our-work-area .section-title p {
-    font-size: 17px;
+    font-size: 12px;
+  }
+  .our-work-area b {
+    font-weight: 600;
+  }
+  .our-work-area a {
+    font-weight: 700;
+  }
+  .our-work-area .owl-dots {
+    margin-top: 0;
   }
   .single-work .work-title {
     max-width: 265px;
   }
   .single-work {
     max-width: 100% !important;
+    height: 143px;
   }
   .single-work img {
     max-height: 66% !important;
@@ -508,17 +521,22 @@
     height: 300px;
   }
   .single-client {
-    padding: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    height: 100%;
+    padding: 14px;
+    margin: 10px 0 0 0;
+    height: 125px;
   }
   .single-client p {
-    font-size: 13px;
+    font-size: 12px;
+    margin-bottom: 0.4rem;
   }
   .single-client h3 {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .single-client ul {
+    margin-bottom: 6px;
+  }
+  .single-client ul li {
+    margin: 0 3px 0 0;
   }
   .single-blog .blog-content {
     padding: 20px;
@@ -592,23 +610,41 @@
   }
   .client-area .section-title {
     margin-top: 30px;
+    margin-bottom: 10px;
   }
   .client-area .section-title h2 {
-    font-size: 30px;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .client-area .section-title p {
+    font-size: 16px;
+  }
+  .client-area .wrap-video-area {
+    margin-bottom: 20px;
   }
   .client-area .wrap-video-area .boton-video {
-    height: 190px;
-    width: 190px;
-    margin: 20px;
+    height: 150px;
+    width: 150px;
+    margin: 20px 0 0;
   }
   .client-area .wrap-video-area .testimonio {
-    margin: 10px 30px;
+    margin: 10px 0 0 17px;
+    width: 50%;
   }
   .client-area .wrap-video-area .testimonio .desarrollo {
-    font-size: 17px;
+    font-size: 13px;
+    line-height: 1.6;
   }
   .client-area .wrap-video-area .testimonio .autor {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .client-area .default-btn-3 {
+    font-size: 12px;
+    font-weight: 600;
     margin-top: 10px;
+    padding: 10px;
+    width: 175px;
   }
   .main-banner-area-two {
     text-align: center;
