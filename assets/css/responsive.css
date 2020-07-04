@@ -134,6 +134,7 @@
   .area-especialidades .col-sm-6 {
     margin: 6px 0;
     max-width: 50%;
+    height: 217px;
   }
   .area-especialidades .container {
     height: 100%;
@@ -157,6 +158,7 @@
   .second-facility-item {
     padding: 12px;
     margin: auto;
+    height: 217px;
   }
   .second-facility-item img {
     height: 60px;
@@ -292,6 +294,15 @@
   .area-equipo .container .frame-texto .cifras img {
     margin: 10px 0 0 0;
   }
+  .second-facility-area {
+    padding-top: 30px;
+    height: calc(100% - 71px);
+  }
+  .second-facility-area .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   .second-facility-area .container .row {
     margin: auto;
   }
@@ -299,11 +310,17 @@
     margin: 6px 0;
     width: 50%;
   }
+  .second-facility-area .sector-boton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
   .second-facility-area .default-btn-3 {
     font-size: 12px;
     padding: 10px;
     width: 175px;
-    margin: 5px 0 20px;
   }
   .about-area {
     padding-top: 0;
