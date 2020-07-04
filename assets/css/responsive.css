@@ -175,6 +175,11 @@
   }
   .area-caracteristicas {
     height: calc(100% - 71px);
+    background-image: url(../../assets/img/home-one/fondo-caracteristicas.png);
+    background-position: 50% 50%;
+  }
+  .area-caracteristicas.only-cel {
+    display: table;
   }
   .area-caracteristicas .container {
     display: flex;
