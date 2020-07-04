@@ -40,7 +40,7 @@
     margin-bottom: 8px;
   }
   .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .section-title h2 {
     font-size: 25px;
@@ -201,32 +201,63 @@
   .first-facility-area .shape {
     display: none;
   }
+  .area-especialidades {
+    padding: 22px 0;
+  }
   .area-especialidades .col-sm-6 {
-    margin: 15px 0;
+    margin: 6px 0;
     max-width: 50%;
   }
   .area-especialidades .container .section-title h2 {
-    font-size: 30px;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .area-especialidades .container .section-title p {
+    font-size: 18px;
+  }
+  .area-especialidades .second-facility-item img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 13px;
   }
   .area-especialidades .second-facility-item h3 {
-    font-size: 13px;
+    font-size: 11px;
   }
   .area-especialidades .second-facility-item ul {
-    font-size: 11px;
+    font-size: 9px;
     margin-bottom: 0;
   }
   .area-especialidades .second-facility-item ul li {
     margin: initial !important;
   }
+  .area-caracteristicas .container {
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
   .area-caracteristicas .text-wrap {
-    text-align: center !important;
     float: unset !important;
+    width: 50%;
+    padding: 0 5px;
+  }
+  .area-caracteristicas .container .titulo {
+    font-size: 21px;
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+  .area-caracteristicas .container .subtitulo {
+    font-size: 12px;
+    margin: 0;
   }
   .area-caracteristicas .text-wrap .caracteristicas {
     margin: 12px 0;
   }
   .area-caracteristicas .text-wrap .caracteristicas .linea-blanca {
     height: unset !important;
+  }
+  .area-contador {
+    margin-top: 0;
   }
   .area-contador .col-sm-6 {
     width: 50%;
@@ -244,8 +275,8 @@
     font-size: 13px;
   }
   .area-equipo .container .section-title {
-    margin-bottom: 35px;
-    font-size: 38px;
+    margin-bottom: 15px;
+    font-size: 25px;
   }
   .area-equipo .container .frame-imagenes {
     height: 250px;
@@ -253,11 +284,11 @@
     margin: 30px;
   }
   .area-equipo .container .frame-imagenes .frame-doctores {
-    animation: unset;
+    animation: rotation 60s linear infinite;
     transform: rotate(30deg);
   }
   .area-equipo .container .frame-imagenes .frame-doctores .static {
-    animation: unset;
+    animation: rotation 60s linear infinite reverse;
     transform: rotate(-30deg);
   }
   .area-equipo .container .frame-imagenes .frame-doctores .static .doc {
@@ -300,13 +331,13 @@
     width: 50%;
   }
   .second-facility-item {
-    padding: 20px;
+    padding: 12px;
   }
   .second-facility-item h3 {
-    font-size: 13px;
+    font-size: 11px;
   }
   .second-facility-item ul {
-    font-size: 11px;
+    font-size: 9px;
     margin-bottom: 0;
   }
   .second-facility-item ul li {

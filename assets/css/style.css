@@ -1530,8 +1530,7 @@ Nuestras Características Area Style
 .area-caracteristicas .container .titulo {
   font-size: 26px;
   font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   color: #ffffff;
   text-align: inherit;
 }
@@ -1539,8 +1538,7 @@ Nuestras Características Area Style
 .area-caracteristicas .container .subtitulo {
   font-size: 16px;
   font-weight: 200;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin: 4px 0;
   color: #ffffff;
   text-align: inherit;
 }
@@ -1943,6 +1941,7 @@ First Facility Area Style
 
 .video-principal {
   width: 100%;
+  display: inherit;
 }
 /*
 Second Facility Area Style
