@@ -421,8 +421,11 @@
     top: 50%;
     -webkit-transform: translateY(-30px);
   }
+  .services-area {
+    padding: 50px 0;
+  }
   .services-area h6 {
-    font-size: 17px;
+    font-size: 16px;
   }
   .services-area .container .row {
     margin-top: 20px !important;
@@ -432,15 +435,19 @@
     width: 50%;
   }
   .services-area .second-facility-item img {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-bottom: 9px;
   }
+  .services-area .bordeish {
+    height: 195px;
+    margin-bottom: 10px;
+  }
   .services-area .bordeish .second-facility-item h3 {
-    font-size: 17px;
+    font-size: 12px;
   }
   .services-area .bordeish .second-facility-item p {
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 8px;
   }
   .our-work-area .shape {
@@ -481,7 +488,7 @@
     padding-right: unset;
   }
   .appointment-here-form {
-    padding: 50px 60px;
+    padding: 50px 30px 37px;
   }
   .appointment-here-form h2 {
     font-size: 25px;
@@ -489,6 +496,33 @@
   }
   .appointment-here-form .shape {
     display: none;
+  }
+  .appointment-here-form .contact-form .col-sm-6 {
+    width: 50%;
+  }
+  .appointment-here-form label {
+    font-size: 12px;
+  }
+  .appointment-here-form .form-group .form-control {
+    font-size: 0.8rem;
+  }
+  .appointment-here-form .form-control.textarea-hight {
+    height: 47px;
+    margin-bottom: 45px;
+  }
+  .appointment-here-form .form-group {
+    margin-bottom: 27px;
+  }
+  .appointment-here-form .form-group .help-block ul li {
+    font-size: 12px;
+    top: 38px;
+  }
+  .appointment-here-form .default-btn-2 {
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 600;
+    width: 150px;
   }
   .emergency-area {
     padding-bottom: 50px;
@@ -581,8 +615,11 @@
   .single-widget.open-time ul li span {
     font-size: 10px;
   }
-  .single-widget.contact h3 {
+  .single-widget.contact {
     text-align: center;
+  }
+  .single-widget.contact i {
+    margin-left: -25px;
   }
   .only-cel {
     display: initial;
@@ -592,18 +629,6 @@
   }
   .go-top.active {
     top: 85%;
-  }
-  .area-medios .container .wrap-medios .medio.m1 {
-    width: 71px;
-  }
-  .area-medios .container .wrap-medios .medio.m2 {
-    width: 150px;
-  }
-  .area-medios .container .wrap-medios .medio.m3 {
-    width: 125px;
-  }
-  .area-medios .container .wrap-medios .medio.m4 {
-    width: 102px;
   }
   .client-area.c-bg {
     padding-bottom: 50px;
@@ -2669,6 +2694,15 @@
   }
   .mobile-nav nav .navbar-nav {
     height: 325px;
+  }
+}
+
+@media only screen and (min-width: 1221px) {
+  .only-cel {
+    display: none !important;
+  }
+  .only-pc {
+    display: initial;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

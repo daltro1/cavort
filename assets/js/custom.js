@@ -155,6 +155,20 @@
 		}
 	});
 
+	// Medios Wrap
+	$('.medios-wrap').owlCarousel({ 
+		loop:true,
+		nav:false,
+		autoplay:true,
+		autoplayHoverPause: true,
+		maxWidth: 10,
+		mouseDrag: true,
+		margin: 20,
+		smartSpeed:1500,
+		items: 2,
+		dots: false,
+	});
+
 	// Client Wrap Two
 	$('.client-wrap-two').owlCarousel({
 		loop:true,

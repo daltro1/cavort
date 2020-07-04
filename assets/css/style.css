@@ -2973,7 +2973,7 @@ Appointment Area Style
 
 .appointment-here-form .form-group {
   position: relative;
-  margin-bottom: 13px;
+  margin-bottom: 22px;
 }
 
 .appointment-here-form .form-group i {
@@ -2986,7 +2986,15 @@ Appointment Area Style
 }
 
 .appointment-here-form .form-group .form-control {
-  padding: 10px 50px;
+  padding: 10px;
+}
+
+
+.appointment-here-form .form-group .help-block ul li {
+  position: absolute;
+  font-size: 14px;
+  top: 38px;
+  color: brown;
 }
 
 .appointment-here-form .default-btn-2 {
@@ -3940,14 +3948,6 @@ Footer Top Area Style
   text-align: left;
 }
 
-.only-cel {
-  display: none;
-}
-
-.only-pc {
-  display: initial;
-}
-
 .single-widget.contact h3 {
   width: 100%;
 }
@@ -3958,7 +3958,6 @@ Footer Top Area Style
 
 .single-widget.contact ul li {
   position: relative;
-  padding-left: 30px;
   margin-bottom: 2.5em;
 }
 
@@ -3968,32 +3967,31 @@ Footer Top Area Style
 
 .single-widget.contact ul li a {
   position: relative;
-  padding-left: 30px;
 }
 
 .single-widget.contact ul li a i {
-  position: absolute;
-  top: 4px;
-  left: 0;
+  margin-right: 5px;
   color: #3BC1CD;
   font-size: 20px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .single-widget.contact ul li a span {
-  display: block;
+  display: inline-block;
   font-weight: 800;
 }
 
 .single-widget.contact ul li i {
-  position: absolute;
-  left: 0;
-  top: 4px;
   color: #3BC1CD;
   font-size: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .single-widget.contact ul li span {
-  display: block;
+  display: inline-block;
   font-weight: 800;
 }
 
