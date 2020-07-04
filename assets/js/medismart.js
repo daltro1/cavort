@@ -1,4 +1,7 @@
-
+/* Reproducción Video Celulares */
+$(document).ready(function(){
+    var video = document.getElementsByClassName("video-principal")[0].play()
+})
 /* Área Equipo */
 function estado_animaciones (valor) {
     if (valor == 0) {
