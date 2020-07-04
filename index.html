@@ -227,7 +227,7 @@
 						<h1>MEDISMART.LIVE<br>Consulta Médica Integral:<br> 100% Online</h1>
 						
 						<p><b>MEDICINA GENERAL: </b>Resuelve todas tus dudas.<br>
-							<b>ESPECIALIDADES MÉDICAS: </b>Un necesidad más específica.<br>
+							<b>ESPECIALIDADES MÉDICAS: </b>Una necesidad más específica.<br>
 							<b>PSICOLOGÍA: </b>Un consejo para todos tus momentos.<br>
 							<b>NUTRICIÓN: </b>Vive saludable y en forma.<br>
 							<b>ODONTOLOGÍA: </b>Sonríe feliz y tranquilo.
@@ -283,7 +283,7 @@
 						<h1>MEDISMART.LIVE<br>Consulta Médica Integral:<br> 100% Online</h1>
 						
 						<p><b>MEDICINA GENERAL: </b>Resuelve todas tus dudas.<br>
-							<b>ESPECIALIDADES MÉDICAS: </b>Un necesidad más específica.<br>
+							<b>ESPECIALIDADES MÉDICAS: </b>Una necesidad más específica.<br>
 							<b>PSICOLOGÍA: </b>Un consejo para todos tus momentos.<br>
 							<b>NUTRICIÓN: </b>Vive saludable y en forma.<br>
 							<b>ODONTOLOGÍA: </b>Sonríe feliz y tranquilo.
@@ -313,7 +313,7 @@
 		<!-- End Banco Estado Area -->
 
 		<!-- Start Título y Video Area -->
-		<video class="video-principal" height="calc(100% - 80px)" poster="assets/img/home-one/poster-video.png" muted="muted" loop="loop" playsinline="playsinline">
+		<video class="only-pc video-principal" height="calc(100% - 80px)" poster="assets/img/home-one/poster-video.png" muted="muted" loop="loop" playsinline="playsinline">
 			<source src="assets/img/home-one/video-Medismart.mp4" type="video/mp4">
 		</video>
 		<!-- End Título y Video Area -->
@@ -394,16 +394,16 @@
 		<!-- End Especialidades Area -->
 
 		<!-- Start Nuestras Características Area -->
-		<section id="contenedor-jarallax" class="area-caracteristicas jarallax pt-70 pb-70" data-jarallax='{"speed": 0.3, "background-size": "115%"}'>
+		<section id="contenedor-jarallax" class="area-caracteristicas pt-70 pb-70">
 			<div class="container">
 				<div class="text-wrap" style="text-align: left; float: left;">
-					<div class="caracteristicas" >
+					<div class="caracteristicas">
 						<div class="titulo">Nuestro Equipo</div>
 						<div class="subtitulo">Certificados Super Salud</div>
 						<div class="subtitulo">Universidades Tradicionales</div>
 						<div class="subtitulo">Foco: Experiencia del Paciente</div>
 					</div>
-					<div class="caracteristicas">
+					<div class="caracteristicas" style="flex-grow: 1;">
 						<div class="titulo">Canales de Atención</div>
 						<div class="subtitulo">Video-consulta</div>
 						<div class="subtitulo">Chat</div>
@@ -416,7 +416,7 @@
 					</div>
 				</div>
 				<div class="text-wrap" style="text-align: right; float: right;">
-					<div class="caracteristicas" >
+					<div class="caracteristicas" style="flex-grow: 1;">
 						<div class="titulo">Modelo de Servicio</div>
 						<div class="subtitulo">Agenda Online</div>
 						<div class="subtitulo">Tu atención en menos de 30 min.</div>
@@ -592,7 +592,7 @@
 						<p>Estamos muy orgullosos de tener un 98% de recomendación de nuestros pacientes (4.9 de 5 estrellas), siendo la amabilidad, escucha y preocupación por ellos los atributos más destacados.</p>
 						<div class="cifras">
 							<p>
-								<b>NPS</b> 98% <img src="assets/img/estrellas.png">
+								<b>NPS</b> 98% <br class="only-cel"><img src="assets/img/estrellas.png">
 							</p>
 						</div>
 						<div style="width: 100%; text-align: center;">
@@ -1092,13 +1092,13 @@
 									<form id="contactForm">
 										<div class="row">
 											<div class="col-lg-12 col-sm-12">
-												<p style="color:brown">* Campo obligatorio</p>
+												<p style="color:#3BC1CD">* Campo obligatorio</p>
 												<p></p>
 											</div>
 											<div class="col-lg-6 col-sm-6">
 												<label>Nombre y apellido *</label>
 												<div class="form-group">
-													<input type="text" name="nombre" id="nombre" class="form-control" required data-error="Por favor, ingresa tu nombre y apellido" placeholder="Tu nombre y apellido">
+													<input type="text" name="nombre" id="nombre" class="form-control" required data-error="* Ingresa tu nombre y apellido" placeholder="Tu nombre y apellido">
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1106,7 +1106,7 @@
 											<div class="col-lg-6 col-sm-6">
 												<label>Email *</label>
 												<div class="form-group">
-													<input type="email" name="email" id="email" class="form-control" required data-error="Por favor, ingresa tu  email" placeholder="Tu correo">
+													<input type="email" name="email" id="email" class="form-control" required data-error="* Ingresa tu  email" placeholder="Tu correo">
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1114,7 +1114,7 @@
 											<div class="col-lg-6 col-sm-6">
 												<label>Teléfono *</label>
 												<div class="form-group">
-													<input type="text" name="telefono" id="telefono" required data-error="Por favor, ingresa tu teléfono" class="form-control" placeholder="+569 1234 5678">
+													<input type="text" name="telefono" id="telefono" required data-error="* Ingresa tu teléfono" class="form-control" placeholder="+569 1234 5678">
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1122,7 +1122,7 @@
 											<div class="col-lg-6 col-sm-6">
 												<label>Rut *</label>
 												<div class="form-group">
-													<input type="text" name="rut" id="rut" class="form-control" required data-error="Por favor, ingresa tu rut" placeholder="RUT (123456789-0)">
+													<input type="text" name="rut" id="rut" class="form-control" required data-error="* Ingresa tu rut" placeholder="RUT (123456789-0)">
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1130,7 +1130,7 @@
 											<div class="col-lg-6 col-sm-6">
 												<label>Fecha de nacimiento *</label>
 												<div class="form-group">
-													<input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="form-control" required data-error="Por favor, ingresa tu fecha de nacimiento">
+													<input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="form-control" required data-error="* Ingresa tu fecha de nacimiento">
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1138,7 +1138,7 @@
 											<div class="col-lg-6 col-sm-6">
 												<label>Empresa</label>
 												<div class="form-group">
-													<input type="text" name="empresa" id="empresa" class="form-control" data-error="Por favor, ingresa el nombre de tu empresa" placeholder="Nombre de tu empresa">
+													<input type="text" name="empresa" id="empresa" class="form-control" data-error="* Ingresa el nombre de tu empresa" placeholder="Nombre de tu empresa">
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1146,7 +1146,7 @@
 											<div class="col-lg-12">
 												<label>Mensaje *</label>
 												<div class="form-group">
-													<textarea name="mensaje" class="form-control textarea-hight" id="mensaje" cols="30" rows="5" required data-error="Escribe tu mensaje" placeholder="Mensaje"></textarea>
+													<textarea name="mensaje" class="form-control textarea-hight" id="mensaje" cols="30" rows="5" required data-error="* Escribe tu mensaje" placeholder="Mensaje"></textarea>
 													<div class="help-block with-errors"></div>
 												</div>
 											</div>
@@ -1167,7 +1167,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 p-0">
+					<div class="col-lg-6 p-0 mapa">
 						<div class="single-contact-map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.4903047835746!2d-70.56848198480169!3d-33.41045938078545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cedd8bd70159%3A0xa513598f5ac1ebfd!2sAv.%20Manquehue%20Sur%20350%2C%20Piso%202%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1589826000586!5m2!1ses-419!2scl" style="border:0;"></iframe>
 						</div>
@@ -1240,7 +1240,7 @@
 
 		<!-- End Medios Area -->
 
-		<div id="footer-script"></div>
+		<div class="footer-script"  id="footer-script"></div>
 		
 		<!-- Start Go Top Area -->
 		<div class="go-top">

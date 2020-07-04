@@ -1097,7 +1097,7 @@ Banner Area Style
 }
 
 .main-banner-area {
-  height: 100% !important;
+  height: 100%;
   width: 500%;
   position: relative;
   z-index: 1;
@@ -1669,35 +1669,35 @@ Especialidades Area Style
   margin: 3px 0;
 }
 
-.area-especialidades .second-facility-item {
+.second-facility-item {
   transition: 0.3s all;
   color: #FFFFFF;
 }
 
-.area-especialidades .second-facility-item:hover {
+.second-facility-item:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
 
-.area-especialidades .second-facility-item img {
+.second-facility-item img {
   height: 90px;
   width: 90px;
   max-width: unset;
   margin-bottom: 30px;
 }
 
-.area-especialidades .second-facility-item h3 {
+.second-facility-item h3 {
   color: #FFFFFF;
   font-weight: 700;
 }
 
-.area-especialidades .second-facility-item ul{
+.second-facility-item ul{
   list-style-type: disc;
   text-align: left;
   display: inline-block;
 }
 
-.area-especialidades .second-facility-item ul li{
+.second-facility-item ul li{
   margin: 3px 0;
 }
 
@@ -2959,6 +2959,7 @@ Appointment Area Style
 .appointment-here-form h2 {
   font-size: 40px;
   text-align: center;
+  color: #0081A4;
 }
 
 .appointment-here-form span {
@@ -2969,6 +2970,7 @@ Appointment Area Style
 .appointment-here-form label {
   font-weight: 600;
   font-size: 15px;
+  color: #0081A4;
 }
 
 .appointment-here-form .form-group {
@@ -2994,7 +2996,7 @@ Appointment Area Style
   position: absolute;
   font-size: 14px;
   top: 38px;
-  color: brown;
+  color: #3BC1CD;
 }
 
 .appointment-here-form .default-btn-2 {
@@ -3258,6 +3260,7 @@ Client Area Style
   border-radius: 25px;
   display: flex;
   flex-direction: column;
+  height: 141px;
 }
 
 .single-client img {
@@ -3309,6 +3312,10 @@ Client Area Style
   width: 100%;
   position: relative;
   z-index: 1;
+}
+
+.client-area {
+  height: calc(100% - 71px);
 }
 
 .client-area .container {
@@ -3406,10 +3413,6 @@ Client Area Style
   width: auto;
 }
 
-.client-area .owl-theme .owl-dots {
-  margin-top: 25px !important;
-}
-
 .client-area .sector-boton {
   text-align: center;
 }
@@ -3417,7 +3420,7 @@ Client Area Style
 .client-area .default-btn-3 {
   display: inline-block;
   border-radius: 23px;
-  margin-top: 10px;
+  margin-top: 35px;
   width: 225px;
 }
 

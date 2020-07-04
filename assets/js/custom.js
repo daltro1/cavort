@@ -104,7 +104,7 @@
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		margin: 50,
-		dots: true,
+		dots: false,
 		smartSpeed:1500,
 		responsive:{
 			0:{
@@ -129,12 +129,12 @@
 	$('.client-wrap').owlCarousel({ 
 		loop:true,
 		nav:false,
-		autoplay:false,
+		autoplay:true,
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		margin: 30,
 		center: false,
-		dots: true,
+		dots: false,
 		smartSpeed:1500,
 		responsive:{
 			0:{
