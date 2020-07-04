@@ -582,6 +582,9 @@
   .client-area.c-bg {
     padding-bottom: 20px;
   }
+  .client-area {
+    height: calc(100% - 71px);
+  }
   .client-area .container {
     display: flex;
     flex-direction: column;
@@ -714,13 +717,14 @@
     max-width: 100%;
   }
   .main-banner-area .slide.slide-1 {
-    background-position: 30% 50%;
+    background-position: 56% 50%;
     background-size: cover;
+    background-image: url(../img/home-one/fondo1-mobile.jpg);
   }
   .main-banner-area .slide.slide-1 .banner-text {
     bottom: unset;
     top: 50%;
-    left: 69%;
+    left: 30%;
     width: 48%;
     text-align: left;
     transform: translate(-50%, -50%);
@@ -729,12 +733,13 @@
     font-size: 9px;
   }
   .main-banner-area .slide.slide-2 {
-    background-position: 30% 50%;
+    background-position: 57% 50%;
+    background-image: url(../img/home-one/fondo2-mobile.jpg);
   }
   .main-banner-area .slide.slide-2 .banner-text {
     bottom: unset;
-    top: 50%;
-    left: 38%;
+    top: 30%;
+    left: 6%;
     width: 60%;
     transform: translateY(-50%);
     text-align: left;

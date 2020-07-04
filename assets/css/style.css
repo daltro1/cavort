@@ -3317,10 +3317,6 @@ Client Area Style
   z-index: 1;
 }
 
-.client-area {
-  height: calc(100% - 71px);
-}
-
 .client-area .container {
   max-width: 1500px;
 }
