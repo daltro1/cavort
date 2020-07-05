@@ -336,6 +336,7 @@
   }
   .second-facility-area .sector-boton {
     text-align: center;
+    margin: unset;
   }
   .second-facility-area .default-btn-3 {
     font-size: 12px;
