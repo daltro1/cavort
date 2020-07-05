@@ -4,21 +4,21 @@ $errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+    $errorMSG = "El nombre es requerido ";
 } else {
     $name = $_POST["name"];
 }
 
 // EMAIL
 if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
+    $errorMSG .= "El email es requerido ";
 } else {
     $email = $_POST["email"];
 }
 
 // Phone Number
 if (empty($_POST["phone_number"])) {
-    $errorMSG .= "Number is required ";
+    $errorMSG .= "El número de teléfono es requerido ";
 } else {
     $phone_number = $_POST["phone_number"];
 }
@@ -39,15 +39,16 @@ if (empty($_POST["fecha_nacimiento"])) {
 
 // Empresa
 if (empty($_POST["empresa"])) {
-    $errorMSG .= "El nombre de la empresa es requerido ";
+    $empresa = "Indefinida";
 } else {
     $empresa = $_POST["empresa"];
+}  
 }
 
 
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "El mensaje es requerido ";
 } else {
     $message = $_POST["message"];
 }
@@ -89,7 +90,7 @@ if ($success && $errorMSG == ""){
    echo "success";
 }else{
     if($errorMSG == ""){
-        echo "Something went wrong :(";
+        echo "Algo salió mal :(";
     } else {
         echo $errorMSG;
     }

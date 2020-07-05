@@ -30,12 +30,11 @@
         $.ajax({
             type: "POST",
             url: "/assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&phone_number=" + phone_number + "&rut=" + rut + "&fecha_nacimiento" + fecha_nacimiento + "&empresa" + empresa +"&message=" + message,
+            data: "name=" + name + "&email=" + email + "&phone_number=" + phone_number + "&rut=" + rut + "&fecha_nacimiento=" + fecha_nacimiento + "&empresa=" + empresa +"&message=" + message,
             success : function(text){
                 if (text == "success"){
                     formSuccess();
                 } else {
-                    console.log("Plw")
                     formError();
                     submitMSG(false,text);
                 }
@@ -45,7 +44,7 @@
 
     function formSuccess(){
         $("#contactForm")[0].reset();
-        submitMSG(true, "Message Submitted!")
+        submitMSG(true, "Mensaje enviado!")
     }
 
     function formError(){
