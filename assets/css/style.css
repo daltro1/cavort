@@ -4117,6 +4117,10 @@ Banner Area Style
 /*
 Second Facility Area Style
 ======================================================*/
+.second-facility-area .sector-boton {
+  text-align: center;
+  margin: 70px 0;
+}
 .second-facility-area .default-btn-3 {
   border-radius: 23px;
   display: inline-block;
@@ -5290,6 +5294,10 @@ Blog Details Area Style
   max-width: 1400px;
 }
 
+.blog-details-area .blog-details-desc .col-lg-4 {
+  display: initial;
+}
+
 .blog-details-area .blog-details-desc .article-image {
   position: relative;
   display: flex;
@@ -5430,7 +5438,7 @@ Blog Details Area Style
 .blog-details-area .blog-details-desc .article-footer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 30px;
@@ -5618,6 +5626,7 @@ Blog Details Area Style
   -webkit-box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
           box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
   background-color: #ffffff;
+  display: none;
 }
 
 .blog-details-area .comments-area .comments-title {
@@ -6020,6 +6029,14 @@ Blog Details Area Style
 .blog-details-area .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
   background-color: #3BC1CD;
+}
+
+.blog-details-area .row {
+  justify-content: center;
+}
+
+.blog-details-area .col-lg-4 {
+  display: none;
 }
 
 .blog-details-area .widget-area .widget {
