@@ -178,7 +178,7 @@
   }
   .area-caracteristicas {
     height: calc(100% - 71px);
-    background-image: url(../../assets/img/home-one/fondo-caracteristicas.png);
+    background-image: url(../../assets/img/home-one/fondo-caracteristicas-2.png);
     background-position: 50% 50%;
   }
   .area-caracteristicas.only-cel {
@@ -1028,6 +1028,7 @@
   .area-pacientes .container.comentarios .col-md-6 {
     width: 50%;
     margin-top: 20px;
+    visibility: visible !important;
   }
   .area-pacientes .single-client {
     margin: 0;
