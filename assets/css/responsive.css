@@ -315,27 +315,27 @@
     margin: 0 0 10px 10px;
   }
   .second-facility-area {
-    padding-top: 30px;
+    padding: 15px 0;
     height: calc(100% - 71px);
   }
   .second-facility-area .container {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+  }
+  .second-facility-area .section-title {
+    margin-top: 0;
   }
   .second-facility-area .container .row {
-    margin: auto;
+    flex-grow: 0.7;
   }
   .second-facility-area .col-sm-6 {
-    margin: 6px 0;
+    margin: auto 0;
     width: 50%;
   }
   .second-facility-area .sector-boton {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
+    text-align: center;
   }
   .second-facility-area .default-btn-3 {
     font-size: 12px;
@@ -344,6 +344,9 @@
   }
   .about-area {
     padding-top: 0;
+  }
+  .about-area .franja {
+    margin: 0 0 40px;
   }
   .about-area .franja img {
     display: none;
@@ -384,9 +387,10 @@
     margin-bottom: 30px;
   }
   .single-services {
-    padding: 10px;
+    padding: 6px;
     width: 45%;
-    margin: 2.5%;
+    margin: 1.5% 2.5%;
+    height: 230px
   }
   .single-services::before {
     display: none;
@@ -425,6 +429,9 @@
     top: 50%;
     -webkit-transform: translateY(-30px);
   }
+  .services-area {
+    padding: 30px 0;
+  }
   .services-area.bg {
     padding: 30px 0;
     height: calc(100% - 71px);
@@ -444,6 +451,7 @@
   }
   .services-area .container .row .col-sm-4 {
     width: 50%;
+    margin-top: auto;
   }
   .services-area .second-facility-item img {
     height: 50px;
@@ -454,6 +462,9 @@
     height: 195px;
     margin-bottom: 10px;
   }
+  .services-area .bordeish .second-facility-item {
+    height: 100%;
+  }
   .services-area .bordeish .second-facility-item h3 {
     font-size: 12px;
   }
@@ -463,16 +474,28 @@
   }
   .our-work-area {
     height: calc(100% - 71px);
-    padding: 30px 0;
+    padding: 30px 0 10px;
   }
   .our-work-area .shape {
     display: none;
   }
+  .our-work-area .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .our-work-area .section-title {
     padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
   }
   .our-work-area .section-title p {
-    font-size: 12px;
+    font-size: 13px;
+    margin-bottom: 0;
   }
   .our-work-area b {
     font-weight: 600;
@@ -712,8 +735,8 @@
     margin-top: 30px;
   }
   .page-title-area {
-    padding-top: 130px;
-    padding-bottom: 60px;
+    padding-top: 122px;
+    padding-bottom: 26px;
     margin-top: 0;
   }
   .page-title-area .page-title-content h2 {
@@ -1320,12 +1343,6 @@
   .counter-area .shape {
     display: none;
   }
-  .services-area-seven .single-services .services-content {
-    padding: 20px;
-  }
-  .doctors-area-two.seven .shape img {
-    display: none;
-  }
   .doctors-area-two .wrap-medicos {
     max-width: unset !important;
   }
@@ -1350,6 +1367,8 @@
   }
   .doctors-area-two .wrap-medicos .doc.grande .contenido .cargo {
     height: unset;
+    width: 100%;
+    text-align: center;
   }
   .doctors-area-two .wrap-medicos .doc {
     width: 45%;
@@ -1404,7 +1423,7 @@
     padding-right: 15px !important;
   }
   .pricing-area {
-    padding-bottom: 30px;
+    padding: 30px 0;
   }
   .pricing-area .section-title img {
     width: 65%;
@@ -1413,6 +1432,7 @@
     width: 240px;
   }
   .pricing-area .plan {
+    margin: 10px;
     font-family: "Poppins";
   }
   .pricing-area .plan p.descripcion {
@@ -1423,13 +1443,10 @@
     font-size: 12px;
   }
   .pricing-area .wrap-planes {
-    padding: 20px 10px 40px;
+    padding: 10px 10px 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .pricing-area .plan {
-    margin: 20px 10px;
   }
   .pricing-area .plan .header {
     width: 135px;
@@ -1460,17 +1477,8 @@
     text-align: center;
   }
   .pricing-area .contenido-planes ul {
-    text-align: left;
     color: #3BC1CD;
-    
-  }
-  .pricing-area .contenido-planes ul li::before {
-    content: "\2022";
-    color: #0081A4;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    text-align: center;
   }
   .pricing-area .col-lg-6 {
     margin-top: 20px !important;
