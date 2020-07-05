@@ -132,7 +132,7 @@
     height: calc(100% - 71px);
   }
   .area-especialidades .col-sm-6 {
-    margin: 6px 0;
+    margin: auto 0 0;
     max-width: 50%;
     height: 217px;
   }
@@ -147,13 +147,14 @@
   }
   .area-especialidades .container .section-title h2 {
     font-size: 25px;
-    margin-bottom: 0;
+    margin-bottom: auto;
   }
   .area-especialidades .container .section-title p {
     font-size: 18px;
   }
   .area-especialidades .container .row {
     margin: auto;
+    height: 100%;
   }
   .second-facility-item {
     padding: 12px;
@@ -186,7 +187,6 @@
   .area-caracteristicas .container {
     display: flex;
     max-width: 100%;
-    padding-bottom: 20px;
     height: 100%;
   }
   .area-caracteristicas .text-wrap {
@@ -206,7 +206,7 @@
     margin: 0;
   }
   .area-caracteristicas .text-wrap .caracteristicas {
-    margin: 12px 0;
+    margin: 0;
   }
   .area-caracteristicas .text-wrap .caracteristicas .linea-blanca {
     height: unset !important;
@@ -214,30 +214,48 @@
   .area-contador {
     margin-top: 0;
     height: calc(100% - 71px);
-    padding: 33px 0 20px;
+    padding: 33px 0;
   }
   .area-contador .container {
     height: 100%;
   }
   .area-contador .container .row {
     height: 100%;
+    align-content: space-between;
   }
   .area-contador .col-sm-6 {
-    text-align: right;
-    padding: 0 40px;
+    width: 50%;
+    display: flex;
   }
   .area-contador .contador {
-    width: 120px;
-    height: 120px;
-    padding: 35px 15px;
+    width: 140px;
+    height: 140px;
+    padding: 48px 15px;
     margin: auto;
   }
   .area-contador .contador h2 {
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom: 0;
   }
   .area-contador .contador p {
-    font-size: 11px;
+    font-size: 13px;
+  }
+  .area-contador .section-title {
+    vertical-align: middle;
+    width: 100%;
+    flex-grow: 1;
+    color: #0081A4;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 0 15px;
+  }
+  .area-equipo {
+    padding: 30px 0;
+    min-height: calc(100% - 71px);
+  }
+  .area-equipo .container {
+    padding: 0;
   }
   .area-equipo .container .section-title {
     margin-bottom: 15px;
@@ -246,7 +264,7 @@
   .area-equipo .container .frame-imagenes {
     height: 250px;
     width: 250px;
-    margin: 30px;
+    margin: 15px;
   }
   .area-equipo .container .frame-imagenes .frame-doctores {
     animation: rotation 60s linear infinite;
@@ -266,13 +284,14 @@
   }
   .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span {
     width: 90px;
-    padding: 2px 4px 2px 7px;
+    padding: 0;
+    line-height: 1.8;
   }
   .area-equipo .container .frame-imagenes .frame-doctores .static .doc .nombre-doc span p {
     font-size: 7px;
   }
   .area-equipo .container .frame-texto {
-    width: 80%;
+    width: 85%;
     margin-top: 40px;
   }
   .area-equipo .container .frame-texto h3 {
@@ -290,9 +309,10 @@
   .area-equipo .container .frame-texto .cifras p {
     text-align: left;
     font-size: 25px;
+    margin-bottom: 20px;
   }
   .area-equipo .container .frame-texto .cifras img {
-    margin: 10px 0 0 0;
+    margin: 0 0 10px 10px;
   }
   .second-facility-area {
     padding-top: 30px;
@@ -612,10 +632,10 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content: space-around;
   }
   .client-area .section-title {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 0 auto;
   }
   .client-area .section-title h2 {
     font-size: 25px;
@@ -625,7 +645,7 @@
     font-size: 16px;
   }
   .client-area .wrap-video-area {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   .client-area .wrap-video-area .boton-video {
     height: 150px;
@@ -645,7 +665,6 @@
     font-size: 20px;
   }
   .client-area .sector-boton {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -655,7 +674,7 @@
     font-weight: 600;
     padding: 10px;
     width: 240px;
-    margin: auto 0;
+    margin: 0;
   }
   .mt-100 {
     margin-top: 0;
@@ -772,6 +791,19 @@
     top: 31%;
     left: 50%;
     transform: translate(-50%,50%);
+  }
+  .main-banner-area .slide.slide-3 h1 {
+    font-size: 23px;
+  }
+  .main-banner-area .slide.slide-3 p {
+    font-size: 14px;
+  }
+  .main-banner-area .slide.slide-3 .banner-text .default-btn-3 {
+    padding: 5px;
+  }
+  .main-banner-area .slide.slide-3 .banner-text .default-btn-3 a {
+    font-size: 9px;
+    margin-bottom: 2px;
   }
   .main-banner-area .slide.slide-4 .banner-text {
     bottom: unset;
