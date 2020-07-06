@@ -787,6 +787,7 @@
   }
   .area-banner-principal {
     height: calc(100% - 171px);
+    min-height: 473px;
   }
   .area-banner-principal .first-facility-area {
     display: none;
