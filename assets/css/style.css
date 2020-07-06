@@ -1214,10 +1214,10 @@ Banner Area Style
 .main-banner-area .slide.slide-4 .banner-text {
   bottom: 64%;
   left: 21%;
-  width: 420px;
+  width: 520px;
 }
 .main-banner-area .slide.slide-4 .banner-text h1 {
-  font-size: 33px;
+  font-size: 37px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 10px;
@@ -1230,18 +1230,18 @@ Banner Area Style
   margin-bottom: 15px;
 }
 .main-banner-area .slide.slide-4 .banner-text .fondo-blanco p {
-  font-size: 15px;
+  font-size: 20px;
   display: inline-block;
   font-weight: 600;
 }
 .main-banner-area .slide.slide-4 .banner-text p {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 400;
 }
 .main-banner-area .slide.slide-4 .banner-text .logos {
   height: 3em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .main-banner-area .slide.slide-4 .banner-text .logos img {
   max-height: 100%;
@@ -1249,13 +1249,13 @@ Banner Area Style
 .main-banner-area .slide.slide-5 .banner-text {
   bottom: 64%;
   left: 21%;
-  width: 500px;
+  width: 530px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .main-banner-area .slide.slide-5 .banner-text h1 {
-  font-size: 33px;
+  font-size: 37px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 10px;
@@ -1267,19 +1267,18 @@ Banner Area Style
   height: 2em;
   line-height: 2em;
   margin-bottom: 15px;
-  max-width: 420px;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .main-banner-area .slide.slide-5 .banner-text .fondo-blanco p {
-  font-size: 15px;
+  font-size: 20px;
   display: inline-block;
   font-weight: 600;
   color: #fff;
   opacity: 1;
 }
 .main-banner-area .slide.slide-5 .banner-text p {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 400;
   color: #3BC1CD;
 }
 .main-banner-area .slide.slide-5 .banner-text .logos {
@@ -1294,13 +1293,13 @@ Banner Area Style
 .main-banner-area .slide.slide-6 .banner-text {
   bottom: 64%;
   left: 21%;
-  width: 500px;
+  width: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .main-banner-area .slide.slide-6 .banner-text h1 {
-  font-size: 33px;
+  font-size: 37px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 10px;
@@ -1310,18 +1309,17 @@ Banner Area Style
   height: 2em;
   line-height: 2em;
   margin-bottom: 15px;
-  max-width: 420px;
 }
 .main-banner-area .slide.slide-6 .banner-text .fondo-blanco p {
-  font-size: 15px;
+  font-size: 20px;
   display: inline-block;
   font-weight: 600;
   color: #fff;
   opacity: 1;
 }
 .main-banner-area .slide.slide-6 .banner-text p {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 400;
   color: #3BC1CD;
 }
 .main-banner-area .slide.slide-6 .banner-text .logos {
