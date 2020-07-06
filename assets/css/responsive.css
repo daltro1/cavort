@@ -833,9 +833,159 @@
   }
   .main-banner-area .slide.slide-4 .banner-text {
     bottom: unset;
-    top: 60%;
+    top: -50%;
     left: 50%;
     transform: translate(-50%,50%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 310px;
+    padding: 15px 0;
+  }
+  .main-banner-area .slide.slide-4 {
+    background-position: 62% 50%;
+  }
+  .main-banner-area .slide.slide-4::before {
+    content: close-quote;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 210px;
+    background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
+  }
+  .main-banner-area .slide.slide-4 .banner-text h1 {
+    font-size: 26px;
+  }
+  .main-banner-area .slide.slide-4 .banner-text .fondo-blanco {
+    background-color: unset;
+    opacity: 1;
+    position: relative
+  }
+  .main-banner-area .slide.slide-4 .banner-text .fondo-blanco::before {
+    content: close-quote;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  .main-banner-area .slide.slide-4 .banner-text .fondo-blanco p {
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-4 .banner-text p {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-4 .banner-text .logos {
+    height: 2.3em;
+    justify-content: space-around;
+  }
+  .main-banner-area .slide.slide-5 .banner-text {
+    bottom: unset;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 310px;
+    padding: 15px 0;
+  }
+  .main-banner-area .slide.slide-5 {
+    background-position: 71% 50%;
+  }
+  .main-banner-area .slide.slide-5::before {
+    content: close-quote;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 210px;
+    background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
+  }
+  .main-banner-area .slide.slide-5 .banner-text h1 {
+    font-size: 32px;
+  }
+  .main-banner-area .slide.slide-5 .banner-text .fondo-blanco {
+    background-color: unset;
+    opacity: 1;
+    position: relative
+  }
+  .main-banner-area .slide.slide-5 .banner-text .fondo-blanco::before {
+    content: close-quote;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3BC1CD;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  .main-banner-area .slide.slide-5 .banner-text .fondo-blanco p {
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-5 .banner-text p {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-5 .banner-text .logos {
+    height: 2.3em;
+    justify-content: space-around;
+    width: 360px;
+  }
+  .main-banner-area .slide.slide-6 .banner-text {
+    bottom: unset;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 310px;
+    padding: 15px 0;
+  }
+  .main-banner-area .slide.slide-6 {
+    background-position: 73% 100%;
+    background-size: 397%;
+  }
+  .main-banner-area .slide.slide-6::before {
+    content: close-quote;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
+  }
+  .main-banner-area .slide.slide-6 .banner-text h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .main-banner-area .slide.slide-6 .banner-text .fondo-blanco p {
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-6 .banner-text p {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-6 .banner-text .logos {
+    height: 2.3em;
+    justify-content: space-around;
+    width: 360px;
   }
   .main-banner-area .banner-text span {
     font-size: 14px;
