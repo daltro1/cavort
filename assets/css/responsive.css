@@ -1702,10 +1702,35 @@
     display: none !important;
   }
   .mean-container .mean-bar {
-    background-color: #25245e;
+    background-color: #093668;
     -webkit-box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
             box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
     height: 70px;
+  }
+  .mean-container a.logo img{
+    max-height: 42px;
+  }
+  .mean-container a.default-btn-3 {
+    z-index: 999;
+    position: absolute;
+    height: 26px;
+    padding: 7px 15px;
+    border-radius: 1000px;
+    transform: translate(-50, -50%);
+    top: 22px;
+    left: 98px;
+    font-size: 12px;
+  }
+  .mean-container a.default-btn-2 {
+    z-index: 999;
+    position: absolute;
+    height: 26px;
+    padding: 7px 15px;
+    border-radius: 1000px;
+    transform: translate(-50, -50%);
+    top: 22px;
+    left: 216px;
+    font-size: 12px;
   }
   .mean-container a.meanmenu-reveal {
     padding: 24px 15px 0 0;

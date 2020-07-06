@@ -1107,7 +1107,7 @@ Banner Area Style
   display: flex;
   flex-direction: row;
   transform: translateX(0%);
-  animation-play-state: running;
+  animation-play-state: paused;
   
 }
 
@@ -1198,6 +1198,10 @@ Banner Area Style
 .main-banner-area .slide.slide-1 .banner-text {
   bottom: 59%;
   left: 56.7%;
+}
+.main-banner-area .slide.slide-1 .banner-text h1 {
+  font-size: 37px;
+  margin-bottom: 21px;
 }
 .main-banner-area .slide.slide-2 .banner-text {
   bottom: 58%;
