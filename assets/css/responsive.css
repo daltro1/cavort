@@ -1717,8 +1717,8 @@
     padding: 7px 15px;
     border-radius: 1000px;
     transform: translate(-50, -50%);
-    top: 22px;
-    left: 78px;
+    top: 24px;
+    right: 176px;
     font-size: 12px;
   }
   .mean-container a.default-btn-2 {
@@ -1728,8 +1728,8 @@
     padding: 7px 15px;
     border-radius: 1000px;
     transform: translate(-50, -50%);
-    top: 22px;
-    left: 196px;
+    top: 24px;
+    right: 56px;
     font-size: 12px;
   }
   .mean-container a.meanmenu-reveal {
