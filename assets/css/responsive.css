@@ -442,7 +442,7 @@
   }
   .services-area.bg {
     padding: 30px 0;
-    height: calc(100% - 71px);
+    height: calc(100vh - 71px);
     min-height: 567px;
   }
   .services-area h6 {
