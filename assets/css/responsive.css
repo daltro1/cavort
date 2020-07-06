@@ -181,9 +181,6 @@
     background-image: url(../../assets/img/home-one/fondo-caracteristicas-2.png);
     background-position: 50% 50%;
   }
-  .area-caracteristicas.only-cel {
-    display: table;
-  }
   .area-caracteristicas .container {
     display: flex;
     max-width: 100%;
@@ -309,20 +306,20 @@
   .area-equipo .container .frame-texto .cifras p {
     text-align: left;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
   }
   .area-equipo .container .frame-texto .cifras img {
     margin: 0 0 10px 10px;
   }
   .second-facility-area {
-    padding: 15px 0;
+    padding: 0;
     height: calc(100% - 71px);
   }
   .second-facility-area .container {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .second-facility-area .section-title {
     margin-top: 0;
@@ -331,17 +328,22 @@
     flex-grow: 0.7;
   }
   .second-facility-area .col-sm-6 {
-    margin: auto 0;
+    margin: 0;
     width: 50%;
+    align-self: center;
   }
   .second-facility-area .sector-boton {
     text-align: center;
     margin: unset;
+    display: flex;
+    justify-content: center;
   }
   .second-facility-area .default-btn-3 {
     font-size: 12px;
     padding: 10px;
     width: 175px;
+    height: fit-content;
+    align-self: center;
   }
   .about-area {
     padding-top: 0;
@@ -1428,7 +1430,8 @@
     padding: 30px 0;
   }
   .pricing-area .section-title img {
-    width: 65%;
+    width: 56%;
+    margin-left: 12px;
   }
   .pricing-area th:first-child img {
     width: 240px;
@@ -1445,7 +1448,7 @@
     font-size: 12px;
   }
   .pricing-area .wrap-planes {
-    padding: 10px 10px 40px;
+    padding: 0 10px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1532,9 +1535,6 @@
   }
   .hero-slider-area-eight .owl-next {
     top: 90%;
-  }
-  .only-cel {
-    display: initial;
   }
   .only-pc {
     display: none !important;
@@ -1659,9 +1659,6 @@
 @media only screen and (min-width: 1221px) {
   .only-cel {
     display: none !important;
-  }
-  .only-pc {
-    display: initial;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

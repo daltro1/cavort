@@ -4120,6 +4120,7 @@ Second Facility Area Style
 .second-facility-area .sector-boton {
   text-align: center;
   margin: 70px 0;
+  width: 100%;
 }
 .second-facility-area .default-btn-3 {
   border-radius: 23px;
