@@ -253,7 +253,7 @@
   .area-equipo {
     padding: 15px 0 30px;
     height: calc(100% - 71px);
-    min-height: 649px;
+    min-height: 669px;
   }
   .area-equipo .container {
     padding: 0;
@@ -1715,22 +1715,22 @@
     z-index: 999;
     position: absolute;
     height: 26px;
-    padding: 7px 15px;
+    padding: 7px;
     border-radius: 1000px;
-    transform: translate(-50, -50%);
-    top: 24px;
-    right: 176px;
+    transform: translate(50%, -50%);
+    top: 34px;
+    right: 64%;
     font-size: 12px;
   }
   .mean-container a.default-btn-2 {
     z-index: 999;
     position: absolute;
     height: 26px;
-    padding: 7px 15px;
+    padding: 7px;
     border-radius: 1000px;
-    transform: translate(-50, -50%);
-    top: 24px;
-    right: 56px;
+    transform: translate(50%, -50%);
+    top: 34px;
+    right: 36%;
     font-size: 12px;
   }
   .mean-container a.meanmenu-reveal {
