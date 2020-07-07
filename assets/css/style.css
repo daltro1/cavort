@@ -1213,8 +1213,9 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-4 .banner-text {
   bottom: 64%;
-  left: 21%;
+  left: 25%;
   width: 520px;
+  transform: translate(-50%, 50%) scale(1.2);
 }
 .main-banner-area .slide.slide-4 .banner-text h1 {
   font-size: 37px;
@@ -1248,11 +1249,13 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-5 .banner-text {
   bottom: 64%;
-  left: 21%;
+  left: 25%;
   width: 530px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: translate(-50%, 50%) scale(1.2);
+
 }
 .main-banner-area .slide.slide-5 .banner-text h1 {
   font-size: 37px;
@@ -1292,11 +1295,12 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-6 .banner-text {
   bottom: 64%;
-  left: 21%;
+  left: 25%;
   width: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: translate(-50%, 50%) scale(1.2);
 }
 .main-banner-area .slide.slide-6 .banner-text h1 {
   font-size: 37px;
@@ -2036,7 +2040,8 @@ First Facility Area Style
   z-index: 2;
   border-radius: 0 55px 0 0;
   width: 1000px;
-  padding: 10px 15px;
+  height: 21.462%;
+  padding: 0.659% 15px;
 }
 
 .first-facility-area .shape {
