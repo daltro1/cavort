@@ -179,36 +179,40 @@
   }
   .area-caracteristicas {
     height: calc(100vh - 71px);
-    min-height: 651px;
+    min-height: 430px;
     background-image: url(../../assets/img/home-one/fondo-caracteristicas-2.png);
     background-position: 50% 50%;
+    background-size: 320%;
+    padding: 0;
   }
   .area-caracteristicas .container {
-    display: flex;
     max-width: 100%;
     height: 100%;
+    position: relative;
+    padding: 0;
   }
   .area-caracteristicas .text-wrap {
     float: unset !important;
-    width: 50%;
+    position: absolute;
+    width: 100%;
     padding: 0 5px;
-    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .area-caracteristicas .container .titulo {
-    font-size: 21px;
+    font-size: 18px;
     margin: 0;
     line-height: 1.2;
     margin-bottom: 4px;
   }
   .area-caracteristicas .container .subtitulo {
-    font-size: 12px;
+    font-size: 9px;
     margin: 0;
   }
-  .area-caracteristicas .text-wrap .caracteristicas {
-    margin: 0;
-  }
-  .area-caracteristicas .text-wrap .caracteristicas .linea-blanca {
-    height: unset !important;
+  .area-caracteristicas .container .caracteristicas {
+    text-align: center;
+    max-width: 33.3333%;
   }
   .area-contador {
     margin-top: 0;
