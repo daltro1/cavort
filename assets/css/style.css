@@ -1247,6 +1247,12 @@ Banner Area Style
 .main-banner-area .slide.slide-4 .banner-text .logos img {
   max-height: 100%;
 }
+.main-banner-area .slide.slide-4 .banner-text .default-btn-2 {
+  margin-top: 20px;
+  position: absolute;
+  transform: translateX(-50%) scale(0.833333);
+  left: 50%;
+}
 .main-banner-area .slide.slide-5 .banner-text {
   bottom: 64%;
   left: 25%;
@@ -1293,6 +1299,12 @@ Banner Area Style
 .main-banner-area .slide.slide-5 .banner-text .logos img {
   max-height: 100%;
 }
+.main-banner-area .slide.slide-5 .banner-text .default-btn-2 {
+  margin-top: 20px;
+  position: absolute;
+  bottom: -30%;
+  transform: scale(0.833333);
+}
 .main-banner-area .slide.slide-6 .banner-text {
   bottom: 64%;
   left: 25%;
@@ -1334,6 +1346,12 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-6 .banner-text .logos img {
   max-height: 100%;
+}
+.main-banner-area .slide.slide-6 .banner-text .default-btn-2 {
+  margin-top: 20px;
+  position: absolute;
+  bottom: -30%;
+  transform: scale(0.833333);
 }
 
 .main-banner-area .banner-text span {

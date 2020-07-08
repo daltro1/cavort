@@ -902,6 +902,17 @@
     height: 2.3em;
     justify-content: space-around;
   }
+  .main-banner-area .slide.slide-4 .banner-text .default-btn-2 {
+    left: unset;
+    bottom: unset;
+    position: relative;
+    transform: unset;
+    align-self: center;
+    margin-top: 0;
+  }
+  .main-banner-area .slide.slide-4 .banner-text .default-btn-2 a {
+    margin-bottom: -6px;
+  }
   .main-banner-area .slide.slide-5 .banner-text {
     bottom: unset;
     top: -50%;
@@ -959,6 +970,17 @@
     justify-content: space-around;
     width: 360px;
   }
+  .main-banner-area .slide.slide-5 .banner-text .default-btn-2 {
+    left: unset;
+    bottom: unset;
+    position: relative;
+    transform: unset;
+    align-self: center;
+    margin-top: 0;
+  }
+  .main-banner-area .slide.slide-5 .banner-text .default-btn-2 a {
+    margin-bottom: -6px;
+  }
   .main-banner-area .slide.slide-6 .banner-text {
     bottom: unset;
     top: -50%;
@@ -1001,6 +1023,17 @@
     height: 2.3em;
     justify-content: space-around;
     width: 360px;
+  }
+  .main-banner-area .slide.slide-6 .banner-text .default-btn-2 {
+    left: unset;
+    bottom: unset;
+    position: relative;
+    transform: unset;
+    align-self: center;
+    margin-top: 0;
+  }
+  .main-banner-area .slide.slide-6 .banner-text .default-btn-2 a {
+    margin-bottom: -6px;
   }
   .main-banner-area .banner-text span {
     font-size: 14px;
