@@ -1249,9 +1249,7 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-4 .banner-text .default-btn-2 {
   margin-top: 20px;
-  position: absolute;
-  transform: translateX(-50%) scale(0.833333);
-  left: 50%;
+  transform: scale(0.833333);
 }
 .main-banner-area .slide.slide-5 .banner-text {
   bottom: 64%;
@@ -1264,7 +1262,7 @@ Banner Area Style
 
 }
 .main-banner-area .slide.slide-5 .banner-text h1 {
-  font-size: 37px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 10px;
@@ -1301,7 +1299,6 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-5 .banner-text .default-btn-2 {
   margin-top: 20px;
-  position: absolute;
   bottom: -30%;
   transform: scale(0.833333);
 }
@@ -1349,7 +1346,6 @@ Banner Area Style
 }
 .main-banner-area .slide.slide-6 .banner-text .default-btn-2 {
   margin-top: 20px;
-  position: absolute;
   bottom: -30%;
   transform: scale(0.833333);
 }
