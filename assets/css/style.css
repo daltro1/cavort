@@ -293,7 +293,7 @@ Default Btn Area Style*/
   top: 0;
   left: 100%;
   width: 100%;
-  height: 50%;
+  height: 53%;
   background: -webkit-gradient(linear, left top, right top, from(rgb(204, 110, 23)), to(#ED801A));
   background: linear-gradient(to right, rgb(204, 110, 23) 0%, #ED801A 100%);
   z-index: -1;
@@ -388,7 +388,7 @@ Default Btn 2 Area Style*/
   top: 0;
   left: 100%;
   width: 100%;
-  height: 50%;
+  height: 53%;
   background: -webkit-gradient(linear, left top, right top, from(#0081A4), to(#3BC1CD));
   background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
   z-index: -1;
@@ -457,7 +457,7 @@ Default Btn 3 Area Style*/
   top: 0;
   left: 100%;
   width: 100%;
-  height: 50%;
+  height: 53%;
   background: -webkit-gradient(linear, left top, right top, from(#DD8D00), to(#FFBC00));
   background: linear-gradient(to right, #DD8D00 0%, #FFBC00 100%);
   z-index: -1;
