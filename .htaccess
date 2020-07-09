@@ -7,7 +7,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 Redirect 301 /lareina https://enroll.medismart.live/lareina
 Redirect 301 /sermecoop https://enroll.medismart.live/sermecoop
-Redirect 301 /tuscargas https://enroll.medismart.live/tuscargas
+Redirect 301 /tuscargas https://enroll.medismart.live/crear-cuenta
 Redirect 301 /verificacionlaflorida https://enroll.medismart.live/verificacionlaflorida
 
 Redirect 301 /enrolamientocargas https://enroll.medismart.live
