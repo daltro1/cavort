@@ -182,6 +182,7 @@
     min-height: 430px;
     background-image: url(../../assets/img/home-one/fondo-caracteristicas-2.png);
     background-position: 50% 50%;
+    background-size: 137%;
     padding: 0;
   }
   .area-caracteristicas .container {
@@ -728,8 +729,8 @@
     margin-top: 30px;
   }
   .page-title-area {
-    padding-top: 122px;
-    padding-bottom: 26px;
+    padding-top: 109.5px;
+    padding-bottom: 38.5px;
     margin-top: 0;
   }
   .page-title-area .page-title-content h2 {
@@ -766,7 +767,7 @@
   }
   .area-banner-principal {
     height: calc(100% - 171px);
-    min-height: 473px;
+    min-height: 415px;
   }
   .area-banner-principal .first-facility-area {
     display: none;
@@ -774,6 +775,7 @@
   .main-banner-area .banner-text {
     position: relative;
     max-width: 100%;
+    z-index: 1;
   }
   .main-banner-area .slide.slide-1 {
     background-position: 56% 50%;
@@ -788,12 +790,25 @@
     text-align: left;
     transform: translate(-50%, -50%);
   }
+  
+  .main-banner-area .slide.slide-1 .banner-text h1 {
+    font-size: 23px;
+  }
   .main-banner-area .slide.slide-1 .banner-text p {
     font-size: 9px;
   }
   .main-banner-area .slide.slide-2 {
     background-position: 57% 50%;
     background-image: url(../img/home-one/fondo2-mobile.jpg);
+  }
+  .main-banner-area .slide.slide-2::before {
+    content: close-quote;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 390px;
+    height: 100%;
+    background: linear-gradient(to right, #FFF 0%, rgb(0,0,0,0) 100%);
   }
   .main-banner-area .slide.slide-2 .banner-text {
     bottom: unset;
@@ -807,7 +822,7 @@
     bottom: unset;
     top: 31%;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%,50%) scale(1.2);
   }
   .main-banner-area .slide.slide-3 h1 {
     font-size: 23px;
@@ -817,6 +832,7 @@
   }
   .main-banner-area .slide.slide-3 .banner-text .default-btn-3 {
     padding: 5px;
+    width: 200px;
   }
   .main-banner-area .slide.slide-3 .banner-text .default-btn-3 a {
     font-size: 9px;
@@ -844,6 +860,16 @@
     width: 100%;
     height: 210px;
     background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
+  }
+  .main-banner-area .slide.slide-4::after {
+    content: close-quote;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 210px;
+    background: linear-gradient(to bottom, #FFF 0%, rgb(0,0,0,0) 100%);
+    z-index: 0;
   }
   .main-banner-area .slide.slide-4 .banner-text h1 {
     font-size: 26px;
@@ -877,6 +903,7 @@
   .main-banner-area .slide.slide-4 .banner-text .logos {
     height: 2.3em;
     justify-content: space-around;
+    margin-bottom: 10px;
   }
   .main-banner-area .slide.slide-4 .banner-text .default-btn-2 {
     left: unset;
@@ -885,9 +912,9 @@
     transform: unset;
     align-self: center;
     margin-top: 0;
-  }
-  .main-banner-area .slide.slide-4 .banner-text .default-btn-2 a {
-    margin-bottom: -6px;
+    height: 25px;
+    padding: 6px;
+    width: 200px;
   }
   .main-banner-area .slide.slide-5 .banner-text {
     bottom: unset;
@@ -909,8 +936,17 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 210px;
+    height: 430px;
     background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
+  }
+  .main-banner-area .slide.slide-5::after {
+    content: close-quote;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom, #FFF 0%, rgb(0,0,0,0) 100%);
   }
   .main-banner-area .slide.slide-5 .banner-text h1 {
     font-size: 32px;
@@ -945,6 +981,7 @@
     height: 2.3em;
     justify-content: space-around;
     width: 360px;
+    margin-bottom: 10px;
   }
   .main-banner-area .slide.slide-5 .banner-text .default-btn-2 {
     left: unset;
@@ -953,9 +990,9 @@
     transform: unset;
     align-self: center;
     margin-top: 0;
-  }
-  .main-banner-area .slide.slide-5 .banner-text .default-btn-2 a {
-    margin-bottom: -6px;
+    height: 25px;
+    padding: 6px;
+    width: 200px;
   }
   .main-banner-area .slide.slide-6 .banner-text {
     bottom: unset;
@@ -978,7 +1015,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 280px;
+    height: 420px;
     background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
   }
   .main-banner-area .slide.slide-6 .banner-text h1 {
@@ -999,6 +1036,7 @@
     height: 2.3em;
     justify-content: space-around;
     width: 360px;
+    margin-bottom: 10px;
   }
   .main-banner-area .slide.slide-6 .banner-text .default-btn-2 {
     left: unset;
@@ -1007,9 +1045,9 @@
     transform: unset;
     align-self: center;
     margin-top: 0;
-  }
-  .main-banner-area .slide.slide-6 .banner-text .default-btn-2 a {
-    margin-bottom: -6px;
+    height: 25px;
+    padding: 6px;
+    width: 200px;
   }
   .main-banner-area .banner-text span {
     font-size: 14px;
