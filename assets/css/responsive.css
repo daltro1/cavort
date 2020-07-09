@@ -1676,6 +1676,9 @@
     font-weight: 600;
     width: 250px;
   }
+  .convenios-area .section-title p {
+    font-size: 23px;
+  }
   .convenios-area .categoria-convenios {
     display: flex;
     flex-wrap: wrap;
@@ -1684,9 +1687,9 @@
     padding: 50px 0;
   }
   .convenios-area .categoria-convenios h5 {
-    font-size: 21px;
+    font-size: 19px;
     color: #0081A4;
-    font-weight: 600;
+    font-weight: 300;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
@@ -1697,7 +1700,13 @@
     max-width: initial !important;
   }
   .convenios-area .wrap-convenios .convenio {
-    margin: 30px 10px;
+    margin: 30px 9px;
+    height: 90px;
+    width: 90px;
+  }
+  .convenios-area .wrap-convenios .convenio span {
+    font-size: 13px;
+    bottom: -65px;
   }
   .about-img-1 {
     height: 300px;

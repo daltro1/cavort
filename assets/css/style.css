@@ -4835,6 +4835,12 @@ Convenios Area CSS
   display: table;
 }
 
+.convenios-area .section-title p {
+  font-size: 32px;
+  color: #0081A4;
+  font-weight: 600;
+}
+
 .convenios-area .categoria-convenios {
   display: flex;
   justify-content: space-between;
@@ -4848,7 +4854,7 @@ Convenios Area CSS
 .convenios-area .categoria-convenios h5 {
   font-size: 21px;
   color: #0081A4;
-  font-weight: 600;
+  font-weight: 300;
   width: 30%;
 }
 
