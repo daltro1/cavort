@@ -161,12 +161,27 @@
 		nav:false,
 		autoplay:true,
 		autoplayHoverPause: true,
-		maxWidth: 10,
 		mouseDrag: true,
-		margin: 20,
+		margin: 0,
 		smartSpeed:1500,
-		items: 2,
 		dots: false,
+		responsive:{
+			0:{
+				items:2,
+			},
+			576:{
+				items:2,
+			},
+			768:{
+				items:2,
+			},
+			992:{
+				items:3,
+			},
+			1200:{
+				items:5,
+			}
+		}
 	});
 
 	// Client Wrap Two

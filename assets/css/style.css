@@ -3273,47 +3273,9 @@ Medios Area Style
   font-weight: 600;
 }
 
-.area-medios .container .wrap-medios {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.area-medios .container .wrap-medios .medio {
-  height: 98px;
-  margin: 0 auto;
-  position: relative;
-  transition: 0.5s all;
-}
-
-.area-medios .container .wrap-medios .medio.m1 {
-  width: 93px;
-}
-
-.area-medios .container .wrap-medios .medio.m2 {
-  width: 197px;
-}
-
-.area-medios .container .wrap-medios .medio.m3 {
-  width: 164px;
-}
-
-.area-medios .container .wrap-medios .medio.m4 {
-  width: 134px;
-}
-
-.area-medios .container .wrap-medios .medio img {
-  position: absolute;
-  max-height: 140px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.area-medios .container .wrap-medios .medio:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  cursor: pointer;
+.area-medios .medios-wrap .single-work {
+  max-height: 126px;
+  max-width: 206px;
 }
 
 /*
