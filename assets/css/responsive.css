@@ -609,30 +609,6 @@
   .single-blog .blog-content {
     padding: 20px;
   }
-  .subscribe-area {
-    text-align: center;
-  }
-  .subscribe-area h2 {
-    font-size: 25px;
-  }
-  .subscribe-area p {
-    font-weight: 500;
-    margin-bottom: 30px;
-  }
-  .subscribe-area .newsletter-form .default-btn {
-    position: unset;
-    margin: 30px auto 0;
-    height: 50px;
-  }
-  .subscribe-area .newsletter-form .default-btn::before {
-    display: none;
-  }
-  .subscribe-area .newsletter-form .default-btn::after {
-    display: none;
-  }
-  .subscribe-area .newsletter-form .form-control {
-    height: 50px;
-  }
   .single-widget h3 {
     margin: 0 0 15px;
   }
@@ -652,11 +628,11 @@
   .single-widget.contact {
     text-align: center;
   }
-  .single-widget.contact i {
-    margin-left: -25px;
-  }
   .single-widget.contact ul li {
     margin-bottom: 1em;
+  }
+  .single-widget.social-area ul {
+    margin-bottom: 0;
   }
   .go-top.active {
     top: 85%;
@@ -1105,7 +1081,7 @@
     min-height: 550px;
   }
   .footer-top-area {
-    padding-top: 30px;
+    padding: 0;
   }
   .footer-top-area.f-bg {
     height: 100%;
@@ -1115,9 +1091,11 @@
   }
   .footer-top-area .container .row {
     height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .footer-top-area .col-md-6 {
-    margin: auto !important;
+    margin: 0 !important;
     max-width: initial !important;
   }
   .footer-top-area .single-widget img {

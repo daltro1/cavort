@@ -4056,8 +4056,8 @@ Footer Top Area Style
 }
 
 .single-widget ul li a:hover {
-  -webkit-transform: translateX(2px);
-          transform: translateX(2px);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 .single-widget .social-area ul {
@@ -4099,15 +4099,15 @@ Footer Top Area Style
   color: #ffffff;
 }
 
-.single-widget.contact {
-  text-align: left;
-}
-
 .single-widget.contact h3 {
   width: 100%;
 }
 
 .footer-top-area .single-widget .social-area {
+  text-align: center;
+}
+
+.single-widget.contact {
   text-align: center;
 }
 
@@ -4125,11 +4125,10 @@ Footer Top Area Style
 }
 
 .single-widget.contact ul li a i {
-  margin-right: 5px;
   color: #3BC1CD;
   font-size: 20px;
   vertical-align: middle;
-  display: inline-block;
+  display: block;
 }
 
 .single-widget.contact ul li a span {
@@ -4140,9 +4139,8 @@ Footer Top Area Style
 .single-widget.contact ul li i {
   color: #3BC1CD;
   font-size: 20px;
-  margin-right: 5px;
   vertical-align: middle;
-  display: inline-block;
+  display: block;
 }
 
 .single-widget.contact ul li span {
