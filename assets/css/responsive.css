@@ -1168,24 +1168,29 @@
   .area-pacientes .franja {
     flex-direction: column;
     align-items: center;
+    margin: 0;
   }
   .area-pacientes .bloque {
     text-align: center !important;
   }
   .area-pacientes .bloque.bloque-1 {
     width: 100%;
-    background: linear-gradient(to right, #0081A4 0%, #3BC1CD 100%);
+    background: linear-gradient(to bottom, #0081A4 0%, #3BC1CD 100%);
+    translate: transformY(-2px);
   }
   .area-pacientes .bloque.bloque-2 {
     width: 100%;
-    background: linear-gradient(to right, #00756A 0%, #00AF9A 100%);
+    background: linear-gradient(to bottom, #3BC1CD 0%, #00AF9A 100%);
+    transform: translateY(-3px);
   }
   .area-pacientes .bloque.bloque-3 {
-    display: none;
+    width: 100%;
+    background: linear-gradient(to bottom, #021125 0%, #093668 100%);
   }
   .area-pacientes .bloque.bloque-4 {
     width: 100%;
-    background: linear-gradient(to right, #093668 0%, #0081A4 100%);
+    background: linear-gradient(to bottom, #093668 0%, #0081A4 100%);
+    transform: translateY(-1px);
   }
   .area-pacientes .boton-video {
     width: 200px;

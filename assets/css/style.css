@@ -3641,23 +3641,57 @@ Pacientes Area Style
   background-color: #000;
 }
 
+.area-pacientes .franja {
+  justify-content: space-between;
+}
+
+.area-pacientes .franja .bloque {
+  text-align: left;
+  margin: 0 30px;
+  width: 30%;
+  position: unset;
+  align-self: center;
+}
+
 .area-pacientes .bloque .boton-video {
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.area-pacientes .bloque.bloque-1 {
+  padding: 30px 50px;
 }
 
 .area-pacientes .bloque.bloque-1 .boton-video {
-  left: 110%;
+  left: 30%;
+}
+
+.area-pacientes .bloque.bloque-2 {
+  text-align: right;
 }
 
 .area-pacientes .bloque.bloque-2 .boton-video {
-  right: 63%;
+  right: 30%;
+}
+
+.area-pacientes .bloque.bloque-3 {
+  padding: 30px 50px;
+}
+
+.area-pacientes .bloque.bloque-3 .boton-video {
+  left: 30%;
+}
+
+.area-pacientes .bloque.bloque-4 {
+  text-align: right;
 }
 
 .area-pacientes .bloque.bloque-4 .boton-video {
-  right: 63%;
+  right: 30%;
 }
 
 .boton-video img {
@@ -3690,21 +3724,18 @@ Pacientes Area Style
   opacity: 1;
 }
 
-.area-pacientes .franja .bloque {
-  text-align: left;
-}
 .area-pacientes .testimonio {
-  width: 660px;
+  width: 100%;
   display: inline-block;
   position: relative;
   color: #fff;
-  margin: 50px;
   z-index: 1;
+  margin: auto 0;
 }
 
 .area-pacientes .testimonio .desarrollo {
   display: inline-block;
-  font-size: 27px;
+  font-size: 19px;
   font-style: italic;
   font-weight: 500;
 }
