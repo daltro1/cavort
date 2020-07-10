@@ -855,16 +855,7 @@
   }
   .main-banner-area .slide.slide-2 {
     background-position: 57% 50%;
-    background-image: url(../img/home-one/fondo2-mobile.jpg);
-  }
-  .main-banner-area .slide.slide-2::before {
-    content: close-quote;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 390px;
-    height: 100%;
-    background: linear-gradient(to right, #FFF 0%, rgb(0,0,0,0) 100%);
+    background-image: url(../img/home-one/fondo2_mobile.jpg);
   }
   .main-banner-area .slide.slide-2 .banner-text {
     bottom: unset;
