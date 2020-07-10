@@ -6362,10 +6362,6 @@ Planes Style
   background: linear-gradient(to right, #3BC1CD, #00AF9A);  
 }
 
-.tabla-general .cuadros-planes .plan:hover .bordeish-1 {
-  background: linear-gradient(to right, #DD8D00, #FFBC00);
-}
-
 .tabla-general .cuadros-planes .plan .bordeish-1 .plan-top {
   height: 40px;
   color: #FFF;
@@ -6456,11 +6452,13 @@ Planes Style
   text-align: left;
   font-size: 18px;
   margin-bottom: 0.5em;
+  color: #A4A4A4;
 }
 
 .tabla-general .bloque-caracteristicas ul li img {
   display: inline-block;
   max-height: 18px;
+  margin-right: 5px;
 }
 
 
