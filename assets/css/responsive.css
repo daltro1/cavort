@@ -994,17 +994,10 @@
     height: 430px;
     background: linear-gradient(to top, #FFF 0%, rgb(0,0,0,0) 100%);
   }
-  .main-banner-area .slide.slide-5::after {
-    content: close-quote;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(to bottom, #FFF 0%, rgb(0,0,0,0) 100%);
-  }
   .main-banner-area .slide.slide-5 .banner-text h1 {
     font-size: 32px;
+    line-height: 0.9;
+    margin-bottom: 0;
   }
   .main-banner-area .slide.slide-5 .banner-text .fondo-blanco {
     background-color: unset;
@@ -1031,6 +1024,8 @@
     flex-direction: column;
     justify-content: flex-end;
     font-size: 11px;
+    color: #0081A4;
+    font-weight: 700;
   }
   .main-banner-area .slide.slide-5 .banner-text .logos {
     height: 2.3em;
@@ -1086,6 +1081,8 @@
     flex-direction: column;
     justify-content: flex-end;
     font-size: 11px;
+    color: #0081A4;
+    font-weight: 700;
   }
   .main-banner-area .slide.slide-6 .banner-text .logos {
     height: 2.3em;
