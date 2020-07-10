@@ -369,29 +369,36 @@
     font-size: 17px;
   }
   .about-area .franja .bloque .texto p {
-    font-size: 11px;
+    font-size: 9px;
+    line-height: 1.1;
   }
   .about-area .franja .bloque .texto ul {
-    font-size: 11px;
+    font-size: 9px;
+    line-height: 1.1;
+  }
+  .about-area .franja .bloque .texto ul li {
+    margin-bottom: 0;
+  }
+  .about-area .franja .bloque .parrafos {
+    padding: 0 10px;
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
   }
   .about-area .franja .bloque .parrafos .parrafo {
     max-width: 50%;
+    padding: 5px;
   }
   .about-area .franja .bloque.bloque-1 .parrafos {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  .about-area .franja .bloque.bloque-1 .parrafos .parrafo {
-
+    
   }
   .about-area .franja .bloque.bloque-1 .entramado-1 {
     opacity: 1 !important;
     transform: scale(0.6) rotate(-162deg);
     height: unset;
     left: -59px !important;
-    top: 14px !important;
+    top: -100px !important;
   }
   .about-area .franja .bloque.bloque-3 {
     display: none;
@@ -399,8 +406,29 @@
   .about-area .franja .bloque.bloque-4 {
     width: 100% !important;
   }
+  .about-area .franja .bloque.bloque-4 .entramado-2 {
+    opacity: 1 !important;
+    transform: scale(0.6) rotate(-162deg) !important;
+    height: unset;
+    left: -59px !important; 
+    top: -100px !important;
+    right: -85% !important;
+  }
+  .about-area .franja .doctora {
+    left: 54%;
+    top: 2%;
+    height: 60%;
+  }
+  .about-area .franja .logo {
+    height: unset;
+    width: 65%;
+    left: 37%;
+    top: 15%;
+  }
   .about-area .franja .computador {
-    display: none;
+    max-height: 50% !important;
+    right: 25% !important;
+    bottom: 144px !important; 
   }
   .about-area .about-img .shape-1 {
     display: none;
@@ -810,7 +838,7 @@
   }
   .main-banner-area .slide.slide-1 .banner-text {
     bottom: unset;
-    top: 50%;
+    top: 47%;
     left: 30%;
     width: 48%;
     text-align: left;
@@ -1807,23 +1835,27 @@
     z-index: 999;
     position: absolute;
     height: 26px;
-    padding: 7px;
+    padding: 7px 15px;
     border-radius: 1000px;
     transform: translate(50%, -50%);
     top: 34px;
     right: 64%;
     font-size: 12px;
+    width: 31.7428%;
+    max-width: 111.11px;
   }
   .mean-container a.default-btn-2 {
     z-index: 999;
     position: absolute;
     height: 26px;
-    padding: 7px;
+    padding: 7px 15px;
     border-radius: 1000px;
     transform: translate(50%, -50%);
     top: 34px;
-    right: 36%;
+    right: 31.3%;
     font-size: 12px;
+    width: 31.7428%;
+    max-width: 111.11px;
   }
   .mean-container a.meanmenu-reveal {
     padding: 24px 15px 0 0;

@@ -3612,6 +3612,7 @@ Pacientes Area Style
 
 .area-pacientes .franja {
   justify-content: space-between;
+  height: 350px;
 }
 
 .area-pacientes .franja .bloque {
@@ -3620,6 +3621,9 @@ Pacientes Area Style
   width: 30%;
   position: unset;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
 }
 
 .area-pacientes .bloque .boton-video {
@@ -3627,40 +3631,42 @@ Pacientes Area Style
   top: 0;
   bottom: 0;
   margin: auto;
-  height: 200px;
-  width: 200px;
+  height: 240px;
+  width: 240px;
 }
 
 .area-pacientes .bloque.bloque-1 {
-  padding: 30px 50px;
+  padding: 30px 0;
 }
 
 .area-pacientes .bloque.bloque-1 .boton-video {
-  left: 30%;
+  left: 26%;
 }
 
 .area-pacientes .bloque.bloque-2 {
   text-align: right;
+  align-items: flex-end;
 }
 
 .area-pacientes .bloque.bloque-2 .boton-video {
-  right: 30%;
+  right: 26%;
 }
 
 .area-pacientes .bloque.bloque-3 {
-  padding: 30px 50px;
+  padding: 30px 0;
 }
 
 .area-pacientes .bloque.bloque-3 .boton-video {
-  left: 30%;
+  left: 26%;
 }
 
 .area-pacientes .bloque.bloque-4 {
   text-align: right;
+  align-items: flex-end;
 }
 
 .area-pacientes .bloque.bloque-4 .boton-video {
-  right: 30%;
+  right: 26%;
 }
 
 .boton-video img {
@@ -3694,7 +3700,7 @@ Pacientes Area Style
 }
 
 .area-pacientes .testimonio {
-  width: 100%;
+  width: 75%;
   display: inline-block;
   position: relative;
   color: #fff;
@@ -3704,7 +3710,7 @@ Pacientes Area Style
 
 .area-pacientes .testimonio .desarrollo {
   display: inline-block;
-  font-size: 19px;
+  font-size: 18 px;
   font-style: italic;
   font-weight: 500;
 }
@@ -4129,6 +4135,7 @@ Footer Top Area Style
   font-size: 20px;
   vertical-align: middle;
   display: block;
+  margin-bottom: 5px;
 }
 
 .single-widget.contact ul li a span {
@@ -4141,6 +4148,7 @@ Footer Top Area Style
   font-size: 20px;
   vertical-align: middle;
   display: block;
+  margin-bottom: 5px;
 }
 
 .single-widget.contact ul li span {
