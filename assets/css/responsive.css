@@ -179,7 +179,7 @@
   }
   .area-caracteristicas {
     height: calc(100% - 71px);
-    min-height: 430px;
+    min-height: 545px;
     background-image: url(../../assets/img/home-one/fondo-caracteristicas-2.png);
     background-position: 50% 50%;
     background-size: 137%;
@@ -209,6 +209,7 @@
   .area-caracteristicas .container .subtitulo {
     font-size: 9px;
     margin: 0;
+    font-weight: 500;
   }
   .area-caracteristicas .container .caracteristicas {
     text-align: center;
@@ -1827,12 +1828,12 @@
     z-index: 999;
     position: absolute;
     height: 26px;
-    padding: 7px 15px;
+    padding: 8px 0;
     border-radius: 1000px;
     transform: translate(50%, -50%);
     top: 34px;
     right: 64%;
-    font-size: 12px;
+    font-size: 10px;
     width: 31.7428%;
     max-width: 111.11px;
   }
@@ -1840,12 +1841,12 @@
     z-index: 999;
     position: absolute;
     height: 26px;
-    padding: 7px 15px;
+    padding: 8px 0;
     border-radius: 1000px;
     transform: translate(50%, -50%);
     top: 34px;
     right: 31.3%;
-    font-size: 12px;
+    font-size: 10px;
     width: 31.7428%;
     max-width: 111.11px;
   }

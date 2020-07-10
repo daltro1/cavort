@@ -23,44 +23,6 @@
 		}
 	});
 
-	//  Hero Slider Wrap
-	$('.hero-slider-wrap').owlCarousel({
-		loop:true,
-		margin:0,
-		nav:false,
-		mouseDrag: true,
-		items:1,
-		dots: true,
-		autoHeight: true,
-		autoplay: true,
-		smartSpeed:800,
-		autoplayHoverPause: true,
-		navText: [
-			"<i class='flaticon-back'></i>",
-			"<i class='flaticon-right'></i>",
-		],
-	});
-
-	//  Hero Slider Wrap Eight
-	$('.hero-slider-wrap-eight').owlCarousel({
-		loop:true,
-		margin:0,
-		nav:true,
-		mouseDrag: true,
-		items:1,
-		dots: false,
-		autoHeight: true,
-		autoplay: true,
-		smartSpeed:800,
-		autoplayHoverPause: true,
-		animateOut: "slideOutDown",
-        animateIn: "slideInDown",
-		navText: [
-			"<i class='bx bx-chevron-left'></i>",
-			"<i class='bx bx-chevron-right'></i>",
-		],
-	});
-
 	// Doctors Wrap
 	$('.doctors-wrap').owlCarousel({ 
 		loop:true,
@@ -162,7 +124,7 @@
 		autoplay:true,
 		autoplayHoverPause: true,
 		mouseDrag: true,
-		margin: 0,
+		margin: 50,
 		smartSpeed:1500,
 		dots: false,
 		responsive:{
