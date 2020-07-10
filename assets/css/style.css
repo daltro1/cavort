@@ -2803,6 +2803,7 @@ Doctors Area Style
 .doctors-area-two .doc .contenido .social a:hover {
   transform: translateY(-5px);
   background-color: #0081A4;
+  text-decoration: none;
 }
 
 .doctors-area-two .doc .contenido .social a i {

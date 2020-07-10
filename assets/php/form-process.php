@@ -90,7 +90,7 @@ if ($success && $errorMSG == ""){
    echo "success";
 }else{
     if($errorMSG == ""){
-        echo "Algo salió mal :(";
+        echo "Algo salió mal";
     } else {
         echo $errorMSG;
     }
