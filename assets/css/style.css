@@ -6470,6 +6470,27 @@ Planes Style
 }
 
 
+/*
+Trabaja Con Nosotros Style
+======================================================*/
+.trabaja-nosotros {
+  font-family: "Poppins";
+  padding-top: 200px;
+}
+
+.trabaja-nosotros .section-title {
+  color: #0081A4;
+  font-size: 43px;
+  font-weight: 600;
+  max-width: unset;
+}
+
+.trabaja-nosotros .contenido p {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+
 /*====================================================
 OTHER STYLE AREA
 ======================================================*/
