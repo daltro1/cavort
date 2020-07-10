@@ -358,23 +358,49 @@
     padding-top: 0;
   }
   .about-area .franja {
-    margin: 0 0 40px;
-  }
-  .about-area .franja img {
-    display: none;
+    margin: 0;
   }
   .about-area .franja .bloque {
+    height: 325px;
+    width: 100%;
+    padding: 0;
+  }
+  .about-area .franja .bloque .texto h3 {
+    font-size: 17px;
+  }
+  .about-area .franja .bloque .texto p {
+    font-size: 11px;
+  }
+  .about-area .franja .bloque .texto ul {
+    font-size: 11px;
+  }
+  .about-area .franja .bloque .parrafos .parrafo {
+    max-width: 50%;
+  }
+  .about-area .franja .bloque.bloque-1 .parrafos {
+    display: flex;
+    position: absolute;
+    bottom: 0;
     width: 100%;
   }
-  .about-area .franja .bloque.bloque-1 {
-    background: linear-gradient(to right, #25245e 0%, #0081A4 100%);
+  .about-area .franja .bloque.bloque-1 .parrafos .parrafo {
+
+  }
+  .about-area .franja .bloque.bloque-1 .entramado-1 {
+    opacity: 1 !important;
+    transform: scale(0.6) rotate(-162deg);
+    height: unset;
+    left: -59px !important;
+    top: 14px !important;
   }
   .about-area .franja .bloque.bloque-3 {
     display: none;
   }
   .about-area .franja .bloque.bloque-4 {
-    background: linear-gradient(to left, #25245e 0%, #0081A4 100%);
     width: 100% !important;
+  }
+  .about-area .franja .computador {
+    display: none;
   }
   .about-area .about-img .shape-1 {
     display: none;
