@@ -1735,32 +1735,6 @@
   .doctors-area-two .wrap-medicos .doc .contenido ul {
     font-size: 12px;
   }
-  .appointment-area-seven .shape {
-    display: none;
-  }
-  .appointment-area-seven .appointment-here-form {
-    padding: 20px;
-  }
-  .blog-area .shape {
-    display: none;
-  }
-  .hero-slider-area-eight .slider-item {
-    height: 100% !important;
-  }
-  .hero-slider-area-eight .slider-item .slider-text {
-    padding: 20px;
-    margin-top: 40px;
-  }
-  .second-facility-area.eight {
-    padding-top: 50px;
-  }
-  .second-facility-area.eight .second-facility-item {
-    text-align: center;
-  }
-  .second-facility-area.eight .p-0 {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
   .pricing-area {
     padding: 30px 0;
   }
@@ -1768,60 +1742,17 @@
     width: 56%;
     margin-left: 12px;
   }
-  .pricing-area th:first-child img {
-    width: 240px;
+  .pricing-area .tabla-general {
+    flex-direction: column;
   }
-  .pricing-area .plan {
-    margin: 10px;
-    font-family: "Poppins";
-  }
-  .pricing-area .plan p.descripcion {
-    text-align: center;
-    width: 135px;
-    color: #0081A4;
-    margin-top: 10px;
-    font-size: 12px;
-  }
-  .pricing-area .wrap-planes {
-    padding: 0 10px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .pricing-area .plan .header {
-    width: 135px;
-  }
-  .pricing-area .plan p.descripcion b {
-    font-size: 20px;
-  }
-  .pricing-area .header {
-    width: 155px;
-  }
-  .pricing-area .header .bloque-1 {
-    padding: 7px;
-  }
-  .pricing-area .header .bloque-2 {
-    padding: 8px;
-  }
-  .pricing-area .contenido-planes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Poppins";
-  }
-  .pricing-area .contenido-planes p {
-    font-size: 20px;
-    color: #0081A4;
-    font-weight: 600;
+  .pricing-area .tabla-general .plan {
     width: 100%;
-    text-align: center;
+    min-width: unset;
   }
-  .pricing-area .contenido-planes ul {
-    color: #3BC1CD;
-    text-align: center;
-  }
-  .pricing-area .col-lg-6 {
-    margin-top: 20px !important;
+  .pricing-area .tabla-general .bloque-caracteristicas {
+    margin-left: unset;
+    border-left: unset;
+    width: 100%;
   }
   .pricing-area .default-btn-3 {
     font-size: 12px;

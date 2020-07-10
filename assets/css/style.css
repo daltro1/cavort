@@ -6292,7 +6292,7 @@ About Page Area Style
 
 
 /*
-Pricing Area Eight Style
+Planes Style
 ======================================================*/
 .pricing-area .container {
   max-width: 1300px;
@@ -6304,99 +6304,169 @@ Pricing Area Eight Style
   color: #3BC1CD;
 }
 
-.pricing-area table {
-  width: 100%;
+.tabla-general {
+  display: flex;
+  flex-direction: row;
   font-family: "Poppins";
 }
 
-.pricing-area td, th {
-  border-bottom: 1px solid #ddd;
-  padding: 16px;
-  text-align: center;
+.tabla-general .cuadros-planes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
-.pricing-area td img {
-  height: 30px;
+.tabla-general .cuadros-planes .logo-titulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.pricing-area th:first-child {
-  text-align: left;
+.tabla-general .cuadros-planes .logo-titulo img {
+  max-height: 50px;
 }
 
-.pricing-area th:first-child img {
-  width: 348px;
-  max-width: unset;
+.tabla-general .cuadros-planes .plan {
+  width: 25%;
+  min-width: 350px;
+  height: 140px;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  transition: all 1s;
 }
 
-.pricing-area td:nth-child(1) {
-  text-align: left;
-}
-
-.pricing-area tr:last-child td {
-  border-bottom: none;
-}
-
-.pricing-area tr:nth-child(2) {
-  font-weight: 800;
-  color: #0081A4;
-  font-size: 24px;
-}
-
-.pricing-area tr:nth-child(2) td:nth-child(1) {
-  font-weight: 400;
-  color: #212529;
-  font-size: 16px;
-}
-
-.pricing-area .header {
-  position: relative;
-  height: auto;
-  width: 190px;
-  border-radius: 15px;
+.tabla-general .cuadros-planes .plan .bordeish-1 {
   padding: 3px;
-  font-family: "Poppins";
-  transition: 0.5s all;
-  display: inline-block;
+  width: 66%;
+  height: 100%;
+}
+
+.tabla-general .cuadros-planes .plan.plan-1 .bordeish-1 {
+  background: linear-gradient(to right, #021125, #093668);
+}
+
+.tabla-general .cuadros-planes .plan.plan-2 .bordeish-1 {
+  background: linear-gradient(to right, #093668, #0081A4);
+}
+
+.tabla-general .cuadros-planes .plan.plan-3 .bordeish-1 {
+  background: linear-gradient(to right, #0081A4, #3BC1CD);  
+}
+
+.tabla-general .cuadros-planes .plan.plan-4 .bordeish-1 {
+  background: linear-gradient(to right, #3BC1CD, #00AF9A);  
+}
+
+.tabla-general .cuadros-planes .plan:hover .bordeish-1 {
+  background: linear-gradient(to right, #DD8D00, #FFBC00);
+}
+
+.tabla-general .cuadros-planes .plan .bordeish-1 .plan-top {
+  height: 40px;
+  color: #FFF;
+  padding: 9px;
   text-align: center;
+  font-weight: 600;
 }
 
-.pricing-area .header .bloque-1 {
-  color: #fff;
-  font-weight: 500;
-  padding: 15px;
+.tabla-general .cuadros-planes .plan .bordeish-1 .cuadro-blanco {
+  background-color: #FFF;
+  height: calc(100% - 40px);
+  border-bottom-left-radius: 22px;
 }
 
-.pricing-area .header .bloque-2 {
-  width: 100%;
-  background-color: #fff;
-  bottom: 3px;
-  left: 3px;
+.tabla-general .cuadros-planes .plan .bordeish-1 .cuadro-blanco .precios-plan {
+  text-align: center;
+  padding: 17px;
+  line-height: 1.3;
+  height: 100%;
   color: #3BC1CD;
-  font-weight: 800;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  padding: 15px;
+  font-family: "Poppins";
 }
 
-.pricing-area .header .bloque-2 p {
-  margin: 0 auto;
-  width: 50%;
+.tabla-general .cuadros-planes .plan .bordeish-1 .cuadro-blanco .precios-plan b {
   position: relative;
 }
 
-.pricing-area .header .bloque-2 p::after {
+.tabla-general .cuadros-planes .plan .bordeish-1 .cuadro-blanco .precios-plan b.tachado::after  {
   border-bottom: 0.125em solid #3BC1CD;
   content: "";
-  left: 0;
+  left: 50%;
   margin-top: calc(0.125em / 2 * -1);
   position: absolute;
-  right: 0;
   top: 50%;
+  transform: translateX(-50%);
+  width: 150%;
 }
+
+.tabla-general .cuadros-planes .plan .bordeish-2 {
+  background-color: #a4a4a4;
+  flex-grow: 1;
+  height: 100%;
+  padding: 3px 3px 3px 0;
+}
+
+.tabla-general .cuadros-planes .plan .bordeish-2 .plan-top {
+  color: #FFF;
+  height: 40px;
+  padding: 5px;
+  line-height: 1.3;
+  text-align: center;
+  font-size: 12px;
+}
+
+.tabla-general .cuadros-planes .plan .bordeish-2 .cuentas-plan {
+  background-color: #FFF;
+  height: calc(100% - 40px);
+  border-bottom-right-radius: 22px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #a4a4a4;
+  padding: 20px;
+}
+
+.tabla-general .bloque-caracteristicas {
+  width: 75%;
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 2px #A4A4A4 solid;
+}
+
+.tabla-general .bloque-caracteristicas p {
+  color: #A4A4A4;
+  font-size: 22px;
+}
+
+.tabla-general .bloque-caracteristicas ul {
+  text-align: center;
+}
+
+.tabla-general .bloque-caracteristicas ul li {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 0.5em;
+}
+
+.tabla-general .bloque-caracteristicas ul li img {
+  display: inline-block;
+  max-height: 18px;
+}
+
+
 
 .pricing-area .default-btn-3 {
   width: 300px;
-  font-family: "Poppins";
   border-radius: 50px;
   font-weight: 500;
 }
