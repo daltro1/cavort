@@ -372,6 +372,7 @@
   .about-area .franja .bloque .texto p {
     font-size: 9px;
     line-height: 1.1;
+    margin-bottom: 0.5em;
   }
   .about-area .franja .bloque .texto ul {
     font-size: 9px;
@@ -381,7 +382,7 @@
     margin-bottom: 0;
   }
   .about-area .franja .bloque .parrafos {
-    padding: 0 10px;
+    padding: 0;
     display: flex;
     position: absolute;
     bottom: 15px;
@@ -389,7 +390,7 @@
   }
   .about-area .franja .bloque .parrafos .parrafo {
     max-width: 50%;
-    padding: 5px;
+    padding: 0 5px;
   }
   .about-area .franja .bloque.bloque-1 .parrafos {
     
@@ -423,7 +424,7 @@
   .about-area .franja .logo {
     height: unset;
     width: 65%;
-    left: 37%;
+    left: 34%;
     top: 15%;
   }
   .about-area .franja .computador {
@@ -1591,39 +1592,6 @@
     text-align: center;
     margin-top: 10px;
   }
-  .about-bg-1 {
-    height: 300px;
-  }
-  .about-img-2 {
-    height: 300px;
-  }
-  .hero-slider-area-seven .slider-item::after {
-    -webkit-clip-path: unset;
-            clip-path: unset;
-  }
-  .second-facility-area.seven .p-0 {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-  .second-facility-area.seven .shape {
-    display: none;
-  }
-  .about-area-seven .about-content h2 {
-    font-size: 25px;
-  }
-  .about-area-seven .about-content ul {
-    margin-left: 0;
-    display: block;
-  }
-  .about-area-seven .about-content .ml-0 {
-    margin-bottom: 20px;
-  }
-  .about-area-seven .about-img {
-    margin-top: 30px;
-  }
-  .counter-area .shape {
-    display: none;
-  }
   .doctors-area-two .wrap-medicos {
     max-width: unset !important;
   }
@@ -1794,12 +1762,6 @@
     height: 300px;
     margin-top: 30px;
   }
-  .about-area-seven .mb-30 {
-    margin-bottom: 0 !important;
-  }
-  .single-pricing h1 {
-    font-size: 35px;
-  }
   .appointment-here-form .default-btn {
     margin: 0px auto 0;
   }
@@ -1909,15 +1871,6 @@
   .hero-slider-area .owl-theme .owl-dots {
     bottom: 16%;
   }
-  .about-area.four .container-fluid {
-    max-width: 540px;
-  }
-  .ours-doctors-area .container-fluid {
-    max-width: 540px;
-  }
-  .counter-area.two .single-counter {
-    padding: 50px 25px;
-  }
   .main-contact-area .contact-form .default-btn {
     float: right;
     margin-top: 20px;
@@ -1930,31 +1883,11 @@
     font-size: 15px;
     margin-right: 10px;
   }
-  .coming-soon-area .coming-soon-content h1 {
-    font-size: 55px;
-  }
-  .coming-soon-area .coming-soon-content #timer div {
-    font-size: 45px;
-  }
-  .coming-soon-area .coming-soon-content #timer div::before {
-    font-size: 65px;
-    right: -49px;
-  }
   .main-contact-area #msgSubmit {
     position: absolute;
   }
-  .about-area-seven .about-content ul {
-    margin-left: 30px;
-    display: inline-block;
-  }
-  .about-area-seven .about-content .ml-0 {
-    margin-bottom: 0;
-  }
   .single-doctors-two .doctor-img .doctors-link li a {
     margin: 0 2px;
-  }
-  .second-facility-area.eight .container {
-    max-width: 540px;
   }
 }
 
