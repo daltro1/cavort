@@ -1720,9 +1720,12 @@
     border-left: unset;
     width: 100%;
   }
+  .pricing-area .row .col-lg-6 {
+    margin-top: 7px !important;
+  }
   .pricing-area .default-btn-3 {
     font-size: 12px;
-    padding: 10px;
+    padding: 13px;
     font-weight: 600;
     width: 250px;
   }
