@@ -379,7 +379,7 @@
     line-height: 1.1;
   }
   .about-area .franja .bloque .texto ul li {
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
   }
   .about-area .franja .bloque .parrafos {
     padding: 0;
@@ -390,7 +390,7 @@
   }
   .about-area .franja .bloque .parrafos .parrafo {
     max-width: 50%;
-    padding: 0 5px;
+    padding: 0 8px;
   }
   .about-area .franja .bloque.bloque-1 .parrafos {
     margin-bottom: 10px;
@@ -411,10 +411,13 @@
   .about-area .franja .bloque.bloque-4 {
     width: 100% !important;
   }
+  .about-area .franja .bloque.bloque-4 .parrafos .parrafo:first-child {
+    margin-bottom: 0.5em;
+  }
   .about-area .franja .bloque.bloque-4 .parrafos .parrafo:last-child {
     position: absolute;
     right: 0;
-    top: -20px;
+    top: -28px;
   }
   .about-area .franja .bloque.bloque-4 .entramado-2 {
     opacity: 1 !important;
@@ -1015,9 +1018,11 @@
     background-color: #3BC1CD;
     opacity: 0.5;
     z-index: -1;
+    margin-top: 7px;
   }
   .main-banner-area .slide.slide-5 .banner-text .fondo-blanco p {
     font-size: 11px;
+    margin-top: 7px;
   }
   .main-banner-area .slide.slide-5 .banner-text p {
     flex-grow: 1;
@@ -1123,7 +1128,7 @@
   .main-banner-area .banner-text .default-btn-2 a {
     font-size: 9px;
     margin-top: 0;
-    margin-bottom: 3px;
+    margin-bottom: 0;
     vertical-align: middle;
   }
   .main-banner-area .banner-text .default-btn-3 {
