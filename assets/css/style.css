@@ -1162,28 +1162,28 @@ Banner Area Style
 }
 
 .main-banner-area .slide.slide-1 {
-  background-image: url(../img/home-one/fondo1.jpg);
+  background-image: url(../img/home-one/fondo1.webp);
 }
 
 .main-banner-area .slide.slide-2 {
-  background-image: url(../img/home-one/fondo2.jpg);
+  background-image: url(../img/home-one/fondo2.webp);
   background-position: center top;
 }
 
 .main-banner-area .slide.slide-3 {
-  background-image: url(../img/home-one/fondo3.jpg);
+  background-image: url(../img/home-one/fondo3.webp);
 }
 
 .main-banner-area .slide.slide-4 {
-  background-image: url(../img/home-one/fondo4.jpg);
+  background-image: url(../img/home-one/fondo4.webp);
 }
 
 .main-banner-area .slide.slide-5 {
-  background-image: url(../img/home-one/fondo5.jpg);
+  background-image: url(../img/home-one/fondo5.webp);
 }
 
 .main-banner-area .slide.slide-6 {
-  background-image: url(../img/home-one/fondo6.jpg);
+  background-image: url(../img/home-one/fondo6.webp);
 }
 
 .main-banner-area .banner-text {
@@ -2317,7 +2317,7 @@ About Area Style
 Services Area Style
 ======================================================*/
 .services-area.bg {
-  background-image: url(../../assets/img/home-one/ayuda/fondo-ayuda.jpg);
+  background-image: url(../../assets/img/home-one/ayuda/fondo-ayuda.webp);
   background-color: #f7f7f7;
   background-position: center center;
   background-repeat: no-repeat;
