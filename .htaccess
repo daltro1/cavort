@@ -5,14 +5,14 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 
-Redirect 301 /lareina https://enroll.medismart.live/lareina
-Redirect 301 /sermecoop https://enroll.medismart.live/sermecoop
+Redirect 301 /lareina https://www.www2.medismart.live/lareina
+Redirect 301 /sermecoop https://www.www2.medismart.live/sermecoop
 Redirect 301 /tuscargas https://enroll.medismart.live/crear-cuenta
-Redirect 301 /verificacionlaflorida https://enroll.medismart.live/verificacionlaflorida
+Redirect 301 /verificacionlaflorida https://www.www2.medismart.live/verificacionlaflorida
 
 Redirect 301 /enrolamientocargas https://enroll.medismart.live
 Redirect 301 /planbestado https://enroll.medismart.live/crear-cuenta-banco-estado
-Redirect 301 /sosdoctorlaflorida https://enroll.medismart.live/sosdoctorlaflorida
+Redirect 301 /sosdoctorlaflorida https://www.www2.medismart.live/sosdoctorlaflorida
 Redirect 301 /crearcuenta https://enroll.medismart.live
 Redirect 301 /planpersona https://enroll.medismart.live/crear-cuenta
 Redirect 301 /datosinicialesnocodcondir https://enroll.medismart.live/crear-cuenta
