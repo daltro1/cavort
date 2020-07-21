@@ -2277,8 +2277,8 @@ About Area Style
 .franja .bloque.bloque-4 img {
   position: absolute;
   max-height: 100%;
-  bottom: 0;
-  right: 58%;
+  bottom: -17px;
+  right: 62%;
   margin: auto;
   z-index: 1;
 }
