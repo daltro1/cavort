@@ -6322,6 +6322,7 @@ Planes Style
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: -10px 0 10px;
 }
 
 .tabla-general .cuadros-planes .logo-titulo img {
