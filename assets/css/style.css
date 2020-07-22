@@ -2730,6 +2730,7 @@ Doctors Area Style
   margin-bottom: unset;
   display: flex;
   flex-direction: column;
+  font-size: 0.9rem;
 }
 
 .doctors-area-two .doc .contenido ul li:first-child {
@@ -2740,6 +2741,7 @@ Doctors Area Style
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .doctors-area-two .doc .contenido .nombre {
@@ -3382,11 +3384,10 @@ Client Area Style
   margin: 30px;
   position: relative;
   font-family: "Poppins";
-  height: auto;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  height: 141px;
+  height: 165px;
 }
 
 .single-client img {
