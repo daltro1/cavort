@@ -1734,6 +1734,35 @@
     font-weight: 600;
     width: 250px;
   }
+
+  .trabaja-nosotros {
+    padding-top: 71px;
+  }
+
+  .trabaja-nosotros .section-title {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  .trabaja-nosotros .contenido {
+    max-width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .trabaja-nosotros .contenido p {
+    font-size: 20px;
+  }
+
+  .trabaja-nosotros .logos {
+    width: 97%;
+    height: 50px;
+  }
+
+  .trabaja-nosotros .formulario {
+    height: 1700px;
+  }
+
   .convenios-area .section-title p {
     font-size: 23px;
   }
