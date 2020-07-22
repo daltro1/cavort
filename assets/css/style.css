@@ -1162,28 +1162,28 @@ Banner Area Style
 }
 
 .main-banner-area .slide.slide-1 {
-  background-image: url(../img/home-one/fondo1.webp);
+  background-image: url(../img/home-one/fondo1.jpg);
 }
 
 .main-banner-area .slide.slide-2 {
-  background-image: url(../img/home-one/fondo2.webp);
+  background-image: url(../img/home-one/fondo2.jpg);
   background-position: center top;
 }
 
 .main-banner-area .slide.slide-3 {
-  background-image: url(../img/home-one/fondo3.webp);
+  background-image: url(../img/home-one/fondo3.jpg);
 }
 
 .main-banner-area .slide.slide-4 {
-  background-image: url(../img/home-one/fondo4.webp);
+  background-image: url(../img/home-one/fondo4.jpg);
 }
 
 .main-banner-area .slide.slide-5 {
-  background-image: url(../img/home-one/fondo5.webp);
+  background-image: url(../img/home-one/fondo5.jpg);
 }
 
 .main-banner-area .slide.slide-6 {
-  background-image: url(../img/home-one/fondo6.webp);
+  background-image: url(../img/home-one/fondo6.jpg);
 }
 
 .main-banner-area .banner-text {
@@ -1668,7 +1668,7 @@ Nuestras Características Area Style
 ======================================================*/
 
 .area-caracteristicas {
-  background-image: url(../../assets/img/home-one/fondo-doctor-logo.webp);
+  background-image: url(../../assets/img/home-one/fondo-doctor-logo.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2317,7 +2317,7 @@ About Area Style
 Services Area Style
 ======================================================*/
 .services-area.bg {
-  background-image: url(../../assets/img/home-one/ayuda/fondo-ayuda.webp);
+  background-image: url(../../assets/img/home-one/ayuda/fondo-ayuda.jpg);
   background-color: #f7f7f7;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3956,7 +3956,7 @@ Footer Top Area Style
 }
 
 .footer-top-area.f-bg {
-  background-image: url(../../assets/img/footer-bg-3.webp);
+  background-image: url(../../assets/img/footer-bg-3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
