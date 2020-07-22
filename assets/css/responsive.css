@@ -1741,17 +1741,25 @@
 
   .trabaja-nosotros .section-title {
     font-size: 30px;
-    margin: 20px 0;
+    margin: 20px 0 0;
+  }
+
+  .trabaja-nosotros .subtitulo p {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 60px;
   }
 
   .trabaja-nosotros .contenido {
     max-width: 80%;
     text-align: left;
     margin: 0 auto;
+    text-align: center;
   }
 
   .trabaja-nosotros .contenido p {
-    font-size: 20px;
+    font-size: 19px;
+    margin-bottom: 1em;
   }
 
   .trabaja-nosotros .logos {
@@ -1760,7 +1768,7 @@
   }
 
   .trabaja-nosotros .formulario {
-    height: 1700px;
+    height: 1545px;
   }
 
   .convenios-area .section-title p {
