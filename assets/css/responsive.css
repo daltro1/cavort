@@ -1746,8 +1746,6 @@
 
   .trabaja-nosotros .subtitulo p {
     font-size: 21px;
-    font-weight: 400;
-    margin-bottom: 60px;
   }
 
   .trabaja-nosotros .contenido {
@@ -1768,7 +1766,7 @@
   }
 
   .trabaja-nosotros .formulario {
-    height: 1600px;
+    height: 1800px;
   }
 
   .convenios-area .section-title p {
