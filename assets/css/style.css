@@ -1188,6 +1188,9 @@ Banner Area Style
 .main-banner-area .slide.slide-7 {
   background-image: url(../img/home-one/fondo7.jpg);
 }
+.main-banner-area .slide.slide-8 {
+  background-image: url(../img/home-one/fondo8.jpg);
+}
 
 .main-banner-area .banner-text {
   position: absolute;
@@ -1366,6 +1369,25 @@ Banner Area Style
   font-size: 28px;
 }
 .main-banner-area .slide.slide-7 img {
+  position: absolute;
+  width: 250px;
+  bottom: 21%;
+  left: 37%;
+}
+.main-banner-area .slide.slide-8 .banner-text {
+  bottom: 59%;
+  left: 23.7%;
+}
+.main-banner-area .slide.slide-8 .banner-text h1 {
+  font-size: 34px;
+  margin-bottom: 21px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.main-banner-area .slide.slide-8 .banner-text p {
+  font-size: 28px;
+}
+.main-banner-area .slide.slide-8 img {
   position: absolute;
   width: 250px;
   bottom: 21%;
