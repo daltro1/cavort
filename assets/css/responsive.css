@@ -1107,6 +1107,40 @@
     padding: 6px;
     width: 200px;
   }
+  .main-banner-area .slide.slide-7 {
+    background-position: 56% 50%;
+    background-size: cover;
+    background-image: url(../img/home-one/fondo7_mobile.jpg);
+  }
+  .main-banner-area .slide.slide-7 .banner-text {
+    bottom: unset;
+    top: 21%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .main-banner-area .slide.slide-7 .banner-text h1 {
+    font-size: 20px;
+    color: #0081A4;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+  .main-banner-area .slide.slide-7 .banner-text p {
+    font-size: 19px;
+    font-weight: 300;
+  }
+  .main-banner-area .slide.slide-7 .banner-text .default-btn-2 {
+    padding: 6px;
+  }
+  .main-banner-area .slide.slide-7 .banner-text .default-btn-2 {
+    font-size: 11px;
+  }
+  .main-banner-area .slide.slide-7 img {
+    width: 200px;
+    bottom: 44%;
+    left: 3%;
+  }
   .main-banner-area .banner-text span {
     font-size: 14px;
   }
