@@ -2785,7 +2785,6 @@ Doctors Area Style
 
 .doctors-area-two .doc .contenido .wrap-texto {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   flex-grow: 1;
 }
@@ -2794,26 +2793,18 @@ Doctors Area Style
   color: inherit;
   font-weight: 700;
   font-size: 20px;
-  margin: 0;
+  margin-bottom: 15px;
   display: inline-block;
 }
 
 .doctors-area-two .doc .contenido .desarrollo {
   color: #000;
-  margin: 15px 0 0;
-  height: 339px;
-  display: table;
+  flex-grow: 1;
+  margin-bottom: 15px;
 }
 
 .doctors-area-two .doc .contenido .desarrollo p {
   font-size: 13px;
-}
-
-.doctors-area-two .doc .contenido .experiencia {
-  color: #000;
-  margin: 15px 0 20px;
-  height: 38px;
-  display: table;
 }
 
 .doctors-area-two .doc .contenido .experiencia p {
