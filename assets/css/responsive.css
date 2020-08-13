@@ -514,7 +514,7 @@
   .services-area.bg {
     padding: 30px 0;
     height: calc(100% - 71px);
-    min-height: 567px;
+    min-height: 625px;
   }
   .services-area h6 {
     font-size: 16px;
@@ -539,7 +539,7 @@
     margin-bottom: 9px;
   }
   .services-area .bordeish {
-    height: 195px;
+    height: 220px;
     margin-bottom: 10px;
   }
   .services-area .bordeish .second-facility-item {
