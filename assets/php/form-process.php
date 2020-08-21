@@ -46,7 +46,6 @@ if (empty($_POST["empresa"])) {
     $empresa = "Indefinida";
 } else {
     $empresa = $_POST["empresa"];
-}  
 }
 
 
