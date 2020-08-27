@@ -56,14 +56,9 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-
-$EmailTo = "bstnbas3@gmail.com";
-
-$Subject = "New Message Received";
-
 // prepare email body text
 $Body = "";
-$Body .= "Nombre y Apllido: ";
+$Body .= "Nombre y Apellido: ";
 $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
@@ -85,18 +80,33 @@ $Body .= "Mensaje: ";
 $Body .= $message;
 $Body .= "\n";
 
-// send email
-$success = mail($EmailTo, $Subject, $Body);
 
-// redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
-}else{
-    if($errorMSG == ""){
-        echo "Algo salió mal";
-    } else {
-        echo $errorMSG;
+
+require 'vendor/autoload.php'; 
+
+$email = new \SendGrid\Mail\Mail();
+$email->setFrom("notificacion@medismart.live", "Notificación");
+$email->setSubject("Nuevo mensaje formulario Medismart.live");
+$email->addTo("loreto.murillo@medismart.live", "Loreto Murillo");
+$email->addTo("gonzalo.olaeta@solutionsgroup.cl", "Gonzalo Olaeta");
+$email->addTo("bstnbas3@gmail.com", "Bastián Bas");
+$email->addContent(
+    "text/plain", $Body
+);
+
+$sendgrid = new \SendGrid('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');
+try {
+    $response = $sendgrid->send($email);
+    $success = true;
+    if ($errorMSG == ""){
+        echo "success";
     }
+    else{
+         echo $errorMSG;
+    };
+} catch (Exception $e) {
+    $errorMSG = 'Caught exception: '.$e->getMessage()."\n";
+    echo $errorMSG;
 }
 
 ?>
