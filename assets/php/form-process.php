@@ -85,10 +85,10 @@ $Body .= "\n";
 require 'vendor/autoload.php'; 
 
 $email = new \SendGrid\Mail\Mail();
-$email->setFrom("notificacion@medismart.live", "Notificación");
+$email->setFrom("contacto@medismart.live", "Notificación");
 $email->setSubject("Nuevo mensaje formulario Medismart.live");
-$email->addTo("loreto.murillo@medismart.live", "Loreto Murillo");
-$email->addTo("gonzalo.olaeta@solutionsgroup.cl", "Gonzalo Olaeta");
+$email->addTo("pablo.solar@solutionsgroup.cl", "Pablo Solar");
+$email->addTo("gonzalo.olaeta@gmail.cl", "Gonzalo Olaeta");
 $email->addTo("bstnbas3@gmail.com", "Bastián Bas");
 $email->addContent(
     "text/plain", $Body
