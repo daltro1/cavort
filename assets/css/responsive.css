@@ -1242,7 +1242,7 @@
   }
   .footer-script {
     height: calc(100% - 103.4px);
-    min-height: 550px;
+    min-height: 720px;
   }
   .footer-top-area {
     padding: 0;
